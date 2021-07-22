@@ -1,0 +1,364 @@
+﻿1
+00:00:01,350 --> 00:00:07,200
+Now that we know how to do IRP spoofing and becoming the man in the middle using a sharpie spoof we're
+
+2
+00:00:07,200 --> 00:00:08,640
+actually not going to use it anymore.
+
+3
+00:00:08,640 --> 00:00:14,820
+As I said we're going to use a tool called Zanti to now actually use this before to discover all the
+
+4
+00:00:14,820 --> 00:00:16,320
+connected devices.
+
+5
+00:00:16,320 --> 00:00:22,620
+We're going to see now how how to use it to do it in the middle attacks using HRP poisoning.
+
+6
+00:00:22,620 --> 00:00:26,700
+So the first thing that we're going to see is how to sniff usernames and passwords.
+
+7
+00:00:26,700 --> 00:00:30,040
+We did this before using the bad USPO attack with T-Sharon.
+
+8
+00:00:30,240 --> 00:00:31,870
+Again you can actually use T-shirt.
+
+9
+00:00:31,890 --> 00:00:37,240
+And here with a Arpey spoof like we did before and sniff usernames and passwords.
+
+10
+00:00:37,320 --> 00:00:42,210
+But as I said now we're going to use another tool which actually makes it much easier.
+
+11
+00:00:42,270 --> 00:00:44,780
+So I'm going to run Zanti to here.
+
+12
+00:00:44,850 --> 00:00:49,920
+As you can see it's already discovered all the devices and as you know we're actually attacking the
+
+13
+00:00:49,920 --> 00:00:51,330
+windows device today.
+
+14
+00:00:51,570 --> 00:00:57,510
+So this is the Windows device here so I'm just going to tap it and then I'm going to go to the man in
+
+15
+00:00:57,510 --> 00:00:58,950
+the middle attacks here.
+
+16
+00:01:01,800 --> 00:01:04,210
+And I'm just going to turn this on right now.
+
+17
+00:01:04,250 --> 00:01:06,550
+Turn off the cell strip for now.
+
+18
+00:01:07,610 --> 00:01:16,110
+I'm going to turn this on and that will do a Arpey poisoning and place me in the middle of the connection.
+
+19
+00:01:18,050 --> 00:01:20,590
+So that's go here.
+
+20
+00:01:20,870 --> 00:01:29,560
+We'll just verify that by do and our P.A. And as you can see that the MAC address is changed to my MAC
+
+21
+00:01:29,560 --> 00:01:34,510
+address in my Carol-Lee Linux or in my NAT Hunter device.
+
+22
+00:01:34,510 --> 00:01:38,140
+So that means that the attack was executed successfully.
+
+23
+00:01:38,620 --> 00:01:45,640
+So I'm going to go to being dot com like we did before with the bad us we attack and then I'm going
+
+24
+00:01:45,640 --> 00:01:55,330
+to go to free site generator again because this all uses TTP.
+
+25
+00:01:55,480 --> 00:01:57,780
+I'm going to log in with a fake account.
+
+26
+00:01:59,130 --> 00:02:03,300
+Just any name so I'm going to say Zayde.
+
+27
+00:02:03,890 --> 00:02:04,670
+Who does.
+
+28
+00:02:04,670 --> 00:02:07,000
+Com password.
+
+29
+00:02:07,030 --> 00:02:09,130
+One two three four five six.
+
+30
+00:02:09,150 --> 00:02:09,680
+Antar
+
+31
+00:02:12,360 --> 00:02:15,640
+and back here on our Nat Hunter device.
+
+32
+00:02:15,640 --> 00:02:19,000
+I'm going to go on view log requests
+
+33
+00:02:24,300 --> 00:02:28,350
+and as you can see here we can see the websites that were accessed.
+
+34
+00:02:28,350 --> 00:02:34,070
+So we can see that we accessed the Mozilla that network site which is Firefox's Web site.
+
+35
+00:02:34,320 --> 00:02:41,500
+And then we accessed domain of Google and then we accessed three sitemap generators here.
+
+36
+00:02:41,670 --> 00:02:49,710
+And as you can see here with we have accessed Bing dot com and as you can see here for a free site map
+
+37
+00:02:49,710 --> 00:02:55,110
+generator it's in yellow so it's highlighted for us and it says that we have one password in here so
+
+38
+00:02:55,350 --> 00:02:55,950
+that's what I meant.
+
+39
+00:02:55,950 --> 00:03:01,410
+It's easier like you don't need to open the packets file in Wireshark like we did before.
+
+40
+00:03:01,710 --> 00:03:09,310
+So I'm just going to tap this here and I'm going to swipe to the right to the passwords and you can
+
+41
+00:03:09,310 --> 00:03:12,380
+see that the user name was Zayde at Yahoo dot com.
+
+42
+00:03:12,580 --> 00:03:22,350
+And the password is 1 2 3 4 5 6 and the user was trying to access every site map generator control panel
+
+43
+00:03:23,750 --> 00:03:30,170
+OK now you can swipe left to get the request so you get all the posts and get requests that we heard.
+
+44
+00:03:30,290 --> 00:03:36,980
+You can get the user agent so we can actually we know now the user uses Mozilla Firefox 5 so you can
+
+45
+00:03:36,980 --> 00:03:43,510
+again go ahead and look for exploits for this particular browser and try to attack that browser.
+
+46
+00:03:46,920 --> 00:03:52,510
+I'm going to go back right now and show you another feature of Zanti which is a cell Strip.
+
+47
+00:03:52,530 --> 00:03:57,130
+Now we saw before how we can do that manually how to how to use SSL strip manually.
+
+48
+00:03:57,270 --> 00:04:02,700
+That's why I actually like to teach you how to do stuff manually first because these ARBs and these
+
+49
+00:04:02,700 --> 00:04:06,630
+tools they do work well and they're nice but sometimes they fail.
+
+50
+00:04:06,630 --> 00:04:10,650
+So if you know how to do that stuff manually you can go ahead and do it manually.
+
+51
+00:04:10,650 --> 00:04:12,650
+If these apps fail.
+
+52
+00:04:12,660 --> 00:04:16,700
+So I'm just tap in here on SSL strip and says that it's on.
+
+53
+00:04:16,770 --> 00:04:23,230
+So we should be able to if we go to mailboat Yahoo dot com we should go to the normal Yahoo and not
+
+54
+00:04:23,220 --> 00:04:24,710
+the U.P.S. one.
+
+55
+00:04:24,720 --> 00:04:27,740
+And we should be able to sniff the username and password.
+
+56
+00:04:28,020 --> 00:04:29,120
+So I'm going to do that.
+
+57
+00:04:29,130 --> 00:04:30,750
+I'm going to mail that here.
+
+58
+00:04:30,760 --> 00:04:34,480
+Who can.
+
+59
+00:04:34,550 --> 00:04:40,300
+As you can see here on top we didn't go to the hasty tips one so we should be able to sniff this user
+
+60
+00:04:40,300 --> 00:04:41,340
+name and password.
+
+61
+00:04:41,540 --> 00:04:50,070
+So again I'm going to go again with Zayde going call the two at Yahoo dot com and the password I'm going
+
+62
+00:04:50,070 --> 00:04:50,600
+to make it.
+
+63
+00:04:50,600 --> 00:04:53,310
+Nine eight seven six five four now.
+
+64
+00:04:57,120 --> 00:04:59,420
+And again let's go back here.
+
+65
+00:04:59,880 --> 00:05:07,720
+Go on the you logged requests and as you can see again the Web site has come on in yellow.
+
+66
+00:05:07,840 --> 00:05:13,460
+We Tirpitz it so nice that there is one password navigate the passwords and you can see that the user
+
+67
+00:05:13,460 --> 00:05:17,220
+name is zayd and the password is what.
+
+68
+00:05:17,240 --> 00:05:20,010
+Nine eight seven six five four.
+
+69
+00:05:20,180 --> 00:05:26,870
+I really like the way this filters the username and password and makes it so easy to read and access.
+
+70
+00:05:26,870 --> 00:05:28,980
+This is the whole point of using your mobile.
+
+71
+00:05:28,990 --> 00:05:34,610
+You want to do stuff quickly so you either just save it on a on a file and analyze it from your laptop
+
+72
+00:05:34,760 --> 00:05:38,760
+or you want something like this that just gives you the information really quick.
+
+73
+00:05:41,540 --> 00:05:48,070
+Another feature that I want to show you and this video is just capturing the images.
+
+74
+00:05:48,290 --> 00:06:05,430
+So let's just go to images that yahoo dot com and just search for anything so just say Kurds or whacko's.
+
+75
+00:06:05,600 --> 00:06:09,550
+Now we go back to our device and I'm going to stop on logged images.
+
+76
+00:06:12,100 --> 00:06:18,380
+And as you can see you can actually see all the images that showed up or that the person the target
+
+77
+00:06:18,380 --> 00:06:22,100
+person have seen or like accessed on his browser.
+
+78
+00:06:24,170 --> 00:06:30,370
+So just another easy nice feature to see.
+
+79
+00:06:30,610 --> 00:06:34,720
+Now you can also do DNS spoofing use in Zanti.
+
+80
+00:06:34,720 --> 00:06:44,170
+The only problem with DNS spoofing here is that it redirects all hash TTP to the target that you specify.
+
+81
+00:06:44,200 --> 00:06:47,260
+So you can't actually just redirect one Web site.
+
+82
+00:06:47,500 --> 00:06:55,380
+It's going to redirect all web sites or all requests to the website that you're going to put in here.
+
+83
+00:06:55,420 --> 00:07:00,580
+So that's why we're If you want to do DNS spoofing you're going to have to do with the same way we did
+
+84
+00:07:00,580 --> 00:07:06,160
+it with the bad you and the with the bad USPO attack because that way we can actually only hijack one
+
+85
+00:07:06,230 --> 00:07:12,580
+website or one domain which will make it more difficult to the target to know that they are being attacked
+
+86
+00:07:12,910 --> 00:07:19,300
+and it's also more professional and smarter because redirecting all the traffic is just really easy
+
+87
+00:07:19,300 --> 00:07:24,660
+to discover that you're actually trying to attack that person or that website.
+
+88
+00:07:24,660 --> 00:07:30,360
+So again if you want to do DNS spoofing I don't recommend using Zanti you can just go and do with the
+
+89
+00:07:30,360 --> 00:07:33,130
+same way we did it with the USPS tag.
+
+90
+00:07:33,360 --> 00:07:38,520
+You just have to enable the Arpey poisoning here or do it with a piece proof like we did in Delight's
+
+91
+00:07:38,550 --> 00:07:42,090
+lecture and then do it with DNS spoof.
+

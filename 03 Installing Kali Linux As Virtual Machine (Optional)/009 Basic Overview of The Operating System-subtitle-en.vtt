@@ -1,0 +1,247 @@
+WEBVTT
+
+00:01.720 --> 00:08.960
+Right now that we have Kalli Linux installed let me just show you an overview of the system what Linux
+
+00:08.970 --> 00:09.500
+is.
+
+00:09.550 --> 00:16.240
+What's the structure of the file systems are and some of the basic apps that we're going to use.
+
+00:16.390 --> 00:21.070
+Now bear with me I know the quality of the color here.
+
+00:21.070 --> 00:25.210
+Right now I'm using it in a stretched mode so it's not proper full screen.
+
+00:25.240 --> 00:29.590
+I'm doing that because there is certain programs that we need to install first.
+
+00:30.160 --> 00:35.890
+To make it support the full resolution of the screen or off the monitor and go talk about that in the
+
+00:35.890 --> 00:40.380
+next lecture because it is it's not as vast as just you need to know some commands.
+
+00:40.380 --> 00:42.070
+And I'll walk you through them.
+
+00:42.070 --> 00:46.590
+But for now I'd just like to give you an overview of the system.
+
+00:46.600 --> 00:53.790
+So as you can see here we just have a status bar very simple the Applications menu can be accessed from
+
+00:53.790 --> 00:54.180
+here.
+
+00:54.300 --> 01:00.560
+So if you click on applications you'll be able to access all the applications that come in preinstalled
+
+01:00.570 --> 01:01.690
+with clinics.
+
+01:01.710 --> 01:07.930
+And as you can see they are divided into categories in terms of the type of the attack that they get.
+
+01:07.940 --> 01:09.350
+They allow you to do so.
+
+01:09.420 --> 01:16.410
+We have information gathering vulnerability analysis web applications and databases exploitation reverse
+
+01:16.410 --> 01:24.840
+engineering all types of applications that can be used for penetration testing in the places here that
+
+01:24.840 --> 01:28.990
+allows you to access your file systems the files that you'll be using.
+
+01:29.130 --> 01:32.740
+It's something similar to my documents in Windows machines.
+
+01:32.970 --> 01:38.690
+So as you can see here if we click on computers you'll be able to access all the files and the devices
+
+01:38.760 --> 01:45.720
+you rarely go here this and usually access stuff through the home right here or through the roads through
+
+01:45.720 --> 01:48.140
+the route because we're the route users.
+
+01:48.270 --> 01:54.900
+So it's the same thing if I go to places and then go to home right here and from here you can see that
+
+01:54.900 --> 01:58.690
+you can access your desktop your documents download music whatever.
+
+01:58.710 --> 02:08.100
+Same way that you have it for Windows or for Mac OS X and you have your trashier where your trash goes.
+
+02:08.100 --> 02:11.580
+This is just a basic file manager bike for word.
+
+02:11.670 --> 02:16.370
+And then you can double click a file to run it or double click a directory to open it.
+
+02:20.630 --> 02:26.440
+Here we have again as I said the status bar here you can see the number of desktops or workspaces.
+
+02:26.660 --> 02:33.950
+Now Linux usually supports workspaces so you can have different Windows running on different workspaces.
+
+02:33.950 --> 02:39.080
+Now at the moment I have no windows running so there's I can't really go to the second word a second
+
+02:39.470 --> 02:40.190
+workplace.
+
+02:40.340 --> 02:46.340
+Well for example if I had my file manager open here I can go to our next workspace and this will be
+
+02:46.340 --> 02:46.930
+empty.
+
+02:47.040 --> 02:52.190
+And then I can I can have something else run running here and have two things or three things that I
+
+02:52.190 --> 02:54.650
+can have as many workspaces as I want.
+
+02:54.820 --> 03:01.620
+And it's just easier for you to be switching between them and we'll be using them when we're doing our
+
+03:01.620 --> 03:03.420
+penetration testing attacks.
+
+03:03.420 --> 03:07.590
+Now in here you can have your keyboard if you have more than a keyboard that you want to switch between
+
+03:07.590 --> 03:08.320
+them.
+
+03:08.400 --> 03:14.940
+You have your networks from here so you can access your wireless your wired networks and your wireless.
+
+03:14.940 --> 03:22.110
+Now one thing to note you will not be able to access your internal wireless card through a virtual machine.
+
+03:22.410 --> 03:29.040
+So the internal wireless card that you have which is connected to your main machine you will not be
+
+03:29.040 --> 03:31.960
+able to access it through your virtual machine.
+
+03:31.980 --> 03:38.700
+As you remember we said the settings of this computer to be to be connected through not which means
+
+03:38.700 --> 03:43.190
+that it has internet connection but the internet connection is coming from the host machine.
+
+03:43.200 --> 03:51.180
+So it actually has a virtual into a virtual network set up between this device and my main device which
+
+03:51.180 --> 03:56.640
+is this device so there is a connection between the two devices.
+
+03:57.400 --> 04:03.190
+This device has intimate access because of the Internet access provided by the main machine
+
+04:06.140 --> 04:12.840
+and you can also change your volume from here from the same menu and you can turn off the computer lock
+
+04:12.840 --> 04:15.730
+it or enter the preferences from here.
+
+04:16.870 --> 04:22.180
+These are just normal preferences you can get yourself familiar with them background's notifications
+
+04:22.570 --> 04:24.170
+displays will play with this.
+
+04:24.190 --> 04:29.570
+After we fixed the resolution mouse networks all that kind of stuff.
+
+04:30.020 --> 04:35.960
+And then you have your battery settings and that's it really for the status bar.
+
+04:35.970 --> 04:40.590
+So very simple applications and places the most things I will be using.
+
+04:40.620 --> 04:43.830
+And then you can access your network settings from here.
+
+04:43.830 --> 04:48.420
+If you had a wireless card connected you'll be able to see the available networks here.
+
+04:49.960 --> 04:55.300
+If you want to connect a wireless card all you have to do is connected so I have a Y A U.S. B wireless
+
+04:55.300 --> 04:58.780
+card I'm going to connect it now and I'll show you how it shows up.
+
+05:00.220 --> 05:05.720
+So you need to go to this menu right here devices and then go to us.
+
+05:05.830 --> 05:13.000
+Now this this procedure is the same regardless of the device that you connect it to us be device whether
+
+05:13.000 --> 05:18.280
+it's a wireless device or if it's just a memory stick or any US device.
+
+05:18.370 --> 05:23.490
+You go to devices us B and then select the device that you want to connect.
+
+05:23.620 --> 05:28.760
+So I connected a wireless card and the chipset that's used in the card is called Atheros.
+
+05:28.900 --> 05:30.640
+So this is my wireless card.
+
+05:30.760 --> 05:37.930
+I'm going to click it and that should connect it now to my virtual machine to the Callimachi.
+
+05:38.320 --> 05:47.980
+So if you go here and gone wireless and then select the network and as you can see I can see the networks
+
+05:48.310 --> 05:55.090
+that exist around me I can select any network that I want to connect to and just put the password and
+
+05:55.090 --> 05:59.460
+connect to the network normally the way you connect to any other network that you want.
+
+06:00.470 --> 06:02.880
+OK so I'm going to disconnect my wireless card now.
+
+06:08.090 --> 06:13.760
+Now as you can see now the I don't have wireless get connected.
+
+06:16.970 --> 06:23.240
+What I'd like to note though I still have internet connection because as I said my main machine right
+
+06:23.240 --> 06:30.500
+here the know the Mac OS X machine is connected to my network and this virtual machine is connected
+
+06:30.710 --> 06:35.410
+to my Mac machine via internal virtual network.
+
+06:35.810 --> 06:43.350
+So the browser that comes in with Kalya the next is this one I'm going to just go to Google to show
+
+06:43.350 --> 06:44.750
+you that we have Internet connection
+
+06:47.890 --> 06:50.460
+as you can see that we have Internet connection right here.
+
+06:50.460 --> 06:57.520
+Now this is just a normal browser you can use it the same way you use any other browser the applications
+
+06:57.520 --> 07:01.720
+right here are going to talk about them at the moment because we're going to use them in the future
+
+07:02.020 --> 07:04.420
+and you'll see what each one of them does.
+
+07:04.450 --> 07:05.280
+Once we get to.

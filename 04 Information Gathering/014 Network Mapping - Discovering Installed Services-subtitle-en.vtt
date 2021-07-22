@@ -1,0 +1,202 @@
+WEBVTT
+
+00:01.600 --> 00:01.960
+Right.
+
+00:01.960 --> 00:06.800
+So in this video we're just going to follow on what we did in the previous video.
+
+00:06.940 --> 00:11.970
+We're still using Zanti too and we're still connected to the same network and I have the same devices
+
+00:11.980 --> 00:14.410
+connected here to the network.
+
+00:14.450 --> 00:20.380
+The only difference is that right now we're going to try and determine the actual programs running on
+
+00:20.380 --> 00:21.760
+each port.
+
+00:21.850 --> 00:27.640
+So I'm going to go on my Linux device which is this one just because it has the most number of force
+
+00:27.650 --> 00:33.660
+and we have three services running on port eighty nine 0 2 and 4 9 1 5 2.
+
+00:33.960 --> 00:39.910
+And as I showed you before when we go on the scans here you can see that the ports are open but you
+
+00:39.910 --> 00:43.000
+can see what programs are running on these ports.
+
+00:43.030 --> 00:45.120
+So let me just show you here.
+
+00:45.430 --> 00:52.330
+As you can see here we can see that we have TTP and we have on nine or two that we have ISIS running.
+
+00:52.430 --> 00:57.550
+And then we have on 9 1 5 2 that are an unknown service is running.
+
+00:57.550 --> 01:05.560
+So as I said what Zanti does it actually use is a very powerful tool called a mob and using that too
+
+01:05.620 --> 01:09.810
+it can actually show us or get information about the connected devices.
+
+01:11.270 --> 01:15.140
+So we're going to go on the scan option here.
+
+01:15.470 --> 01:21.710
+And what this does it basically allows us to run advanced scans on the target device.
+
+01:21.710 --> 01:26.600
+So it's only going to rise on the device that we selected and not on the whole network.
+
+01:26.680 --> 01:32.660
+Now I'm going to go on the scanner type and as you can see there is a number of scans that you can on.
+
+01:32.750 --> 01:35.570
+Now I'm not actually going to be around in all of this askance.
+
+01:35.570 --> 01:41.200
+It's very simple to run them you basically just have the scan and it does what discount does.
+
+01:41.360 --> 01:44.830
+So there's no point of me just wasting time running each one of them.
+
+01:44.870 --> 01:49.700
+I'm going to be around in just a few of them to show you how you can run a scan and what information
+
+01:49.700 --> 01:52.200
+you'll be getting from each of these scans.
+
+01:54.980 --> 02:03.860
+So you can see that we have a scan and quick detection trace route and regular scan all these scans
+
+02:03.860 --> 02:09.020
+will basically show what show us more information that what we originally have right now.
+
+02:09.020 --> 02:11.660
+So I'm not going to be around or any of these scans.
+
+02:11.660 --> 02:12.900
+They're usually quick.
+
+02:12.920 --> 02:15.920
+Those are your basic information like what we have right now.
+
+02:17.020 --> 02:21.480
+What I'm going to be running though I'm going to be running an intense gun.
+
+02:21.710 --> 02:27.260
+So this will basically show you extra information that what we have from last time it will show you
+
+02:27.260 --> 02:34.140
+more information about the open court and the programs that are running on these open ports.
+
+02:34.160 --> 02:39.590
+Now as you can see on top of it saying that it's mapping network again now give it it's time and then
+
+02:39.590 --> 02:41.380
+we'll see what information we get.
+
+02:47.740 --> 02:53.470
+Right so we can see that the manual scans completed as you can see there on top and you can do a scan
+
+02:53.470 --> 02:55.460
+you can dismiss and see the log.
+
+02:55.540 --> 02:56.800
+So I'm going to click on the log
+
+03:00.330 --> 03:07.530
+and this is actually the output that was produced by Unmap.
+
+03:07.580 --> 03:14.330
+As you can see the first thing that we were able to detect remember when we were seeing that the port
+
+03:14.330 --> 03:16.760
+is 80 so we can see that the port is 80.
+
+03:17.000 --> 03:18.240
+It's open.
+
+03:18.760 --> 03:20.720
+So we were able to get all that before.
+
+03:20.870 --> 03:26.690
+But what we have now is the exact program and version on and go on this program so we can see that we
+
+03:26.690 --> 03:30.950
+have Apache hasty TPD to point two point twenty two.
+
+03:31.190 --> 03:35.750
+And it's right on your want or so before we only knew that it's Linux.
+
+03:35.780 --> 03:38.200
+Now we actually know it's running on Ubuntu.
+
+03:38.210 --> 03:42.750
+So it's this is the XYZ virgin of Linux and we know that it's Apache.
+
+03:42.800 --> 03:44.730
+The exact version of the program
+
+03:47.940 --> 03:56.360
+we can also see the 9 0 2 port that is running on SSL VM where authentication daemon.
+
+03:56.490 --> 04:03.240
+If we go on this port for 9 1 5 2 again before we didn't know it was just unknown what it's running.
+
+04:03.240 --> 04:07.190
+Now we actually know that it's running media on UPMC.
+
+04:07.290 --> 04:12.930
+So this is a media server running and we have the exact version of the server so we can actually go
+
+04:12.930 --> 04:17.840
+now and look for exploits or default passwords or stuff like that for this server.
+
+04:19.120 --> 04:26.650
+And we can see that it's running on Linux three point to point 0 7 non-generic and that is the kernel
+
+04:26.650 --> 04:31.840
+version of the Linux of the operating system that the machine is running.
+
+04:33.160 --> 04:39.070
+And then you can see it actually has the mac address and the operating system and all that kind of stuff.
+
+04:40.640 --> 04:47.240
+And it also performs a trace route on the device as you can see here and we can see it's only one hop
+
+04:47.240 --> 04:50.020
+away because we are on the same network.
+
+04:54.100 --> 04:59.720
+Right so other showed you there's a number of scans you can pick any scan you want to experiment with
+
+04:59.720 --> 05:06.070
+them and each one of them will give you maybe more information than another one.
+
+05:06.070 --> 05:12.550
+So and math is a huge tool like there is for courses the only talk about and map.
+
+05:12.750 --> 05:19.050
+So if you're really interested into penetration testing I'd highly recommend that you go and learn more
+
+05:19.050 --> 05:20.040
+about and map.
+
+05:20.340 --> 05:21.440
+As I said you can learn.
+
+05:21.450 --> 05:27.380
+You can run and map commands from the terminal straightaway using the Kelly terminal right here.
+
+05:27.540 --> 05:34.800
+Or you can just use Zanti which basically run and map commands for you and show them to you in an easy
+
+05:34.860 --> 05:35.750
+and nice way.

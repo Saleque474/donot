@@ -1,0 +1,373 @@
+WEBVTT
+
+00:01.440 --> 00:07.870
+So in the previous video we saw how we can map or discover all the connected devices to our network.
+
+00:07.890 --> 00:13.660
+We were only able to get very basic information such as their IP address their MAC address and then
+
+00:13.770 --> 00:16.860
+the manufacturer of the MAC address.
+
+00:16.860 --> 00:22.580
+Now today we're going to use a tool called Zanti 2 which is a mobile penetration testing framework.
+
+00:22.590 --> 00:29.130
+It allows us to run a number of attacks and information gathering tasks.
+
+00:29.190 --> 00:32.450
+So we're going to be using this tool in different videos.
+
+00:32.490 --> 00:38.520
+And today's video we're going to use it to discover all the connected devices and get more information
+
+00:38.640 --> 00:39.410
+than the last time.
+
+00:39.410 --> 00:41.340
+So we're going to see what kind of information we'll get.
+
+00:41.340 --> 00:42.490
+We'll be able to guess.
+
+00:42.720 --> 00:48.450
+We will get the MAC address an IP just like last time but we will also be able to get the operating
+
+00:48.450 --> 00:55.380
+system the open court and preview in future videos we'll even try to get the programs that are running
+
+00:55.380 --> 00:58.530
+on this ports and the version of these programs.
+
+01:00.680 --> 01:06.320
+So Zanti is not available on the App Store so you can download this from the following link.
+
+01:06.320 --> 01:09.940
+All you have to do is just download it top it and install it.
+
+01:09.950 --> 01:14.620
+So make sure you download this link from your mobile device or from your tablet.
+
+01:16.850 --> 01:20.640
+Now once you download Zanti it's going to look like this.
+
+01:22.900 --> 01:28.030
+So I'm just going to tap on it and I've already run this.
+
+01:28.040 --> 01:33.270
+So as you can see discover devices so I'm just going to tap on the refresh sign there.
+
+01:34.210 --> 01:39.840
+And I'm not going to use the intrusive scan which looks for vulnerabilities.
+
+01:39.910 --> 01:43.710
+I'm just going to leave it the way it is and I'm going to type OK.
+
+01:46.170 --> 01:51.560
+And as you can see it's saying that it's mapping the network is trying to discover the connected devices.
+
+01:52.840 --> 01:53.170
+OK.
+
+01:53.190 --> 01:59.070
+So now as you can see it stopped mapping the devices and we have all the devices that are connected
+
+01:59.070 --> 02:00.070
+to the network.
+
+02:00.420 --> 02:08.310
+And as you can see the first thing you notice beside each device on this column you see an icon that
+
+02:08.310 --> 02:11.990
+represents the operating system or the type of device.
+
+02:12.030 --> 02:18.330
+So you can see for the first hour right here you have a router icon which tells you that this is a router
+
+02:18.640 --> 02:25.530
+that also was able to get the MAC address and the manufacturer telling us it's a HTC device or the wireless
+
+02:25.620 --> 02:33.140
+card or the wireless hardware used in that router is made by HTC if we go on the next one you can see
+
+02:33.230 --> 02:38.930
+as well the IP the MAC address and that it is an Android device which is actually this device as you
+
+02:38.930 --> 02:41.300
+can see it says on the bottom of this device.
+
+02:41.630 --> 02:45.430
+And then the next one it was able to detect that it's a Linux device.
+
+02:45.450 --> 02:49.390
+I remember last time it wasn't one we used Wi-Fi analyzer.
+
+02:49.550 --> 02:52.580
+It wasn't able to tell us what operating system used devices.
+
+02:52.820 --> 02:58.490
+So from here we can actually know that this is a Linux device or something that runs Linux.
+
+02:58.760 --> 03:04.670
+We still have the name of the device which is as 00 us and we have the MAC address and the manufacturer.
+
+03:04.880 --> 03:11.270
+And the next one we can see that we discovered an Apple device and the name of the device is that 00
+
+03:11.290 --> 03:11.870
+said.
+
+03:12.140 --> 03:14.280
+And it says an Apple device here as well.
+
+03:14.300 --> 03:15.880
+And we have the MAC address.
+
+03:16.170 --> 03:22.730
+Another extra thing that you notice is right here which is the ports that are open on each device.
+
+03:22.730 --> 03:28.270
+So we can see that if we tap on the router you'll see that it has one port open.
+
+03:28.490 --> 03:34.390
+So if we go on the absconds right here on the top right you can see that it has port.
+
+03:34.400 --> 03:35.060
+If you open
+
+03:38.360 --> 03:45.330
+now and map is actually a command line tool that it's short for network marker and it's the best and
+
+03:45.350 --> 03:51.680
+most popular port scanner that is there on the Internet now you can use this on Linux on Windows and
+
+03:51.680 --> 03:53.240
+on all operating systems.
+
+03:53.270 --> 03:59.330
+It actually comes in installed with Nat hunters so you can run if you know how to use and you can actually
+
+03:59.330 --> 04:04.400
+run the commands using the command line in that Hunter and you'll be able to get the results or you
+
+04:04.400 --> 04:10.400
+can use Zanti and I'll show you in the next video is how you can actually use and map from within Zanti.
+
+04:10.400 --> 04:17.180
+And this is all the information that was able to get but you don't really need to go through this as
+
+04:17.270 --> 04:21.440
+it's already shown in the back in the main menu here.
+
+04:21.440 --> 04:24.070
+So basically what Zanti does Iran's and my for you.
+
+04:24.170 --> 04:27.480
+And then it shows you the results in a really nice and organized way.
+
+04:27.590 --> 04:33.560
+So what if you needed to go through the command line you have it by clicking on the maps counts as I
+
+04:33.560 --> 04:36.830
+showed you another device so I'm going to show you.
+
+04:36.830 --> 04:39.880
+Here is the next device I'm going to tap on it.
+
+04:40.110 --> 04:46.160
+The open ports as you can see there here port 80 9 0 2 4 9 1 5.
+
+04:46.160 --> 04:52.540
+Now we don't know what's running on this port site even if we come here on the unmap scans and I'm just
+
+04:52.540 --> 04:55.180
+going to look for that next device.
+
+04:55.180 --> 04:59.720
+So it's one 45 it's IP which is this one.
+
+04:59.800 --> 05:02.770
+So if you come here we can actually just see the open port.
+
+05:02.800 --> 05:08.430
+As you can see right here we have eighty nine 0 2 and 4 9 1 5 2.
+
+05:08.530 --> 05:13.050
+We don't know what what programs are on and on them like we can't see that 1862.
+
+05:13.050 --> 05:14.240
+It's usually hasty.
+
+05:14.290 --> 05:19.150
+So it's not a big deal like it didn't really tell us more information about it.
+
+05:19.300 --> 05:25.240
+So we'd like to know for example what server is not our port what version of that server so we can actually
+
+05:25.240 --> 05:29.310
+try and hack that computer through that server or through that port.
+
+05:29.310 --> 05:31.270
+Sorry.
+
+05:31.310 --> 05:37.220
+So I'll go back and I want to show you something like I mentioned that information gathering is one
+
+05:37.220 --> 05:39.860
+of the most important steps in penetration testing.
+
+05:39.980 --> 05:45.170
+And I wasn't overexaggerating it because let me show you this so I'm going to go on this suppled device
+
+05:46.650 --> 05:48.220
+and this is my own tablet.
+
+05:48.250 --> 05:49.750
+It's still broken.
+
+05:50.230 --> 05:59.000
+And as you can see we have to force open port number two to number 2 2 and 4 6 2 0 7 8.
+
+05:59.020 --> 06:03.150
+Now 1:56 usually corresponds to S-sh.
+
+06:03.370 --> 06:08.190
+So I'm going to go down here just to confirm and show you so 59.
+
+06:08.320 --> 06:14.300
+And here you are that's the IP of the Apple device.
+
+06:14.410 --> 06:19.670
+And as you can see that we have 4:22 22 open and it has hate support.
+
+06:19.690 --> 06:22.360
+So it's for us as a S-sh service.
+
+06:22.360 --> 06:29.170
+As I say it basically is a server that allows you to remotely run Linux commands on the target device.
+
+06:29.200 --> 06:34.510
+So it's usually installed on servers for example if you have a web server online when you buy a web
+
+06:34.510 --> 06:38.500
+server or rent a web server they'll give you an S-sh account.
+
+06:38.590 --> 06:45.550
+So S-sh by using it a certain username and password it will allow you to remotely log in to your Linux
+
+06:45.610 --> 06:51.450
+or Windows or even Marko's machine and run commands on the target machine.
+
+06:52.270 --> 06:58.540
+So when you jailbreak your device with Apple you use a name with when you jailbreak it.
+
+06:58.540 --> 07:03.030
+The root password is actually set to a l p i n e.
+
+07:03.400 --> 07:05.170
+So it's the default password.
+
+07:05.170 --> 07:10.060
+Most people don't know that and even the people that know that they don't change it including me.
+
+07:10.060 --> 07:13.270
+I actually never change it like I don't have this just to show you now.
+
+07:13.330 --> 07:19.650
+So when I just broke my device the password is still as a p i n.
+
+07:19.810 --> 07:26.140
+So for example when you're doing a scan and then you see an Apple device with port 22 open it's a good
+
+07:26.140 --> 07:29.380
+idea just to try to log in to that port with the password.
+
+07:29.380 --> 07:30.930
+A L P I N E.
+
+07:30.940 --> 07:35.520
+Now let me just do this quickly and show you how you can do this from your laptop or from your that
+
+07:35.590 --> 07:36.670
+Hunter device.
+
+07:36.670 --> 07:38.770
+I'm just going to do it from the net Hunter device.
+
+07:38.890 --> 07:46.360
+Just because we're doing penetration testing using your mobile phone or using your Android but you can
+
+07:46.360 --> 07:48.600
+do it from any device that you want.
+
+07:48.610 --> 07:58.740
+So I'm just going to go on the net and turn I'm going to go on home so I'm going to go on the luncher
+
+07:59.250 --> 08:05.560
+and I'm going to launch Kelly shell and terminal and all I have to do is S-sh into the target.
+
+08:05.550 --> 08:16.320
+So the come on this S-sh username is rude and you put it and then put the IP address of the target.
+
+08:16.520 --> 08:25.350
+So the IP address was 1 9 2 6 8 1 2009.
+
+08:25.440 --> 08:32.720
+I'm going to hit enter and it's telling me you want to trust target I'm going to say yes and now it's
+
+08:32.720 --> 08:35.390
+asking me for the password so I'm going to use the password.
+
+08:35.390 --> 08:41.630
+It's a L P and it's going to hit enter.
+
+08:41.630 --> 08:43.960
+And as you can see I logged in as root.
+
+08:43.970 --> 08:54.170
+So if I go you as you can see that I am rude and if I go if I can think just to show you that I am actually
+
+08:54.170 --> 09:01.100
+inside that device doesn't have it configured still I don't have that command installed on my tablet
+
+09:01.510 --> 09:08.130
+but it is as you can see that it's rude and it's arduous which is the name of the iPod.
+
+09:08.390 --> 09:17.240
+And if I say my eyes you can't say it's telling me that I am rude and I am at the target device.
+
+09:17.660 --> 09:23.210
+Basically you're just going to be using Unix commands to navigate through the system and you can do
+
+09:23.210 --> 09:24.820
+whatever you want because you are rude.
+
+09:24.830 --> 09:30.920
+And as I said it has all probably all privileges on the target machine.
+
+09:30.920 --> 09:33.470
+So this is basically like it wasn't an actual hack.
+
+09:33.470 --> 09:39.690
+It was just a use of information that we gather so we saw there an Apple device.
+
+09:39.740 --> 09:41.570
+Has S-sh open on it.
+
+09:41.660 --> 09:43.340
+So it was definitely broken.
+
+09:43.490 --> 09:49.070
+And we just tried the default password and we were able to log in and gain basic full access to this
+
+09:49.070 --> 09:49.720
+device.
+
+09:49.730 --> 09:54.980
+So even if this device had no exploit it had the latest and greatest software and the best security
+
+09:54.980 --> 10:00.560
+measurements we only logged in through a service which is allowed on the device used in proper username
+
+10:00.560 --> 10:01.110
+and password.

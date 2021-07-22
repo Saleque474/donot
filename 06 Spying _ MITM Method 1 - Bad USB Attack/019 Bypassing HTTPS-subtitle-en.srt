@@ -1,0 +1,344 @@
+﻿1
+00:00:01,440 --> 00:00:08,430
+So far we've seen how we can capture usernames and passwords using our Android device only by connecting
+
+2
+00:00:08,430 --> 00:00:10,200
+it to the target computer.
+
+3
+00:00:10,200 --> 00:00:16,620
+Now the only problem is that if the person tries to logon to a Web site or uses his shitty POS such
+
+4
+00:00:16,650 --> 00:00:23,590
+as Yahoo or Hotmail to bypass that we're going to use a tool called SSL Strip.
+
+5
+00:00:23,640 --> 00:00:28,370
+Now as a sales rep is not going to decrypt SSL or do anything like that.
+
+6
+00:00:28,620 --> 00:00:33,730
+Oh it's going to do is downgrade and he hates it if he has connection to hasty t.p.
+
+7
+00:00:33,870 --> 00:00:40,440
+So when you pose for example log in Dot yahoo dot com you automatically go to the hashtag CPS version
+
+8
+00:00:40,440 --> 00:00:41,430
+of that Web site.
+
+9
+00:00:41,430 --> 00:00:46,910
+What SSL strip is going to do is going to detect that and it's going to redirect you to the Haitian
+
+10
+00:00:47,220 --> 00:00:48,920
+version.
+
+11
+00:00:49,090 --> 00:00:55,390
+The target person will not see any warnings and you will be able to capture the username and password
+
+12
+00:00:55,390 --> 00:00:59,900
+the same way we did before because essentially the connection is not shitty anymore.
+
+13
+00:00:59,920 --> 00:01:01,840
+It's just TTP.
+
+14
+00:01:02,380 --> 00:01:05,530
+So in order to do this we're actually going to need to run two commands.
+
+15
+00:01:05,620 --> 00:01:08,790
+The first command is just an IP tables command.
+
+16
+00:01:08,800 --> 00:01:15,940
+As I said IP tables is just a firewall and Linux firewall and this command is going to redirect any
+
+17
+00:01:15,940 --> 00:01:20,370
+packet on port 80 is going to redirect it to port 10000.
+
+18
+00:01:22,310 --> 00:01:26,450
+We do this because SSL strip runs by default on port 10000.
+
+19
+00:01:26,720 --> 00:01:32,390
+So you can change the port that Sellstrom runs on and all they have to do is just change this command
+
+20
+00:01:32,450 --> 00:01:35,970
+and get it to redirect to strip port.
+
+21
+00:01:36,050 --> 00:01:39,020
+Once you run this command you are going to run SSL strip.
+
+22
+00:01:39,110 --> 00:01:46,330
+Basically SSL so then it's going to listen whenever he's actually CBS is going to downgrade it to TTP.
+
+23
+00:01:46,370 --> 00:01:47,900
+So let's see how we do this.
+
+24
+00:01:47,900 --> 00:01:56,620
+So we have our Android device here again and I'm going to start sniffing just like I did last time and
+
+25
+00:01:56,650 --> 00:01:58,850
+I'm going to call the file capture to this time
+
+26
+00:02:07,200 --> 00:02:07,850
+OK.
+
+27
+00:02:08,020 --> 00:02:16,250
+Enter.
+
+28
+00:02:16,430 --> 00:02:18,670
+And here we go we're capturing packets now.
+
+29
+00:02:19,040 --> 00:02:24,110
+So the next thing we're going to do is run the two commands that I just showed you to run as a small
+
+30
+00:02:24,110 --> 00:02:24,840
+strobe.
+
+31
+00:02:24,980 --> 00:02:28,520
+So I'm just going to go and open up a new terminal window
+
+32
+00:02:37,900 --> 00:02:46,350
+so it's window to right here and we're going to run our IP tables come on so IP tables
+
+33
+00:02:53,600 --> 00:02:57,640
+and I have the command here just written in the file so I'm just going to copy and paste it
+
+34
+00:03:14,010 --> 00:03:19,760
+in and turn on because there is no errors that means the command has worked successfully and the next
+
+35
+00:03:19,760 --> 00:03:21,530
+thing we're just going to run SSL strobe
+
+36
+00:03:25,090 --> 00:03:31,110
+and wind speed to tell it to only log on you work on the post requests.
+
+37
+00:03:31,160 --> 00:03:35,980
+They're usually the post requests of the ones that are used to log in.
+
+38
+00:03:35,980 --> 00:03:37,480
+So where are you going to.
+
+39
+00:03:37,490 --> 00:03:42,730
+Or are you trying to get usernames and passwords so we only wanted to work on post requests.
+
+40
+00:03:42,730 --> 00:03:44,710
+So everything is working now everything's perfect.
+
+41
+00:03:44,710 --> 00:03:50,770
+I'm going to go on my target which is this device and we're going to try to go to mail at yahoo dot
+
+42
+00:03:50,770 --> 00:04:03,190
+com and try to logon.
+
+43
+00:04:03,220 --> 00:04:08,610
+Now I'd like you to note that this Web site is not actually CPS it's normal hey CTP as you can see here.
+
+44
+00:04:08,660 --> 00:04:09,980
+There's nice utopias.
+
+45
+00:04:10,120 --> 00:04:12,990
+So that means SSL Strip has worked successfully.
+
+46
+00:04:13,210 --> 00:04:18,450
+Now if you look at my android window you actually see some warnings here but that's OK.
+
+47
+00:04:18,880 --> 00:04:20,890
+You get these anyway but it's working.
+
+48
+00:04:21,100 --> 00:04:27,040
+So I'm going to log in to my username I'm just going to say again Zayd let's say something else or to
+
+49
+00:04:27,040 --> 00:04:35,590
+say to you who is Garmin going to put a password this time I'm going to put nine eight seven six five
+
+50
+00:04:35,590 --> 00:04:37,680
+four I'm going to enter that.
+
+51
+00:04:37,690 --> 00:04:45,110
+Again these are wrong usernames and passwords I'm just using them to demonstrate the attack.
+
+52
+00:04:45,130 --> 00:04:51,550
+I'm also going to go to Mount.
+
+53
+00:04:51,630 --> 00:05:07,390
+I'm going to log in I'm going to call it a hotmail took out come and say the password is Hotmail pass.
+
+54
+00:05:07,430 --> 00:05:11,220
+Again wrong usernames and passwords just for demonstration.
+
+55
+00:05:11,240 --> 00:05:13,490
+So now we logged in.
+
+56
+00:05:13,550 --> 00:05:15,880
+I'm going to do the same as what we did before.
+
+57
+00:05:16,100 --> 00:05:17,960
+So I will stop capturing here.
+
+58
+00:05:17,960 --> 00:05:23,510
+I'm actually going to stop as the cell strip controls the volume down and see and then I'm going to
+
+59
+00:05:23,520 --> 00:05:24,830
+start capturing here.
+
+60
+00:05:26,500 --> 00:05:29,330
+And I'm going to go to my file manager right here.
+
+61
+00:05:32,700 --> 00:05:35,270
+And we should see a file called Capture to here.
+
+62
+00:05:35,340 --> 00:05:37,120
+And as you can see it right there.
+
+63
+00:05:37,350 --> 00:05:39,980
+So I'm going to send this file to my laptop.
+
+64
+00:05:39,990 --> 00:05:45,190
+I'm going to open it and Wireshark and we'll try to analyze it and see our usernames and passwords.
+
+65
+00:05:46,550 --> 00:05:50,360
+OK I downloaded the file now and I'm going to run Wireshark.
+
+66
+00:05:50,960 --> 00:05:58,670
+And just like before I'm going to go file open and we have our captures to here I'm going to open it.
+
+67
+00:05:59,420 --> 00:06:00,730
+And again just like before.
+
+68
+00:06:00,740 --> 00:06:08,180
+I'm going to firster by his TTP and it's already organized in them by the info so I'm just going to
+
+69
+00:06:08,180 --> 00:06:13,090
+scroll down to post.
+
+70
+00:06:13,100 --> 00:06:13,850
+Actually it's not.
+
+71
+00:06:13,850 --> 00:06:17,060
+So I'm going to click on info.
+
+72
+00:06:17,400 --> 00:06:20,360
+I'm gonna scroll to posts.
+
+73
+00:06:22,340 --> 00:06:28,100
+And we have three four post requests that have been sent by our target.
+
+74
+00:06:28,340 --> 00:06:30,090
+So let's look at the first one.
+
+75
+00:06:30,560 --> 00:06:36,800
+And we're going to look at the line based on as you can see I was trying to log in with a user name
+
+76
+00:06:36,800 --> 00:06:43,050
+called they too and the password nine eight seven six five four.
+
+77
+00:06:43,140 --> 00:06:46,370
+Let's look at the other one and the other one.
+
+78
+00:06:46,370 --> 00:06:48,400
+As you can see here this is the ultimate one.
+
+79
+00:06:48,420 --> 00:06:56,500
+So it was a hot melt at hotmail dot com and the password was Hotmail POS.
+
+80
+00:06:56,540 --> 00:07:01,080
+Now I said so strip works to bypass safety CPS.
+
+81
+00:07:01,160 --> 00:07:07,130
+The only problem with it these days is that it does some Web sites like Google and Facebook are using
+
+82
+00:07:07,180 --> 00:07:11,520
+a new technology called hater's ts.
+
+83
+00:07:11,580 --> 00:07:17,650
+Basically what that does is it will not serve you the web site unless it is a hasty tibias Web site.
+
+84
+00:07:17,670 --> 00:07:22,480
+So it wants to review a DTP Web site or DTP version of that Web site.
+
+85
+00:07:22,740 --> 00:07:29,100
+Therefore SSL strip does not work against these against Gmail and Facebook right now if you're using
+
+86
+00:07:29,100 --> 00:07:35,070
+Chrome browser songy Chrome browser supports it and only Facebook and Google are using it at the moment.
+

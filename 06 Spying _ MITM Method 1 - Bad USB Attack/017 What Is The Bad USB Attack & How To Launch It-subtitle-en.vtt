@@ -1,0 +1,277 @@
+WEBVTT
+
+00:04.550 --> 00:09.730
+It the next few classes we're going to talk about an attack called Bad USP.
+
+00:09.780 --> 00:17.310
+Man in the middle attack and this attack we're going to use our Android device and physically plug it
+
+00:17.310 --> 00:21.560
+in into the target device used in the US pre-cable.
+
+00:21.600 --> 00:26.200
+Now you usually do that to charge the device or to transfer data between the devices.
+
+00:26.250 --> 00:30.920
+So you're going to go when you're going to plug in your Android device to the target's computer.
+
+00:31.200 --> 00:33.510
+And once you do that our Android device.
+
+00:33.560 --> 00:38.790
+And so they've stolen the computer that it is a media device or that is it is a phone it's actually
+
+00:38.790 --> 00:43.730
+going to tell the computer that it is a network device.
+
+00:43.800 --> 00:50.400
+Not only that but it's also going to force all the traffic going to and from the target's computer to
+
+00:50.400 --> 00:53.260
+go through our Android device.
+
+00:53.270 --> 00:58.670
+This means that all user names all passwords all of you are elves or chat messages.
+
+00:58.670 --> 01:01.760
+Everything that the target computer is going to do.
+
+01:01.880 --> 01:07.140
+And whenever it tries to access the Internet it's going to do that through our device or it's going
+
+01:07.130 --> 01:13.880
+to it's going to use our Android device as a network card and send all the requests and responses will
+
+01:13.880 --> 01:20.900
+be flowing through our Android device instead of making them flow through its internal Wi-Fi card or
+
+01:20.900 --> 01:23.750
+wire card or ethernet or whatever.
+
+01:23.750 --> 01:29.720
+So basically our Android device is going to be used as a network card and all the packets all the data
+
+01:29.930 --> 01:32.840
+will be flowing through with the Android device.
+
+01:34.570 --> 01:41.580
+Now in order to set the device in that way we have to do a few steps.
+
+01:41.640 --> 01:47.960
+So let's go to the kallah device and see how we can do this now you can actually do this using the Kalli
+
+01:47.960 --> 01:48.620
+menu.
+
+01:48.800 --> 01:52.520
+But for some reason the menu is not working for me.
+
+01:52.520 --> 01:55.310
+That's why I'm going to be doing it from the terminal.
+
+01:55.400 --> 01:58.150
+So let's see how we can actually do it from the terminal.
+
+01:59.730 --> 02:08.410
+So I have my Android device here and I'm going to go to the hunter home and I'm not going to go through
+
+02:08.410 --> 02:13.510
+the menu so you can actually go here to the but you SBM out in the middle attack and start the attack
+
+02:13.510 --> 02:14.210
+from here.
+
+02:14.380 --> 02:20.670
+Well it's not working for me so that's why I'm actually just going to launch a terminal and I'm going
+
+02:20.670 --> 02:22.400
+to do the attack from the terminal.
+
+02:23.430 --> 02:29.900
+Now the first thing that I'm going to do is navigate to SD card
+
+02:34.280 --> 02:40.410
+files so CD is just the command to change the working directory.
+
+02:40.410 --> 02:46.230
+Now I have a file there and the resources you can download it yourself.
+
+02:46.250 --> 02:48.950
+I call that a flush IP tables.
+
+02:49.070 --> 02:56.090
+Basically this file contains a number of commands that will clear all the rules are there and the IP
+
+02:56.090 --> 02:59.440
+tables IP tables is just a firewall that's used in Linux.
+
+02:59.450 --> 03:05.080
+Now some rules might cause our device to draw packets because it'll see them as a threat.
+
+03:05.090 --> 03:10.460
+So what we want we want the packets to flow through our device and we wanted to act as a network and
+
+03:10.790 --> 03:15.980
+therefore I have a few comments in that file that will basically just delete all rules that you might
+
+03:15.980 --> 03:18.640
+have in your IP tables.
+
+03:18.740 --> 03:25.370
+So to execute that just download the file from the resources and executed using this command Bash and
+
+03:25.370 --> 03:27.500
+put the name of the file which is flush
+
+03:30.080 --> 03:40.630
+IP tables that SH And because you don't see any error messages that means everything was executed successfully.
+
+03:40.630 --> 03:47.200
+Now the next thing that we want to do is run WSP attack run the attacks that fuels the target computer
+
+03:47.500 --> 03:55.600
+that this is a network card when we connect it to the target computer so well I'm going to do is brush
+
+03:55.810 --> 03:58.310
+and just put the name of the file.
+
+03:58.410 --> 03:59.070
+It's another.
+
+03:59.070 --> 04:04.120
+Again it's another script but this script comes in with Nat hunter so you don't need to download it
+
+04:04.120 --> 04:05.980
+just right like this.
+
+04:05.980 --> 04:10.750
+So it starts but USP
+
+04:13.590 --> 04:14.840
+kids can't do it.
+
+04:14.880 --> 04:21.560
+SH No if you have Android 5 use the lollipop one since I have kids cost four point four point four.
+
+04:21.620 --> 04:29.140
+So I'm using Kit-Kat and I'm going to hit enter and because you don't see any error messages I guess
+
+04:29.220 --> 04:31.610
+that means everything was run successfully.
+
+04:31.840 --> 04:34.560
+So now the attack is working on the device.
+
+04:34.690 --> 04:39.850
+And once I connected the device using the U.S. cable it's going to fool the computer that it connects
+
+04:39.850 --> 04:40.510
+to.
+
+04:40.560 --> 04:46.990
+Now I forgot to mention this this attack should work on Windows and the next box and I'm going to be
+
+04:46.990 --> 04:52.810
+running it on Linux now and in the future I'll be in a similar attack and I'll run that on Windows just
+
+04:52.810 --> 04:55.950
+to show you that they both work on both operating systems.
+
+04:57.050 --> 05:00.650
+So I'll show you here I'm actually connected to my network here to to
+
+05:06.450 --> 05:07.160
+go running.
+
+05:07.160 --> 05:11.210
+This is this is just to show you that how the IPs are going to change so you actually don't need to
+
+05:11.210 --> 05:12.880
+do this when you're running the attack.
+
+05:13.130 --> 05:14.590
+So I'm just going to run.
+
+05:14.690 --> 05:16.820
+I'm sorry ifconfig.
+
+05:18.950 --> 05:21.500
+And I'll show you what is.
+
+05:21.500 --> 05:26.400
+So this is the IP address my current IP address and my current network.
+
+05:26.690 --> 05:31.100
+And as you can see that's the one that's being used to connect to the Internet.
+
+05:31.190 --> 05:38.560
+So I'm going to connect my Android device this device device that's been mirrored here I'm just going
+
+05:38.560 --> 05:43.310
+to connect it physically to this computer.
+
+05:43.520 --> 05:44.840
+So it's connected now.
+
+05:48.040 --> 05:55.690
+And as you can see I've got a message here telling me that I got connected to using a wired connection.
+
+05:55.800 --> 06:01.080
+So this is the only way that a person can actually get suspicious as as long as soon as this message
+
+06:01.080 --> 06:04.440
+disappears then they won't notice it.
+
+06:04.440 --> 06:11.070
+Now if we actually go on a Iran if conflict again I'll show you how the IP changes now.
+
+06:11.250 --> 06:17.490
+And as you can see now I have an extra card now if conflict shows you the network that you have the
+
+06:17.490 --> 06:19.110
+commands that I just ran here.
+
+06:20.070 --> 06:25.670
+So as you can see that I have an extra card connected and an extra network connected.
+
+06:25.860 --> 06:28.850
+It has this IP address.
+
+06:29.050 --> 06:36.490
+So basically now anything I'm going to do on this computer will be throw a flowing through this Android
+
+06:36.490 --> 06:41.980
+device so any user names that I put on the internet and your passwords and your messages and your Else
+
+06:42.310 --> 06:48.340
+everything is going to be flowing through this nexus device the Nexus device will execute the request
+
+06:48.400 --> 06:50.050
+and send it back to our device.
+
+06:50.050 --> 06:54.800
+So everything is going to be working but it's going to be flowing through this device which makes it
+
+06:54.810 --> 06:58.900
+the man in the middle which means that all the packets will be flowing through this device and we can
+
+06:58.900 --> 07:03.430
+read them we can modify them and we can do whatever we want with them.
+
+07:03.430 --> 07:09.990
+Now let's just confirm that I actually have internet connection so I'm just going to run a browser here.
+
+07:12.720 --> 07:22.660
+I'm gonna go to being dot come and as you can see I do have Internet connection and everything is perfect.
+
+07:22.700 --> 07:25.730
+Both the packets are actually flowing through this device.
+
+07:27.250 --> 07:28.780
+And the next class is now.
+
+07:28.860 --> 07:35.250
+We'll see how we can actually capture these packets save them in a file read them modify them and we'll
+
+07:35.250 --> 07:37.330
+see what kind of stuff we can actually do with them.

@@ -1,0 +1,284 @@
+﻿1
+00:00:02,150 --> 00:00:04,840
+OK so here I'm on my Windows machine.
+
+2
+00:00:05,210 --> 00:00:12,250
+I'm going to look for my network see if it exists connect to it check if it has internet connection
+
+3
+00:00:12,580 --> 00:00:19,240
+and then we'll see how we can run all the attacks that we learned before in order to sniff packets modify
+
+4
+00:00:19,240 --> 00:00:25,750
+them read them do all that cool stuff.
+
+5
+00:00:25,830 --> 00:00:27,500
+So as you can see here is my network.
+
+6
+00:00:27,510 --> 00:00:33,210
+It's called the Internet and I'm going to click on connect to connect to the network
+
+7
+00:00:36,870 --> 00:00:43,610
+and as you can see I was able to successfully connect to the network.
+
+8
+00:00:43,670 --> 00:00:46,220
+So let's check if we actually have internet connection.
+
+9
+00:00:47,040 --> 00:00:51,010
+I'm just going to do a ping on Google com
+
+10
+00:00:54,710 --> 00:01:00,230
+and as you can see we're getting responses from Google which means that the network is fully connected
+
+11
+00:01:00,830 --> 00:01:05,420
+to the Internet.
+
+12
+00:01:05,420 --> 00:01:13,750
+OK so I'm just going to open my browser and go on being dot.com and as you can see that I have Internet
+
+13
+00:01:13,810 --> 00:01:14,720
+connection here.
+
+14
+00:01:16,100 --> 00:01:21,020
+Now we are the man in the middle as I said in the previous video so we can do all the attacks the same
+
+15
+00:01:21,020 --> 00:01:26,710
+way that we did them with about us be attacked so you can use the shark you can use as a cell strap
+
+16
+00:01:26,720 --> 00:01:32,140
+you can use DNS if you can do the scenarios that we did with DARPA poisoning and with the body to we
+
+17
+00:01:33,070 --> 00:01:35,000
+so as long as you are the man in the middle.
+
+18
+00:01:35,000 --> 00:01:38,840
+You can do the exact same attacks that we did when you are the one in the middle.
+
+19
+00:01:38,840 --> 00:01:40,340
+You can mix and match these attacks.
+
+20
+00:01:40,340 --> 00:01:44,260
+It doesn't matter as long as the packets flow through your device.
+
+21
+00:01:46,240 --> 00:01:51,220
+So I'm going to sniff packets just to show you which interface to use and how they can figure out which
+
+22
+00:01:51,220 --> 00:01:52,980
+configuration you should use.
+
+23
+00:01:52,990 --> 00:01:56,230
+So I'm just going to open up a new terminal window
+
+24
+00:02:05,980 --> 00:02:09,280
+and I'm going to use T-shirts like we used before.
+
+25
+00:02:09,510 --> 00:02:20,720
+This time I'm going to set the interface to one so sorry you need to space here so remember with the
+
+26
+00:02:20,730 --> 00:02:22,530
+bad us we attack we say to our.
+
+27
+00:02:22,540 --> 00:02:27,770
+And the zero because that was the interface where the packets were coming or flowing through.
+
+28
+00:02:27,780 --> 00:02:33,360
+Now we're going to use land one for the reason that Leinwand is the interface that is broadcast in the
+
+29
+00:02:33,360 --> 00:02:33,930
+signal.
+
+30
+00:02:34,110 --> 00:02:40,920
+So it's the same interface that we have it in the configuration here in the manual configuration.
+
+31
+00:02:40,920 --> 00:02:48,930
+So I have one here to broadcast the signal and I have it in the simple as well as the PH y interface.
+
+32
+00:02:48,930 --> 00:02:50,640
+So that's the one that you want to sniff on.
+
+33
+00:02:50,730 --> 00:02:56,000
+Not the one that has the internet connection so none is the one that has internet connection.
+
+34
+00:02:56,070 --> 00:03:01,900
+I'm going to sniff on line one which is the one that is broadcasting the signal and then we're just
+
+35
+00:03:01,900 --> 00:03:03,790
+going to put everything else the same.
+
+36
+00:03:03,790 --> 00:03:06,130
+So I just wanted to show you are.
+
+37
+00:03:06,510 --> 00:03:11,320
+And that you know that the interface that you should use one is anything when doing all these attacks
+
+38
+00:03:11,650 --> 00:03:16,000
+is 9:1 which is the one that you are using to broadcast the signal.
+
+39
+00:03:16,420 --> 00:03:22,640
+So let's call this evil a pee cup
+
+40
+00:03:26,330 --> 00:03:27,030
+going to enter
+
+41
+00:03:31,350 --> 00:03:34,600
+and now it's capture in packets on one.
+
+42
+00:03:34,830 --> 00:03:39,340
+And let's just go ahead now again I said you can use the cells as the cell strip and all that.
+
+43
+00:03:39,470 --> 00:03:42,960
+But we've already explained how to use that and it'll be a waste of time to do it again.
+
+44
+00:03:42,980 --> 00:03:47,360
+It's the exact same way that you use it when the body has be attacked with the difference that you change
+
+45
+00:03:47,360 --> 00:03:51,150
+the interface to the interface that is broadcast and the signal.
+
+46
+00:03:51,410 --> 00:04:01,990
+So I'm just going to go on my free sites my generator and plug in with my username and password just
+
+47
+00:04:01,990 --> 00:04:06,050
+to show you that this actually works and all the packets are flowing.
+
+48
+00:04:06,100 --> 00:04:12,760
+You can actually see here that the number of packets increase straight away when I'm browsing the internet.
+
+49
+00:04:12,810 --> 00:04:24,760
+So we're going to go test evil AP come up with user 1 2 3 4 5 6 7 6 password then.
+
+50
+00:04:24,800 --> 00:04:27,510
+Now it's wrong what it should should have been logged in here.
+
+51
+00:04:27,760 --> 00:04:33,190
+So I'm going to control and see this and then open it and wireshark the same way that we did before
+
+52
+00:04:33,640 --> 00:04:35,450
+with our bad US attack.
+
+53
+00:04:37,740 --> 00:04:43,860
+OK so I downloaded or I shared my tap file here with my device and I'm going to open it using wireshark
+
+54
+00:04:43,860 --> 00:04:45,060
+like we did before.
+
+55
+00:04:47,110 --> 00:04:52,490
+So I'm going to go and file open my downloads and I have it here.
+
+56
+00:04:52,500 --> 00:05:03,160
+Evil A kept us up and opened that and I'm going to certain info and firster hasty TV exactly like we
+
+57
+00:05:03,160 --> 00:05:09,020
+did with the U.S. we attack and I'm going to look for upholster costs.
+
+58
+00:05:10,840 --> 00:05:12,840
+And we can see that we have the post request.
+
+59
+00:05:12,840 --> 00:05:15,350
+Here we go on the line.
+
+60
+00:05:15,400 --> 00:05:21,100
+And as you can see I'm going to double click it actually to show it to you better as you can see that
+
+61
+00:05:21,100 --> 00:05:28,680
+I have my user name is just as evil IP dot com and the password is 1 2 3 4 5 6 7.
+
+62
+00:05:28,850 --> 00:05:32,440
+So exactly this is this is exactly what we did with the bad USP.
+
+63
+00:05:32,510 --> 00:05:37,550
+It's just to show you that you need to use LAN one or the interface that is broadcast in as the one
+
+64
+00:05:37,550 --> 00:05:38,830
+that you want to sniff on.
+
+65
+00:05:38,990 --> 00:05:44,120
+Then you can do all the attacks that we did before you can do the scenarios you can do as a striptease
+
+66
+00:05:44,120 --> 00:05:50,450
+shark DNS spoof still cookies anything that we did before and use the tools that you can use when you
+
+67
+00:05:50,450 --> 00:05:51,680
+are the man in the middle.
+
+68
+00:05:51,680 --> 00:05:57,530
+You can use them because when you do when you create an evil access point you will be the man in the
+
+69
+00:05:57,530 --> 00:06:04,430
+middle naturally so the users or the clients will send will interact with you as the router because
+
+70
+00:06:04,430 --> 00:06:09,110
+you are there either so they will send you all the requests they want and you will be sending them all
+
+71
+00:06:09,110 --> 00:06:10,790
+the responses that they should get.
+

@@ -1,0 +1,229 @@
+WEBVTT
+
+00:04.320 --> 00:08.930
+Now I'd like to show you the love that I'm going to be using during this course.
+
+00:10.900 --> 00:13.860
+So basically I have my calendar.
+
+00:13.900 --> 00:20.290
+As I said it's installed or not hunter is installed on a Nexus 7 device.
+
+00:20.290 --> 00:23.340
+I have the device here mirrored on my laptop.
+
+00:24.480 --> 00:30.170
+I'm doing this because it's easier to show you what I'm doing on a device like this and sort of using
+
+00:30.170 --> 00:32.150
+a camera because I'd lose quality.
+
+00:32.280 --> 00:34.620
+So this is actually this is not a virtual machine.
+
+00:34.620 --> 00:42.060
+This is a physical Android device that I'm using and this is just programs that I'm using to measure
+
+00:42.540 --> 00:44.750
+the screen of the device.
+
+00:46.420 --> 00:53.950
+And here I have my windows device who will going to try to how kids may be hacked passwords or usernames
+
+00:53.950 --> 00:55.420
+or stuff from this account.
+
+00:55.420 --> 00:58.750
+So this is a virtual machine thumb it makes an actual real machine.
+
+00:58.990 --> 01:04.280
+This is an actual physical Nexus 7 device that has nets Hunter installed on it.
+
+01:04.930 --> 01:09.280
+And this is my main operating system.
+
+01:12.280 --> 01:15.690
+So let's just have a quick look on that Hunter home.
+
+01:15.700 --> 01:23.450
+So this is it's icon right here so I'm going to click it now and as you can see you just get the basic
+
+01:23.870 --> 01:29.750
+welcome screen where you see your wireless cards and you can request your external life.
+
+01:29.750 --> 01:30.760
+You can click on that.
+
+01:30.770 --> 01:38.180
+I'll get my external IP if we go here on the top left.
+
+01:38.310 --> 01:41.190
+You'll see all the menus that you can go.
+
+01:41.190 --> 01:46.500
+Basically this whole menu allow you to access all features for that hunter.
+
+01:46.500 --> 01:51.780
+So within this menu you can navigate and run multiple attacks.
+
+01:51.780 --> 01:58.830
+So if we just go to the first one the Culdee luncher you'll see a number of options that you have here.
+
+01:59.070 --> 02:04.950
+So the first one launch can the shell and terminal basically will give you a terminal window where you
+
+02:04.950 --> 02:12.280
+can use all the programs that come installed with that Hunter so tough that
+
+02:17.140 --> 02:23.290
+it's going to it's going to ask me to granted access the root access and I'm going to say there's no
+
+02:23.290 --> 02:24.250
+problem.
+
+02:25.540 --> 02:32.640
+And as you can see now I have my access and I can run any programs that I want to run from within this
+
+02:32.640 --> 02:33.120
+menu.
+
+02:33.120 --> 02:37.050
+Now we will be using this and you're right now I'm not going to run anything because that's not our
+
+02:37.050 --> 02:37.580
+lesson.
+
+02:37.620 --> 02:40.130
+We're just going to have a quick look on everything that we can do.
+
+02:40.170 --> 02:42.900
+We will be using this later.
+
+02:42.950 --> 02:49.660
+So I'm just going to close it to go back decal them in here.
+
+02:49.660 --> 02:57.030
+The second option gives you a terminal menu that allow you to run a number of programs.
+
+02:57.190 --> 03:02.710
+So as you can see right here we have a number beside each program that we want to run and you can just
+
+03:02.710 --> 03:06.730
+put the number that you want and it's going to take you to different menus and it's going to allow you
+
+03:06.730 --> 03:09.260
+to run different accounts.
+
+03:09.270 --> 03:13.900
+Again I'm not going to be using this right now because this allows you to run a number of programs and
+
+03:13.900 --> 03:15.770
+we will be using it in the future.
+
+03:15.820 --> 03:17.560
+I'm just showing you how this works.
+
+03:17.590 --> 03:19.080
+So I'm going to close it again.
+
+03:22.930 --> 03:23.880
+The third one.
+
+03:23.970 --> 03:26.460
+Launch boy fights Why fight is a wife.
+
+03:26.460 --> 03:28.380
+Penetration testing.
+
+03:28.750 --> 03:35.210
+And the second option is going to update Carly second US is going to turn off if we have an external
+
+03:35.210 --> 03:35.590
+wiper.
+
+03:35.630 --> 03:36.760
+It's going to turn it off.
+
+03:36.950 --> 03:39.000
+And the last one will unwiped.
+
+03:39.030 --> 03:42.470
+So the first one actually lunch Kelly and terminal.
+
+03:42.470 --> 03:43.760
+The last one will unmount.
+
+03:43.770 --> 03:44.120
+Kelly
+
+03:47.460 --> 03:53.320
+the service control this allows you to turn services on and off.
+
+03:53.330 --> 04:00.710
+So these are servers that come in preinstalled on net hunter and you can turn them on and off using
+
+04:00.710 --> 04:01.680
+these options.
+
+04:03.360 --> 04:12.120
+So you have the framework S-sh DNS dnsmasq and all these kind of servers topit to turn it on.
+
+04:12.120 --> 04:14.390
+So S-sh is not what's up.
+
+04:14.600 --> 04:18.380
+And if you turn it on top it again it goes off again.
+
+04:18.570 --> 04:21.480
+I will be talking about what each one of these mean.
+
+04:21.630 --> 04:28.070
+And when we will need to use them right now we're just having a quick look.
+
+04:28.170 --> 04:32.490
+After that we have the A-H I.D. keyboard talk and I'm not gonna talk about it right now.
+
+04:32.490 --> 04:36.900
+We'll going to have a full class about or maybe actually more than one class about this.
+
+04:36.900 --> 04:43.620
+Same with th id Durkee attacks and WSP man in the middle attacks man.
+
+04:43.650 --> 04:44.660
+Evil likes point.
+
+04:44.670 --> 04:48.380
+All of these were actually going to spend more than one lunch lecture talking about them.
+
+04:48.450 --> 04:56.090
+So I'm going to ask Kip all of these here and the last to allow you to configure IP tables and yet DNS
+
+04:56.100 --> 04:56.730
+mosque.
+
+04:56.850 --> 05:02.730
+Again I will be talking about each one of these later so don't be scared of other names or the number
+
+05:02.730 --> 05:04.430
+of features that you can see here.
+
+05:04.440 --> 05:09.260
+Right now we're just having a quick look on the launcher menu.
+
+05:09.330 --> 05:16.500
+So the main the main parts of this class is you can Roncalli you can run features from all features
+
+05:16.500 --> 05:18.480
+from within this window.
+
+05:18.480 --> 05:24.660
+You can Roncalli in terminal you can run the menu in terminal as well which allow you to run a number
+
+05:24.660 --> 05:25.470
+of programs.
+
+05:25.530 --> 05:29.700
+We're going to be using all of this for multiple times within the course so it's going to become very
+
+05:29.700 --> 05:34.560
+easy and it's going to expand itself even more as we progress through the course.

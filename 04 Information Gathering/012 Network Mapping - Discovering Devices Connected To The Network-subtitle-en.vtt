@@ -1,0 +1,184 @@
+WEBVTT
+
+00:01.050 --> 00:04.590
+Now we're going to talk about something called network mapping.
+
+00:04.590 --> 00:09.930
+So let's say you're connected to a network or you connected to your target network and now you want
+
+00:09.930 --> 00:15.360
+to discover all the connected devices to this network so there might be five six or ten devices connected
+
+00:15.360 --> 00:20.880
+to this network and you want to gather information about these devices you want to know their IP address
+
+00:20.910 --> 00:27.100
+and MAC address their operating system and maybe even the programs that are running on these devices.
+
+00:28.730 --> 00:32.330
+All this information will make achieving your target easier.
+
+00:32.360 --> 00:37.300
+So if you know what operating system runs you can look for exploits for the operating system.
+
+00:37.490 --> 00:43.810
+If you can see for example ports 21 open maybe you'll try to connect to it through FCP and see if there
+
+00:43.810 --> 00:45.250
+is an anonymous account.
+
+00:45.260 --> 00:52.220
+If not try to see what FGP server is running and look for buffer overflow exploits and maybe try to
+
+00:52.280 --> 00:58.230
+exploit them maybe even if you find local exploits you can send something to the target person and way
+
+00:58.230 --> 01:00.210
+to gain access to the device.
+
+01:00.210 --> 01:05.990
+Well will going to talk about all that later but for now we're just going to see how we can gather information
+
+01:05.990 --> 01:12.210
+about these devices see what services they're running and maybe try to gain access to these devices.
+
+01:14.070 --> 01:18.370
+So I'm going to show you a few ways or a few apps that you can use to do that.
+
+01:18.390 --> 01:24.000
+We're going to start by the simplest and the ones that give you less information but they're quick and
+
+01:24.000 --> 01:28.970
+then we're going to go to the more complicated more advanced apps.
+
+01:28.980 --> 01:34.830
+So for a start just to get an idea of what network mapping is I'm going to use the same apps that we
+
+01:34.830 --> 01:37.080
+used before Wi-Fi analyzer.
+
+01:37.200 --> 01:38.860
+So I'm just going to tap on it.
+
+01:39.270 --> 01:42.680
+And right now I'm actually connected to my network.
+
+01:42.770 --> 01:46.190
+So if we go to the AP list you can see that I'm connected to you Aitu
+
+01:49.380 --> 01:57.190
+so I'm going to go here on this three dots right there and I'm going to go on tools.
+
+01:57.240 --> 02:03.400
+I'm going to tap on LAN neighbors so this will basically look through all the connected devices and
+
+02:03.400 --> 02:06.300
+it'll show me information about these devices.
+
+02:06.310 --> 02:10.780
+Now first of all they can actually see some info about the current network so you can see the IP of
+
+02:10.780 --> 02:17.500
+the gateway the IP of the gateway basically means the IP of the router or the server of this network.
+
+02:17.500 --> 02:23.230
+So this is where whenever any device wants to access something within the network it's going to send
+
+02:23.230 --> 02:24.410
+its request here.
+
+02:24.430 --> 02:32.850
+So if it wants to access any web site or anything it's going to send that request to this IP.
+
+02:32.860 --> 02:40.330
+You can also see the mosque and the network say so this is all the possible IPs that you can find within
+
+02:40.330 --> 02:40.990
+the network.
+
+02:43.420 --> 02:51.950
+And that's basically the range that specifies the range which is from 1 9 1 1 9 2 1 6 8 1 1 2 1 9 2
+
+02:51.950 --> 02:56.200
+1 6 8 1 2 5 4.
+
+02:56.250 --> 03:02.040
+If you look up the first one now we know the gateway is 1 9 2 1 6 8 1 1.
+
+03:02.310 --> 03:07.500
+So if we look at the first device we can see that this has the same IP.
+
+03:07.590 --> 03:13.910
+So that must be our outer or our server for the network and you can see that its KCC so its made by
+
+03:14.080 --> 03:16.600
+HTC it was able to detect that.
+
+03:17.040 --> 03:21.840
+And then when we look on the other device right here we can see that we have one device connected to
+
+03:21.840 --> 03:28.790
+the network and thats 1 9 2 1 6 8 145 and the username is as 00 us.
+
+03:28.800 --> 03:31.830
+And that's actually my Linux machine right here.
+
+03:31.830 --> 03:38.730
+So I'll just show you that if I open my terminal you can see that the name of my machine is as 00 as.
+
+03:38.820 --> 03:44.430
+So I was able to find the name of this machine because it's connected to the same network so I was able
+
+03:44.430 --> 03:45.160
+to get that.
+
+03:45.210 --> 03:54.190
+It also got me my mac address right here so I'm going to show you that this is correct so if I go become
+
+03:54.200 --> 04:00.690
+thick and this is my wireless card ifconfig de-th one
+
+04:03.990 --> 04:06.280
+as you can see the MAC address is actually the same.
+
+04:06.280 --> 04:09.610
+So it was able to get the MAC address of this device as well.
+
+04:12.030 --> 04:22.070
+It was also able to get the manufacturer of my wireless card which is this right here.
+
+04:22.130 --> 04:29.320
+Now I'm going to go back and if you go on the or you I look up from the tools they will basically just
+
+04:29.320 --> 04:33.370
+tell you the manufacturer of any device used in the MAC address.
+
+04:33.370 --> 04:35.800
+Now the device has to be connected to your network.
+
+04:36.010 --> 04:39.850
+So I'm just going to do the same it already got this for me so I'm just going to do it just to show
+
+04:39.850 --> 04:40.670
+you.
+
+04:40.690 --> 04:45.210
+So I'm just going to put the MAC address of my laptop which is zero
+
+04:53.560 --> 04:58.810
+8 5 and I can see it I actually got it already right here.
+
+05:04.870 --> 05:06.310
+So that's it for now.
+
+05:06.310 --> 05:07.440
+Very simple too.
+
+05:07.600 --> 05:13.600
+It allows you to discover all the connected device in your network now and the future videos we're going
+
+05:13.600 --> 05:19.120
+to be using more advanced tools and we'll see that they'll actually show us much more information than
+
+05:19.210 --> 05:19.600
+this to.

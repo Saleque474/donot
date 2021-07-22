@@ -1,0 +1,208 @@
+﻿1
+00:00:02,100 --> 00:00:08,580
+So the three main methods that we're going to use to become the man in the middle are the bad USV man
+
+2
+00:00:08,580 --> 00:00:13,770
+in the middle attack HRP poisoning and evil access point.
+
+3
+00:00:13,830 --> 00:00:22,440
+So the bad US man in the middle attack will basically allow you to become the man in the middle by connecting
+
+4
+00:00:22,440 --> 00:00:26,750
+your Android device to the target's laptop or to the computer.
+
+5
+00:00:26,820 --> 00:00:32,880
+Once you do that the Android device is going to fool that computer that it is a wireless or that is
+
+6
+00:00:32,880 --> 00:00:34,930
+a network card.
+
+7
+00:00:34,980 --> 00:00:41,220
+Once it does that it's also going to force all the traffic through the Android device.
+
+8
+00:00:41,220 --> 00:00:47,520
+So instead of your laptop for example when you go to Google dotcom it's going to use your wireless card
+
+9
+00:00:47,550 --> 00:00:54,050
+or your wild card and use the means of connection whether you're connected via wire or wireless go to
+
+10
+00:00:54,060 --> 00:00:55,470
+the router ask for Google.
+
+11
+00:00:55,470 --> 00:00:58,600
+Bring it back when you connect your Android device to it.
+
+12
+00:00:58,740 --> 00:01:02,040
+It's actually going to think the card is your Android device.
+
+13
+00:01:02,040 --> 00:01:07,740
+So when it wants to go to Google dot com it's going to send it to your to your device then your device
+
+14
+00:01:07,740 --> 00:01:15,520
+using 3G or use an another wireless card will go get Google does come and give it back to the computer.
+
+15
+00:01:16,050 --> 00:01:18,420
+So your device is the man in the middle.
+
+16
+00:01:18,420 --> 00:01:24,720
+All the packets will be flowing through your device therefore you can read intercept or modify them.
+
+17
+00:01:24,720 --> 00:01:27,430
+Again we're going to talk about this in more detail.
+
+18
+00:01:27,570 --> 00:01:33,390
+And the attacks that you achieve after that you can mix them or you can do them with other man in the
+
+19
+00:01:33,390 --> 00:01:34,400
+middle attacks.
+
+20
+00:01:34,410 --> 00:01:38,550
+It doesn't really matter how you become the man in the middle wants or the man in the middle you can
+
+21
+00:01:38,550 --> 00:01:40,400
+do these attacks anyway.
+
+22
+00:01:41,680 --> 00:01:44,750
+The second method is used and they are poisoning.
+
+23
+00:01:44,830 --> 00:01:48,310
+This is a bit more complicated but it's explained in diagrams.
+
+24
+00:01:48,310 --> 00:01:52,380
+And once you actually understand it it's really simple at the start it's hard to get your head around.
+
+25
+00:01:52,570 --> 00:01:57,580
+But once you actually go through the lessons it's going to be very simple very powerful very useful
+
+26
+00:01:57,580 --> 00:01:58,110
+at that.
+
+27
+00:01:59,480 --> 00:02:04,620
+This is very powerful and useful because you don't need to physically connect to your Android device.
+
+28
+00:02:04,640 --> 00:02:07,950
+It literally works because of a flaw in a.
+
+29
+00:02:08,030 --> 00:02:09,810
+And the AARP protocol.
+
+30
+00:02:09,860 --> 00:02:13,070
+So we're going to talk about this and we can understand how this works.
+
+31
+00:02:13,100 --> 00:02:19,670
+Once you can actually do this you can run it into you can write on Wired and on wireless networks it's
+
+32
+00:02:19,670 --> 00:02:22,700
+very powerful and works on all operating systems.
+
+33
+00:02:22,760 --> 00:02:25,000
+So it is very very useful.
+
+34
+00:02:25,930 --> 00:02:31,900
+The bad us we attack also works on all operating systems windows and X and Mac and the third method.
+
+35
+00:02:31,900 --> 00:02:35,300
+We're going to talk about is the evil access point.
+
+36
+00:02:35,340 --> 00:02:38,750
+So in this method we're actually going to create a wireless network.
+
+37
+00:02:38,910 --> 00:02:43,590
+So we're going to use our Android device the same way when you do tethering.
+
+38
+00:02:43,590 --> 00:02:48,070
+So when you tether your 3G connection to help a friend to access the Internet.
+
+39
+00:02:48,210 --> 00:02:48,950
+Exactly.
+
+40
+00:02:48,960 --> 00:02:55,500
+We're going to tether the Internet connection into on our Android device can do it again using 3G or
+
+41
+00:02:55,500 --> 00:02:56,470
+using Wi-Fi.
+
+42
+00:02:57,700 --> 00:03:01,750
+And if you're getting use wife again the two cards and I'm going to explain that.
+
+43
+00:03:02,080 --> 00:03:05,440
+So we're basically going to create an access point.
+
+44
+00:03:05,440 --> 00:03:07,450
+For example you can call it free internet.
+
+45
+00:03:07,570 --> 00:03:11,100
+When people connect to this access point you're automatically the server.
+
+46
+00:03:11,110 --> 00:03:17,340
+So automatically when they want to go to any Web site they're going to send you the request and when
+
+47
+00:03:17,440 --> 00:03:20,300
+you get the request you're going to send their response to them.
+
+48
+00:03:20,350 --> 00:03:26,260
+So automatically you are the man in the middle and the packets will naturally flow through your device
+
+49
+00:03:26,470 --> 00:03:31,640
+which means that you can read intercept and modify them.
+
+50
+00:03:31,690 --> 00:03:35,440
+Again all of these attacks we're going to talk about them in more detail and we're going to talk about
+
+51
+00:03:35,740 --> 00:03:42,430
+what you can do after you become the man in the middle and in the next section will actually see how
+
+52
+00:03:42,430 --> 00:03:47,840
+we can mix this with other exploitation methods to gain full access to the target's computers.
+

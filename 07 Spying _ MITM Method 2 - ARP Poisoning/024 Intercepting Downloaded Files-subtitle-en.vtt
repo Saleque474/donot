@@ -1,0 +1,148 @@
+WEBVTT
+
+00:00.420 --> 00:04.640
+OK so we're still doing man in the middle and they are poison and using Zanti.
+
+00:04.890 --> 00:12.930
+And I'd like to show you one of the really cool features of Zanti this feature will allow us to capture
+
+00:12.930 --> 00:14.000
+any downloads.
+
+00:14.220 --> 00:22.450
+The target person does so whenever they download any file will be able to capture it and downloaded.
+
+00:22.500 --> 00:30.150
+So I'm just going to enable here capture downloads and I'm going to choose the type of file that I'd
+
+00:30.150 --> 00:38.310
+like to capture and it's going to be zip files now I'm going to go into the target device and download
+
+00:38.400 --> 00:39.000
+and Ziv
+
+00:49.630 --> 00:56.990
+So I'm just going to go ahead and look for something with Zip extensions so we have here I'm going to
+
+00:56.990 --> 00:57.920
+download it.
+
+00:59.590 --> 01:00.160
+Save it.
+
+01:00.160 --> 01:03.730
+So it's called 7 8 9 0 0 going to it.
+
+01:03.740 --> 01:06.780
+OK.
+
+01:06.910 --> 01:10.940
+Now Zanti should actually capture that and save it for me.
+
+01:12.780 --> 01:16.010
+Now all this stuff will be downloaded to SD card.
+
+01:16.020 --> 01:22.240
+So let's go to our file manager here and see if it actually was downloaded.
+
+01:24.250 --> 01:26.780
+So we have Zanti captures here.
+
+01:26.920 --> 01:33.970
+As you can see that I have my file right there so I can open it and see what's in there and it is the
+
+01:33.970 --> 01:35.530
+actual exactly the same file.
+
+01:35.530 --> 01:37.800
+So I'll just verify that for you here.
+
+01:40.030 --> 01:44.520
+It went in downloads or you can just open it here.
+
+01:45.070 --> 01:47.410
+And as you can see it's the same file.
+
+01:47.570 --> 01:56.380
+We managed to capture that.
+
+01:56.560 --> 02:04.420
+Now it's even cooler from intercepting downloads is or capturing downloads is replacing a downloaded
+
+02:04.420 --> 02:06.130
+file with something else.
+
+02:06.130 --> 02:13.060
+So for example let's imagine that the target person is trying to download some of axes some program.
+
+02:13.390 --> 02:19.150
+We can actually replace that program with a virus or a backdoor or anything that we want.
+
+02:19.270 --> 02:27.970
+So that's when the target person runs their program they actually run our backdoor so I'm going to go
+
+02:27.970 --> 02:36.170
+down and going to go on intercept downloads and enable that then I'm going to go on the settings.
+
+02:36.370 --> 02:44.470
+I'm going to change it to XP and then I'm going to select the X-C that I wanted to replace this stuff
+
+02:44.470 --> 02:45.780
+with.
+
+02:45.780 --> 02:55.540
+And I have a calculator here that I'm going to use.
+
+02:55.580 --> 03:02.390
+So now whenever a person tries to download any cxi file it's going to be replaced with what I selected
+
+03:02.390 --> 03:05.050
+here which is a calculator.
+
+03:05.070 --> 03:13.820
+So let's go here and I'm going to download 7 zip for Windows and the XP version.
+
+03:13.970 --> 03:17.110
+So I'm going to save that file and it's saved.
+
+03:17.120 --> 03:18.820
+Now why we want this.
+
+03:18.980 --> 03:22.290
+This should be a calculator and it should not be normal.
+
+03:22.300 --> 03:24.680
+So has a file.
+
+03:24.830 --> 03:26.200
+So I'm going to run it.
+
+03:26.510 --> 03:33.820
+And as you can see I got a calculator and instead of getting 7 zip.
+
+03:33.880 --> 03:35.610
+Now this is huge.
+
+03:35.620 --> 03:38.740
+We can actually use it in the future scenario.
+
+03:39.310 --> 03:44.620
+So this way you can actually backdoor any file that the target person downloads.
+
+03:44.620 --> 03:49.780
+So you're not going to be trying to send the person and trick them into downloading a file and then
+
+03:49.930 --> 03:55.840
+when they're on the file you get what you want you're going to just create your backdoor or virus or
+
+03:55.840 --> 04:01.240
+Kilowog or whatever it is and just wait for the target person to download something once they download
+
+04:01.240 --> 04:07.960
+that thing from under official website that they trust and they will want to run that program because
+
+04:07.960 --> 04:10.980
+they willingly downloaded it when they run it.
+
+04:11.050 --> 04:16.630
+They'll actually run your virus or your program instead of running the actual program that they downloaded.

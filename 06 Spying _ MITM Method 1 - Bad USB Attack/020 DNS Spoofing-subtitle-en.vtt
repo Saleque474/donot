@@ -1,0 +1,259 @@
+WEBVTT
+
+00:01.700 --> 00:08.690
+So far we've seen how we can read data and read sensitive data like usernames passwords you or else
+
+00:08.720 --> 00:13.920
+all that kind of stuff when we are the man in the middle.
+
+00:13.930 --> 00:16.870
+Now I spoke about modifying the packets.
+
+00:17.020 --> 00:25.370
+So what we're going to see today is something called DNS spoofing DNS spoofing will allow us to redirect
+
+00:25.450 --> 00:28.600
+any requests to to our domain to another domain.
+
+00:28.610 --> 00:34.160
+For example if someone requests Facebook dot com we carried direct them to Google we carried them to
+
+00:34.160 --> 00:34.980
+Yahoo.
+
+00:35.000 --> 00:37.420
+We carried them to our fake Facebook page.
+
+00:37.580 --> 00:43.270
+We carried them to our Facebook page that contains a Trojan and their entire computer.
+
+00:43.370 --> 00:46.480
+We can redirect them to our own server.
+
+00:46.580 --> 00:54.860
+We can redirect them to any place that we want the attack is very simple and it works just because we
+
+00:54.860 --> 00:55.820
+are the man in the middle.
+
+00:55.820 --> 01:03.050
+So once we run a program called DNS spoof we will configure it in a way that once it sees a certain
+
+01:03.050 --> 01:08.870
+domain it will redirect or it will send a different response to the target person.
+
+01:10.940 --> 01:14.850
+So I'll run the attack and you'll actually it will become clearer how it works.
+
+01:14.960 --> 01:16.230
+When I run the attack.
+
+01:16.430 --> 01:20.840
+So first of all we're going to create a configuration file.
+
+01:20.840 --> 01:23.870
+So I've already made one here by the way.
+
+01:23.920 --> 01:27.800
+I'm using a free file manager called as file manager.
+
+01:27.800 --> 01:34.610
+It's really handy as you can see it here can download it from the App Store or from the Play Store and
+
+01:35.920 --> 01:39.740
+what I have here I have my DNS spoof configuration file.
+
+01:39.800 --> 01:43.170
+So I just have it's called DNS spoof right here.
+
+01:43.640 --> 01:48.450
+So I'm going to open it as text using the text editor.
+
+01:48.970 --> 01:52.380
+And as you can see it's very simple.
+
+01:52.480 --> 01:59.830
+The first part of the file as you can see here I specify the IP address that I want to redirect to.
+
+02:00.070 --> 02:01.150
+And the second part.
+
+02:01.150 --> 02:06.340
+We put the domain that we want to hijack or that we want to spoof.
+
+02:06.340 --> 02:14.050
+So any time a person or the target person tries to access Facebook dot com they will be redirected to
+
+02:14.290 --> 02:17.440
+this you are out or to this IP address.
+
+02:17.440 --> 02:23.050
+Now how this works I'm going to run a program called DNS spoof and I'm going to tell the program to
+
+02:23.050 --> 02:25.630
+work according to this configuration.
+
+02:25.690 --> 02:30.790
+So the program whenever it sees that there is a pocket lock in for Facebook the come.
+
+02:30.910 --> 02:36.850
+It's going to go to this IP address get the Web site that is running on this IP address and send it
+
+02:36.880 --> 02:39.210
+instead of sending Facebook to come.
+
+02:39.340 --> 02:49.540
+Simple as that if your eyes are the 1 9 2 1 6 8 1 1 0 you can change that to any IP you want.
+
+02:49.540 --> 02:55.040
+This is the Web site where Facebook is going to be spoofed.
+
+02:55.100 --> 03:02.240
+Now we have this particular address because I have a web server running here so I wanted to do this
+
+03:02.240 --> 03:06.370
+using my own web server to show you that you can actually put anything there.
+
+03:06.460 --> 03:07.310
+That web server.
+
+03:07.310 --> 03:09.730
+And we will be doing stuff like that in the future.
+
+03:09.740 --> 03:15.860
+We will be using fake Web sites or fake pages so you can actually just put a fake page on this web server.
+
+03:16.010 --> 03:19.790
+And then they're going to see it instead of seeing the actual page.
+
+03:19.790 --> 03:24.880
+For now I just have a basic just a hasty M-L page for a demonstration in this class.
+
+03:24.880 --> 03:27.920
+But in the future as I said we will be doing more advanced of.
+
+03:28.080 --> 03:35.680
+So the web server is running here on another virtual machine this virtual machine as I call it in this
+
+03:35.680 --> 03:36.010
+machine.
+
+03:36.010 --> 03:39.650
+Again you don't have to do this you can redirect to anywhere you want.
+
+03:39.670 --> 03:41.430
+I'm just doing it here to show you.
+
+03:41.650 --> 03:44.290
+So this is actually al-Khalil the next machine.
+
+03:44.290 --> 03:51.700
+So Candy we're using our version of card on our Android device but there's also a Kalli distribution
+
+03:51.730 --> 03:57.130
+that you can install as a virtual machine or as a main machine and it has all the tools that you need
+
+03:57.130 --> 03:59.980
+for penetration testing.
+
+04:00.280 --> 04:04.080
+So I'll just show you here what I have or what's going to redirect to.
+
+04:04.090 --> 04:08.790
+So bar W.W. that's where the server is.
+
+04:08.910 --> 04:15.440
+And I basically just have an index attached Well just a normal Hastey page that just says yolo.
+
+04:15.450 --> 04:16.980
+Now you can change this to anything you want.
+
+04:16.980 --> 04:23.010
+As I said we're just doing a demonstration here so you should actually start the server.
+
+04:23.040 --> 04:25.350
+The web server on your machine.
+
+04:25.350 --> 04:32.380
+Again you don't have to do this if you're using another IP address and I'll show you that this is the
+
+04:32.380 --> 04:36.810
+machine that we're going to redirect to.
+
+04:36.820 --> 04:42.270
+So as you can see this is the IP of the machine and that's what we are redirecting to here.
+
+04:42.310 --> 04:44.570
+And our Android device.
+
+04:44.750 --> 04:48.590
+So the configuration is done as you can see.
+
+04:48.590 --> 04:54.560
+Now all we have to do and we are already in the middle because we're using about us we attack.
+
+04:54.560 --> 04:59.680
+So all I'm going to do is just go back to my terminal and I'm going to run DNS spoof.
+
+04:59.700 --> 05:01.070
+So DNS
+
+05:03.670 --> 05:05.610
+you put the interface.
+
+05:05.710 --> 05:14.880
+So our interface is or and is zero and you put the configuration file that we just created.
+
+05:16.160 --> 05:19.280
+The file is stored and as the card
+
+05:22.170 --> 05:22.800
+files
+
+05:27.930 --> 05:28.920
+DNS
+
+05:33.920 --> 05:35.740
+now DNS spoof is running.
+
+05:36.080 --> 05:39.380
+Let's go try to access Facebook and see what happens.
+
+05:52.410 --> 05:56.670
+And as you can see I got redirected to a page just saying yolo.
+
+05:56.690 --> 05:59.920
+As I said you can change this to whatever you want.
+
+06:00.390 --> 06:06.170
+And you can see here that this doesn't change so it's still saying it's going to Devante them to the
+
+06:06.220 --> 06:06.550
+windows.
+
+06:06.550 --> 06:10.990
+Facebook does come but we are not in Facebook we went somewhere else.
+
+06:11.020 --> 06:16.140
+So this can be used to serve a fake Facebook page and wife has haziest.
+
+06:16.150 --> 06:16.840
+Yes.
+
+06:17.840 --> 06:25.190
+So if the target person was using hate Yes you can just create yourself a fake Facebook page and get
+
+06:25.190 --> 06:32.050
+him to log in to that from here and this way you'll be able you want to decrypt and haters to hate.
+
+06:32.200 --> 06:38.830
+Yes but you'll be able to redirect him to a fake page and gain access to their username and password.
+
+06:38.840 --> 06:44.660
+You can also get them to download something and that will be a backdoor you can do a lot of things with
+
+06:44.660 --> 06:45.570
+DNS spoofing.
+
+06:45.590 --> 06:50.680
+And we will see how useful it is and how we can use it in different attacks.

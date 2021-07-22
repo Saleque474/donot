@@ -1,0 +1,73 @@
+WEBVTT
+
+00:01.300 --> 00:06.920
+Welcome to the first section of our course and this section we're going to be talking about weaponized
+
+00:06.920 --> 00:08.890
+in your Android device.
+
+00:08.890 --> 00:14.470
+So we're going to talk about how what the programs that you're going to need to install on your Android
+
+00:14.470 --> 00:21.780
+device so that you can use it as a penetration testing to the main program or the main software that
+
+00:21.790 --> 00:29.840
+we need to install is called Net hunter and that Hunter is an Android operating system or a flavor of
+
+00:30.450 --> 00:38.100
+Android does come in with a number of programs pre-installed that are used for penetration testing that
+
+00:38.170 --> 00:44.750
+Hunter is free so you can download it for free and install it and it's supported on all access devices.
+
+00:44.770 --> 00:48.180
+So that's Nexus 4 5 6 and 7 at the moment.
+
+00:48.400 --> 00:55.740
+And the one plus there are other versions for other Android devices but there are not officially supported.
+
+00:55.750 --> 01:03.330
+So the only devices that are supported officially are the nexus and the one plus installing that Hunter
+
+01:03.330 --> 01:09.150
+is very simple we have to do a few things first before we can install it first we're going to have to
+
+01:09.150 --> 01:14.710
+install the drivers on our computers so that the computer can recognize our Android device.
+
+01:14.910 --> 01:16.890
+Then we're going to unlock the device.
+
+01:18.280 --> 01:25.150
+And we're going to route it route is basically an account that has the highest privileges and Linux
+
+01:25.150 --> 01:25.900
+systems.
+
+01:25.900 --> 01:32.620
+So androids actually built on Linux and because of that we need to install a root account on it.
+
+01:33.810 --> 01:40.590
+The router can't because it has the highest privileges it allow us to do or to gain full control over
+
+01:40.590 --> 01:47.010
+the device so we will have full control over the hardware and we will be able to run specific tasks
+
+01:47.250 --> 01:49.640
+that we cannot run without the router account.
+
+01:49.680 --> 01:55.500
+Then we're going to install net hunter which is the modified Android draw ramp that contains all the
+
+01:55.500 --> 02:00.510
+programs that we need for penetration testing.
+
+02:00.760 --> 02:02.560
+This whole process is very simple.
+
+02:02.570 --> 02:04.510
+It's not as complicated as it seems.
+
+02:04.750 --> 02:07.920
+And we're going to see how we can do it in the next lectures.

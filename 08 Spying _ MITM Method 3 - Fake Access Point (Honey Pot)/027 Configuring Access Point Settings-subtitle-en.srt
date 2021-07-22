@@ -1,0 +1,276 @@
+﻿1
+00:00:02,620 --> 00:00:02,960
+Right.
+
+2
+00:00:02,950 --> 00:00:09,860
+So from the previous video we know that if we want to share the 3G connection on our phone or on our
+
+3
+00:00:09,860 --> 00:00:17,180
+tablet we can simply just create a hotspot using the default settings all that comes in with Android
+
+4
+00:00:17,690 --> 00:00:23,920
+and then we can sniff data or read them modify them the same way that we did with the bad we attack
+
+5
+00:00:23,930 --> 00:00:30,170
+so we can use T-Sharon we can use DNS spoof we can use SSL strip all that kind of stuff we can do the
+
+6
+00:00:30,170 --> 00:00:35,670
+scenarios that we did straight after we create that hotspot so people are going to connect to the hotspot.
+
+7
+00:00:35,720 --> 00:00:40,700
+Yeah you'll be automatically be the man in the middle because people connected to your own hotspot and
+
+8
+00:00:40,700 --> 00:00:47,030
+they will send their requests to your computer because you are the server or to your device and you
+
+9
+00:00:47,030 --> 00:00:48,930
+will be sending them the replies.
+
+10
+00:00:50,690 --> 00:00:52,250
+You could also do the same thing.
+
+11
+00:00:52,370 --> 00:00:58,180
+Share your 3G connection and create a hotspot using your wife ID card using Zanti.
+
+12
+00:00:58,190 --> 00:01:04,460
+The nice thing about Zanti it has a graphical interface so you can enable a small strip reading passwords
+
+13
+00:01:04,460 --> 00:01:05,300
+usernames.
+
+14
+00:01:05,300 --> 00:01:10,820
+Basically do the same stuff that you can do manually but much easier using the graphical user interface.
+
+15
+00:01:10,850 --> 00:01:12,980
+Again using it using the other.
+
+16
+00:01:13,120 --> 00:01:19,280
+And then the interface is very similar to the interface that we used when we were doing HRP poisoning
+
+17
+00:01:19,280 --> 00:01:20,290
+with Zanti.
+
+18
+00:01:20,330 --> 00:01:23,680
+That's why I didn't go over it because it's very simple.
+
+19
+00:01:23,750 --> 00:01:28,870
+What I want to go over though is doing the same thing but using a different tool which is called Nat
+
+20
+00:01:28,890 --> 00:01:30,480
+tool kit.
+
+21
+00:01:30,690 --> 00:01:37,330
+Now I know it exists on laptops and on Android devices so you can use it on both.
+
+22
+00:01:37,350 --> 00:01:44,700
+It works on Linux operating systems and it's used the exact same way both on Android and on your Linux
+
+23
+00:01:44,700 --> 00:01:49,630
+system so if you learn how to use it with Android you'll be able to use it on your laptop.
+
+24
+00:01:51,860 --> 00:01:57,060
+My tool kit will allow you to create an access point and evil access point.
+
+25
+00:01:57,110 --> 00:02:02,840
+The cool thing about it is that we will be able to use two wireless cards instead of using the Internet
+
+26
+00:02:02,870 --> 00:02:03,820
+on 3G.
+
+27
+00:02:04,010 --> 00:02:09,170
+So we're going to use the Internet connection on one wireless card and we're going to use the second
+
+28
+00:02:09,170 --> 00:02:16,510
+wireless card as to broadcast the signal of the router so we will not need 3G for this attack.
+
+29
+00:02:16,520 --> 00:02:24,800
+Now I'm going to use as I said two wireless cards one of them is the internal one and the second one
+
+30
+00:02:24,800 --> 00:02:32,170
+will be an external wireless card the external one I'll be connect in it using an RTG cable and RTG
+
+31
+00:02:32,170 --> 00:02:39,580
+cable is basically just a cable that allows you to connect you SB devices to your Android device.
+
+32
+00:02:39,580 --> 00:02:40,870
+I'll show you what it looks like.
+
+33
+00:02:40,870 --> 00:02:44,830
+It's very cheap you can get it for around seven to 10 years.
+
+34
+00:02:44,860 --> 00:02:47,070
+So around $12.
+
+35
+00:02:47,440 --> 00:02:53,830
+So just what it looks like so that's what it looks like.
+
+36
+00:02:53,890 --> 00:03:00,690
+This is a the RTG cable which allows you to charge your phone while connecting it to a wireless card.
+
+37
+00:03:01,030 --> 00:03:07,180
+Some phones you actually have to use a Y UTG cable because the battery on the device does not support
+
+38
+00:03:07,330 --> 00:03:12,310
+or it's not enough to run your external wireless device.
+
+39
+00:03:12,310 --> 00:03:14,350
+So I'm actually using a white cable
+
+40
+00:03:18,650 --> 00:03:23,560
+so my that comes in with three scripts that allow you to run an evil access point.
+
+41
+00:03:23,830 --> 00:03:30,160
+The first one is the simplest one which is a start no upstream will basically give you an access point
+
+42
+00:03:30,490 --> 00:03:31,750
+with no internet connection.
+
+43
+00:03:31,750 --> 00:03:35,680
+So once you run this attack you'll see an access point.
+
+44
+00:03:35,680 --> 00:03:39,850
+People can connect to it but it will not have an internet connection.
+
+45
+00:03:39,850 --> 00:03:45,220
+And instead it's going to run your web server that you have a local web server that you have on your
+
+46
+00:03:45,220 --> 00:03:51,880
+device and you can do DNS spoofing or you can do other stuff to get users to enter usernames or passwords
+
+47
+00:03:51,910 --> 00:03:54,560
+but there will be no Internet connection on that network.
+
+48
+00:03:57,120 --> 00:04:03,960
+These are not simple is my favorite one which basically starts a wireless access point with internet
+
+49
+00:04:03,960 --> 00:04:04,460
+connection.
+
+50
+00:04:04,470 --> 00:04:09,720
+So when clients connect to that wireless network they will have internet connection and because you
+
+51
+00:04:09,720 --> 00:04:14,850
+are the server all the packets will be coming to you and going back naturally without having to do anything
+
+52
+00:04:14,850 --> 00:04:16,970
+because they will send it to you voluntarily.
+
+53
+00:04:17,980 --> 00:04:23,970
+So once you do that you can do SSL strip you can start the sheriff you can do DNS spoof you can do these
+
+54
+00:04:23,970 --> 00:04:27,920
+scenarios because you will be the man in the middle.
+
+55
+00:04:27,930 --> 00:04:33,350
+The third one which is start now its fall will start your access point with internet connection.
+
+56
+00:04:33,350 --> 00:04:40,590
+It will also start a few tools like SSL strip SSL split fire fireline which sniffs cookies and it will
+
+57
+00:04:40,590 --> 00:04:43,350
+also attempt to bypass haziest Yes.
+
+58
+00:04:43,350 --> 00:04:45,090
+Now personally I prefer running.
+
+59
+00:04:45,090 --> 00:04:52,110
+The simple one and then run in any attacks that I want manually because if any of these attacks does
+
+60
+00:04:52,110 --> 00:04:55,830
+not work properly I can see what's going wrong and I can fix it.
+
+61
+00:04:58,100 --> 00:05:03,530
+You can also run man I took it from the Kalli menu.
+
+62
+00:05:03,530 --> 00:05:08,540
+I don't like to do that though because again when you run it from the calumny there is only a start
+
+63
+00:05:08,540 --> 00:05:08,900
+button.
+
+64
+00:05:08,900 --> 00:05:13,600
+So you don't really know if it's actually running or if you have something went wrong whereas when you
+
+65
+00:05:13,600 --> 00:05:17,390
+run it from the terminal you can see all of the logs all the messages.
+
+66
+00:05:17,480 --> 00:05:21,690
+And you can see if something went wrong you can see what it is you can debug it and fix it.
+
+67
+00:05:23,130 --> 00:05:29,370
+So in the next videos we'll see how we can run our evil access point connect to it check if it has internet
+
+68
+00:05:29,370 --> 00:05:35,490
+connection and see how we can sniff data and modify it or do all the cool stuff that we do when we are
+
+69
+00:05:35,490 --> 00:05:36,500
+the man in the middle.
+

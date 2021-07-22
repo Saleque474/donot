@@ -1,0 +1,130 @@
+WEBVTT
+
+00:01.130 --> 00:02.090
+Hello and welcome.
+
+00:02.330 --> 00:03.230
+My name is zayd.
+
+00:03.260 --> 00:08.350
+I'm an ethical hacker a computer scientist and I'll be your instructor in this course and this goes
+
+00:08.350 --> 00:13.280
+should go and learn how to use your Android device and penetration tester so you'll be able to use a
+
+00:13.280 --> 00:20.390
+phone or a tablet in order to hack into computers phones tablets or any computer system really even
+
+00:20.390 --> 00:26.430
+networks the really cool thing about using your Android device is first of all it's more portable than
+
+00:26.430 --> 00:27.280
+a laptop.
+
+00:27.320 --> 00:32.670
+Can if you're walking into a company or an organization you're going to look much less suspicious using
+
+00:32.670 --> 00:35.420
+your Android device than using a laptop.
+
+00:35.430 --> 00:41.520
+Also there is a large number of social engineering attacks that you can do and you can perform by simply
+
+00:41.670 --> 00:47.070
+connecting your Android device to the computer or to the network that you're trying to hack.
+
+00:47.100 --> 00:49.130
+So I'm going to start with you from scratch.
+
+00:49.140 --> 00:53.190
+So the first thing you're going to learn is you're going to learn how to prepare your Android device
+
+00:53.190 --> 00:54.290
+for penetration testing.
+
+00:54.290 --> 00:58.470
+I'm going to show you what programs that you need to install and how to set up the whole operating system
+
+00:58.740 --> 01:02.140
+to use it and penetration testing was done with that.
+
+01:02.130 --> 01:06.810
+We're going to move into our first section which is information gathering in which you're going to learn
+
+01:06.810 --> 01:12.370
+how to gather information about Web sites computers networks or anything that exists around you.
+
+01:13.800 --> 01:19.860
+Once done with that we're going to move into our two most fun sections which is the spying and the exploitation
+
+01:19.860 --> 01:22.560
+sections and the spike section.
+
+01:22.570 --> 01:26.750
+You're going to learn how to spy on computers and networks.
+
+01:26.750 --> 01:31.440
+So we're going to learn how to become the man in the middle using a number of methods and what this
+
+01:31.440 --> 01:37.640
+basically means is that you will be able to capture anything sent or received from your target computer.
+
+01:37.650 --> 01:42.730
+This means you'll be able to capture usernames passwords or anything your target computer does.
+
+01:42.740 --> 01:47.940
+We're going to be able to achieve this wirelessly or by connecting your Android device to the target's
+
+01:47.940 --> 01:52.610
+computer using the U.S. cable once done with that.
+
+01:52.700 --> 01:55.330
+We're going to move on to the exploitation section.
+
+01:55.460 --> 01:59.120
+Where are you going to learn how to gain full control over computer systems.
+
+01:59.330 --> 02:03.440
+So again you'll be able to gain control over any computer that's in your network.
+
+02:03.440 --> 02:09.440
+You'll also be able to gain control over computers by simply connecting your Android device using the
+
+02:09.440 --> 02:11.060
+US cable.
+
+02:11.060 --> 02:13.640
+You'll also see how you can bypass logon screens.
+
+02:13.640 --> 02:18.830
+So if your target computer uses Marcos or Windows and it's locked so you need to enter a password to
+
+02:18.830 --> 02:19.960
+use a computer.
+
+02:19.970 --> 02:25.160
+We'll see how you can bypass that by simply connecting your Android device to that to that computer
+
+02:26.150 --> 02:31.340
+at the end of the cursor will also cover some security features that you can do or precautions that
+
+02:31.340 --> 02:34.730
+you can do in order to protect yourself from these kind of attacks.
+
+02:36.430 --> 02:42.640
+Now all the attacks explained in this course are real attacks performed against real computers in my
+
+02:42.640 --> 02:43.000
+lab.
+
+02:43.120 --> 02:46.310
+So they're not proof of concepts or attacks that actually work.
+
+02:46.750 --> 02:48.440
+The course is highly practical.
+
+02:48.550 --> 02:53.680
+But before we do any attack we'll actually learn how it works theoretically and then we're going to
+
+02:53.680 --> 02:55.650
+move in to the practical side.

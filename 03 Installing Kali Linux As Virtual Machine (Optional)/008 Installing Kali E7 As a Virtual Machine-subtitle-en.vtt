@@ -1,0 +1,313 @@
+WEBVTT
+
+00:00.720 --> 00:05.400
+Now throughout the course we're going to be using a number of penetration testing tools.
+
+00:05.400 --> 00:11.610
+You can go ahead and install each of these tools manually or you can do what most protesters do including
+
+00:11.610 --> 00:17.510
+myself and save time and effort and use an operating system designed for Hocken.
+
+00:17.760 --> 00:23.340
+We're going to be using an operating system called Kalli Linux and it's just a flavor of Linux based
+
+00:23.340 --> 00:29.040
+on Debian and it comes in with all the programs and the applications that we need to use pre-installed
+
+00:29.280 --> 00:30.540
+and pre-configured.
+
+00:30.600 --> 00:36.600
+This means that we can just install this operating system and then start learning our Hocking.
+
+00:36.670 --> 00:38.740
+There are two options to install Kallie.
+
+00:38.740 --> 00:44.590
+You can install it as a virtual machine inside your current operating system or you can install it as
+
+00:44.590 --> 00:47.680
+a main machine as a main operating system.
+
+00:49.000 --> 00:53.830
+Throughout the course I'm actually going to be using it as a virtual machine because using it as a virtual
+
+00:53.830 --> 00:59.890
+machine works exactly the same as installing it as a mean machine because it will be completely isolated
+
+00:59.890 --> 01:03.370
+from your computer because it's only going to run inside virtual box.
+
+01:03.370 --> 01:07.470
+So if you break it or if you mess things up it's very very easy to fix.
+
+01:07.570 --> 01:15.130
+It's very easy to go back to other snapshots other configurations and also you won't lose any functionality
+
+01:15.280 --> 01:17.490
+by using it as a virtual machine.
+
+01:17.680 --> 01:20.610
+That's why I always use it as a virtual machine.
+
+01:20.690 --> 01:26.470
+In this lecture I'm going to cover how to install it as a virtual machine inside virtual box.
+
+01:26.470 --> 01:32.500
+Now I'm going to be doing the steps on the Mac OS X computer but these tapes are exactly the same regardless
+
+01:32.500 --> 01:34.510
+of what operating system you use.
+
+01:34.510 --> 01:39.940
+So if you're on Windows or on Linux you just have to download the Virtual Box version of your computer
+
+01:40.330 --> 01:46.780
+and then the steps shown in this lecture are exactly the same after installing Virtual Box going include
+
+01:46.780 --> 01:50.740
+the download link in the resources of this lecture.
+
+01:50.800 --> 01:53.050
+I have it already opened in here.
+
+01:53.140 --> 01:55.300
+All you have to do is just scroll down.
+
+01:56.060 --> 02:03.090
+Make sure you click on the calendar next virtual box images not on the VM where and then download the
+
+02:03.090 --> 02:05.930
+version of Cali's that's compatible with your system.
+
+02:06.030 --> 02:09.480
+So if you have a 64 bit computer download the 64 bits.
+
+02:09.550 --> 02:15.300
+If the if you have the 32 bits download the 32 bits now one click on this will start to download for
+
+02:15.300 --> 02:16.070
+you.
+
+02:16.350 --> 02:21.720
+If you're using Internet Explorer or edge browser then you're going to have to right click and save
+
+02:21.720 --> 02:26.750
+target as on Chrome and Firefox you can just click the link.
+
+02:26.760 --> 02:33.300
+Now this is downloading for me and I'm going to stop it because I've already downloaded so I already
+
+02:33.300 --> 02:35.050
+have it downloaded in here.
+
+02:35.280 --> 02:41.790
+And as you can see you should get a file with a dot over the extension so you have the name followed
+
+02:41.790 --> 02:44.520
+by dot or a in here.
+
+02:44.520 --> 02:52.320
+So to solve this in a virtual box all you have to do is literally just double click the file and as
+
+02:52.320 --> 02:58.450
+you can see I get a window which will allow me to import this virtual machine.
+
+02:58.460 --> 03:08.160
+Now I'm going to keep everything the same for now and I'm just going to click on import.
+
+03:08.190 --> 03:13.770
+Now that said the virtual machine is ready to be used now before I started I want to show you how to
+
+03:13.770 --> 03:17.240
+modify some of its settings so I'm going to click on it.
+
+03:18.380 --> 03:22.870
+Then we're going to click on the settings in here and the first thing that I'm going to do.
+
+03:22.870 --> 03:29.090
+I'm going to go to System and I'm going to modify the amount of RAM it has now dependent on how much
+
+03:29.090 --> 03:31.390
+total RAM you have on your computer.
+
+03:31.430 --> 03:36.980
+You can leave this at 2 if you want but one gigabyte is enough for Cadie.
+
+03:37.040 --> 03:44.680
+I usually leave it to because I have 16 gigs of RAM but if you have less 1 gigabyte is enough for it.
+
+03:44.720 --> 03:47.420
+Also a few come here on the processors.
+
+03:47.420 --> 03:51.130
+You'll see that by default I have two processors assigned to it.
+
+03:51.230 --> 03:53.420
+Again I have 8 per use.
+
+03:53.420 --> 03:58.170
+So two is not going to cause too much pressure on my computer.
+
+03:58.190 --> 03:59.180
+If you have less.
+
+03:59.330 --> 04:02.890
+Once is enough for Kalli.
+
+04:03.020 --> 04:11.860
+Now we're going to go to the network settings and we're going to set this to use and not network.
+
+04:11.870 --> 04:17.230
+Now sometimes when you set this to another network you won't see a network name in here.
+
+04:17.360 --> 04:24.170
+If you don't please check out my link in the resources and it will show you how to create and not network.
+
+04:24.170 --> 04:30.110
+For me it already has a network so I'm going to keep it on this one and what the setting basically does
+
+04:30.500 --> 04:37.580
+is it's going to create a virtual network where my host machine which is my Mac OS X computer in here
+
+04:37.940 --> 04:43.940
+is going to be the router for this network and then all the virtual machines are going to be clients
+
+04:43.940 --> 04:46.110
+connected to this network.
+
+04:46.340 --> 04:52.370
+So they're going to get Internet connection from my host machine and at the same time all of my virtual
+
+04:52.370 --> 04:55.310
+machines will be connected to a virtual network.
+
+04:55.310 --> 05:00.220
+This is very handy because my virtual machines will be able to communicate with each other.
+
+05:00.320 --> 05:02.660
+We can use one of them to hack into the other.
+
+05:02.660 --> 05:09.500
+We can use it to test networks attacks and much more so it'll first allow my virtual machines to have
+
+05:09.500 --> 05:10.670
+Internet connection.
+
+05:10.670 --> 05:16.730
+It also allow them to communicate with each other and it'll do all of this through a virtual network.
+
+05:16.730 --> 05:21.240
+It will not use any of your wireless adapters or any of your wireless cards.
+
+05:21.260 --> 05:23.830
+It will create a virtual Internet network.
+
+05:23.930 --> 05:30.650
+So as far as the virtual machine is concerned they're going to think that they're connected to a network
+
+05:30.800 --> 05:37.400
+through a wire so that's it I'm done with my settings right now and I'm going to click on OK.
+
+05:39.570 --> 05:42.890
+And we can start our virtual machine now to start it.
+
+05:42.930 --> 05:47.300
+All we have to do is just click on the start button in here.
+
+05:47.340 --> 05:50.840
+Now I'm going to click inside the virtual machine and hit enter.
+
+05:55.720 --> 05:58.160
+And we are inside the virtual machine.
+
+05:58.310 --> 06:02.260
+Now it's asking us for the username and the default user name is root.
+
+06:02.300 --> 06:10.660
+So our O.T. and then asking us for the password and the default password is the reverse of that which
+
+06:10.660 --> 06:12.040
+is t o r
+
+06:17.270 --> 06:17.870
+and that's it.
+
+06:17.870 --> 06:23.150
+Now I'm inside my virtual machine now since we installed this using the ready image.
+
+06:23.150 --> 06:30.810
+We can just click on this on the green button here or we can go to View full screen and we'll be able
+
+06:30.810 --> 06:36.210
+to go in full screen and the screen will resize automatically to the size of our screen.
+
+06:37.970 --> 06:45.180
+Now note in here you should actually see a network icon because we set this machine to use that network.
+
+06:45.500 --> 06:51.470
+Since we don't have a network icon This means that this machine didn't get connected to the Nat network.
+
+06:51.470 --> 07:00.480
+So if I open my browser in here you'll see that it's not connected to the Internet to fix this issue.
+
+07:00.560 --> 07:03.320
+We're just going to go all the way to the top.
+
+07:03.350 --> 07:05.390
+This is going to display our menus.
+
+07:05.390 --> 07:13.950
+We're going to go to devices network and we're going to click on Connect network adapter.
+
+07:14.000 --> 07:20.180
+You only have to do this once and then the virtual machine will automatically connect to the network.
+
+07:20.180 --> 07:24.740
+Now once you do this if you give it a few seconds you'll see that I have a network icon appearing in
+
+07:24.740 --> 07:25.570
+here.
+
+07:25.820 --> 07:30.530
+And if I click it you'll see it looks like I'm connected to a wired network.
+
+07:30.530 --> 07:33.160
+As you can see in here it says wired connected.
+
+07:33.290 --> 07:36.790
+So Cali thinks it's connected to a wired network.
+
+07:37.830 --> 07:44.760
+Now if I just click try again in my browser you'll see that I have internet access so that's it.
+
+07:44.810 --> 07:49.090
+That shows how to install Callanan acts as a virtual machine.
+
+07:49.100 --> 07:51.740
+Don't be intimidated by this new operating system.
+
+07:51.740 --> 07:55.790
+We're going to go through the basics and we're going to use it a lot and it's actually going to become
+
+07:55.790 --> 07:58.020
+very easy for you to use.
+
+07:58.160 --> 08:04.610
+Also like I said you won't lose any functionality when you install Linux as a virtual machine.
+
+08:04.610 --> 08:10.070
+It's actually better to install it as a virtual machine because it's completely isolated from your computer
+
+08:10.400 --> 08:13.350
+and it'll be very easy to fix if things go wrong.
+
+08:14.150 --> 08:19.520
+Keep in mind installing this on different hardware and different computers might show you some errors
+
+08:19.520 --> 08:20.360
+on some issues.
+
+08:20.480 --> 08:25.260
+So please if you have any errors just add them in the discussions and I'll help you resolve them.

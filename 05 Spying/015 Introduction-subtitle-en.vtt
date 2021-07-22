@@ -1,0 +1,106 @@
+WEBVTT
+
+00:02.340 --> 00:09.720
+So usually after you gather enough information about your target then you are ready to carry out the
+
+00:09.720 --> 00:12.000
+attack that you want to do.
+
+00:12.000 --> 00:17.070
+So in the next in this section the spying section and then the next section the exploitation.
+
+00:17.070 --> 00:22.210
+We're going to talk about how you can actually launch attacks to achieve your goals.
+
+00:22.290 --> 00:30.150
+Now on the spying section we're going to be talking about attacks that allow us to get user names passwords
+
+00:30.360 --> 00:35.190
+chat messages any type of sensitive information that might be useful to you.
+
+00:37.850 --> 00:42.770
+We're going to talk about three main methods to become the man in the middle as you can see we have
+
+00:42.770 --> 00:49.250
+three big circles each one of them represent a different way of becoming the man in the middle.
+
+00:49.250 --> 00:56.120
+Now what I mean by becoming the man in the middle is being in the middle of the connection between your
+
+00:56.120 --> 00:59.680
+target and the source of the requests.
+
+00:59.690 --> 01:04.170
+So in most of the cases is the server.
+
+01:04.330 --> 01:10.810
+So when you are the man in the middle or the requests and the response is going to and from the target
+
+01:10.810 --> 01:14.110
+machine will be combing through your device.
+
+01:14.140 --> 01:20.770
+So your request to any Web site any username and password any chat message anything Argles person does
+
+01:21.010 --> 01:24.280
+will be sent to your device then to the Internet.
+
+01:24.430 --> 01:29.710
+And when it comes back it comes to your device then to the target person.
+
+01:29.710 --> 01:35.560
+Now as I said we're going to be talking about three different methods to achieve that and why that device
+
+01:35.560 --> 01:39.750
+starts treating you as a man in the middle is different depending on the method.
+
+01:40.950 --> 01:45.120
+Once you're the man in the middle you can read user names you can reach passwords so you can read all
+
+01:45.120 --> 01:46.250
+kind of packets.
+
+01:46.260 --> 01:50.100
+You can also intercept the packet so you can modify them.
+
+01:50.100 --> 01:55.500
+So for example of a person is downloading a file you can get him to download a different file without
+
+01:55.500 --> 02:01.170
+them even knowing if they request Facebook dot com you can't take them somewhere else with a fake Facebook
+
+02:01.170 --> 02:06.620
+log in you need to do that because you got to be able to get the usernames and passwords anyway.
+
+02:06.860 --> 02:13.480
+You'll be able to sniff cookies you'll be able to sniff passwords usernames you are Elle's images anything
+
+02:13.480 --> 02:20.230
+that goes through the target person and between you after you are the man in the middle we're going
+
+02:20.230 --> 02:26.260
+to talk about different attacks and different scenarios so you can mix and match these attacks.
+
+02:26.260 --> 02:33.310
+So for example if I spoke about a few attacks that you can do using WSP method you can actually do them
+
+02:33.640 --> 02:35.240
+when you're IRP poisoning.
+
+02:35.260 --> 02:40.540
+So the method of becoming the man in the middle is irrelevant.
+
+02:40.540 --> 02:47.430
+So these small circus circles represent the attacks that you can do after becoming the man in the middle.
+
+02:47.590 --> 02:54.770
+And you can do them regardless of the method that you use to achieve becoming the man in the middle.
+
+02:55.710 --> 02:59.840
+Also with this section some of the attacks that we're going to learn in this section we're actually
+
+02:59.850 --> 03:05.520
+going to carry them out in the next section into bigger scenarios to show you how we can gain full access
+
+03:05.640 --> 03:07.880
+to computers using different methods.

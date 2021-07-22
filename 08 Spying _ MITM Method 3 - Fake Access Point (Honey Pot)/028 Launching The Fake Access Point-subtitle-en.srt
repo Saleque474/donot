@@ -1,0 +1,428 @@
+﻿1
+00:00:01,500 --> 00:00:02,050
+OK.
+
+2
+00:00:02,250 --> 00:00:08,280
+So before I actually start using mine i kids I'd like to show you the wireless interfaces that I have
+
+3
+00:00:08,280 --> 00:00:10,170
+installed on my device.
+
+4
+00:00:10,170 --> 00:00:14,680
+So right now I only have my internal device or my internal wireless card.
+
+5
+00:00:14,730 --> 00:00:21,460
+And as you can see it's connected to a network called to you to I'm going to launch the terminal and
+
+6
+00:00:21,460 --> 00:00:25,510
+just confirm that for you.
+
+7
+00:00:25,560 --> 00:00:30,020
+So the command that you use to see your wireless cards is either config
+
+8
+00:00:33,700 --> 00:00:41,180
+and as you can see that I have land zero wireless card here that's my internal one and it's associated
+
+9
+00:00:41,180 --> 00:00:47,410
+with a network called TV2 So yes ID is the name of the network and it's too wide too.
+
+10
+00:00:47,450 --> 00:00:55,380
+So this will be used as the card that will provide the internet connection and I'll use my external
+
+11
+00:00:55,380 --> 00:00:59,380
+wireless card to broadcast the signal of the network.
+
+12
+00:00:59,610 --> 00:01:06,120
+So the external wireless card is a U.S. card and I'm going to connect and use an RTG cable that I showed
+
+13
+00:01:06,120 --> 00:01:10,980
+you on it looks like in the previous video.
+
+14
+00:01:11,160 --> 00:01:21,230
+So I'm going to connect my external cowd physically and then I'm going to give it two seconds and I'm
+
+15
+00:01:21,230 --> 00:01:25,000
+going to run I w config to see if the card has been recognized.
+
+16
+00:01:26,510 --> 00:01:36,780
+I'm going to and as you can see now we have a card called 9 1 and it's not connected to any network
+
+17
+00:01:36,780 --> 00:01:37,560
+right now.
+
+18
+00:01:39,580 --> 00:01:40,840
+So this is perfect.
+
+19
+00:01:40,840 --> 00:01:47,290
+Now I'm going to go back to my launcher menu and show you the settings that you can do for the mana
+
+20
+00:01:47,590 --> 00:01:50,670
+to.
+
+21
+00:01:50,730 --> 00:01:57,610
+So the first option is the interface and I could hear LAN because this is the external the name of the
+
+22
+00:01:57,610 --> 00:01:59,110
+external wireless card.
+
+23
+00:01:59,170 --> 00:02:03,120
+And this is what we are going to use to broadcast the signal.
+
+24
+00:02:03,820 --> 00:02:07,830
+The VSS idea here this is the MAC address of the network.
+
+25
+00:02:07,840 --> 00:02:10,590
+You can put any mac address that you want.
+
+26
+00:02:11,020 --> 00:02:14,920
+The SS ID is the name of the network that will be broadcasted.
+
+27
+00:02:14,950 --> 00:02:18,790
+So I'm calling for the Internet to attract people to connect to that network.
+
+28
+00:02:18,880 --> 00:02:23,460
+And then when they connect I'll naturally be the man in the middle and I can do any man in the middle
+
+29
+00:02:23,490 --> 00:02:25,540
+that I like to use in T-shirt.
+
+30
+00:02:25,630 --> 00:02:33,880
+As a sales rep do any of the scenarios that we did DNS pooping whatever that I want the channel is the
+
+31
+00:02:33,880 --> 00:02:37,320
+channel that is going to be used to broadcast the signal.
+
+32
+00:02:37,480 --> 00:02:40,200
+And these last two options are for karma.
+
+33
+00:02:40,480 --> 00:02:47,830
+Karma is an option that allows you to make a network or an access point that is identical to an existing
+
+34
+00:02:47,920 --> 00:02:49,150
+access point.
+
+35
+00:02:49,150 --> 00:02:54,860
+The reason why you do this is you can create an access point identical to an access point that uses
+
+36
+00:02:55,190 --> 00:03:01,750
+an encryption or a key and then trigger the users to connect to your fake access point and then ask
+
+37
+00:03:01,750 --> 00:03:07,780
+them to enter the user name who's in a web page so the users have to be socially engineered and you
+
+38
+00:03:07,780 --> 00:03:14,010
+have to kind of convince them to enter their username and password in a web site for their Wi-Fi network.
+
+39
+00:03:14,110 --> 00:03:16,710
+And then you'll have the username and password for the wife and that's all.
+
+40
+00:03:16,810 --> 00:03:21,970
+Now we're not going to be doing this in this video because we're all we want to do is just create an
+
+41
+00:03:21,970 --> 00:03:25,580
+access point with internet connection get people to connect to it.
+
+42
+00:03:25,690 --> 00:03:30,190
+And then we will get them on in the middle so we can do any of them on in the middle attacks that we
+
+43
+00:03:30,190 --> 00:03:35,350
+know so I'm going to leave these to us zero.
+
+44
+00:03:35,860 --> 00:03:38,820
+And the other thing that I want to show you here in the settings.
+
+45
+00:03:38,820 --> 00:03:44,270
+I'm going to go to the not mine simple which is the one that we're going to use.
+
+46
+00:03:44,490 --> 00:03:49,590
+So it's access point with internet connection only and it's not going to do any of the man in the middle
+
+47
+00:03:49,630 --> 00:03:53,800
+attacks we're going to have to do them manually.
+
+48
+00:03:53,810 --> 00:03:58,820
+The most important thing is just make sure that you have your upstream as the wireless card that is
+
+49
+00:03:58,820 --> 00:03:59,930
+connected to the Internet.
+
+50
+00:03:59,930 --> 00:04:05,230
+So I showed you before how landgrab was associated with the network called y2.
+
+51
+00:04:05,240 --> 00:04:13,190
+So this is my interface that is connected to the Internet in the upstream and then in the future I have
+
+52
+00:04:13,760 --> 00:04:20,080
+a line one which is my interface that will be used to broadcast the signal.
+
+53
+00:04:20,090 --> 00:04:22,260
+I've also removed all the comments here.
+
+54
+00:04:22,450 --> 00:04:28,220
+You usually see hash tags before all of these commands because when you remove them then you'll be able
+
+55
+00:04:28,220 --> 00:04:32,110
+to turn off the wireless network by type in return.
+
+56
+00:04:33,270 --> 00:04:34,400
+So that's it.
+
+57
+00:04:34,400 --> 00:04:40,660
+Now I just want to show you the things that I had.
+
+58
+00:04:40,800 --> 00:04:48,330
+The first thing that I'm going to do before I start my access point is make sure that my IP tables is
+
+59
+00:04:48,330 --> 00:04:53,760
+clear and it does not contain any rules that might draw packets and prevent the access point from working
+
+60
+00:04:53,760 --> 00:04:54,770
+properly.
+
+61
+00:04:54,780 --> 00:05:00,570
+So we did this when we did divide us we attack as well to allow the packets to flow freely through our
+
+62
+00:05:00,570 --> 00:05:07,530
+device and we use the scripts that I had in my resources which is called flush IP tables.
+
+63
+00:05:07,530 --> 00:05:10,210
+So I'm just going to use the exact same script right now.
+
+64
+00:05:10,440 --> 00:05:13,430
+So it's Bysshe I have it started.
+
+65
+00:05:13,450 --> 00:05:21,170
+And as the card piles flush IP tables.
+
+66
+00:05:21,410 --> 00:05:28,880
+SH And because you don't see any error messages that means the command was run successfully.
+
+67
+00:05:29,080 --> 00:05:33,730
+So the next thing we're going to do is run our evil access point.
+
+68
+00:05:33,730 --> 00:05:41,870
+So first I'm going to navigate to we're not Mahna is installed which is in us or share
+
+69
+00:05:44,500 --> 00:05:45,430
+Mannat toolkit
+
+70
+00:05:48,620 --> 00:05:52,450
+and we're on mana.
+
+71
+00:05:53,100 --> 00:05:59,700
+So I'm basically just using CD to navigate or to change the working directory to that working directory
+
+72
+00:05:59,700 --> 00:06:03,100
+where the run scripts for Mom Mannah are stored.
+
+73
+00:06:03,210 --> 00:06:07,110
+And I'm just going to do an ls to show you all the transcripts that you can use.
+
+74
+00:06:07,140 --> 00:06:10,940
+So Elyse will just list the files that are in that directory.
+
+75
+00:06:11,460 --> 00:06:16,530
+And as you can see that we have a file for each option that I explained in the previous video.
+
+76
+00:06:16,710 --> 00:06:22,620
+So file for the fall for the simple and for the no upstream and each one of them has a kit kat and a
+
+77
+00:06:22,620 --> 00:06:23,820
+lollipop version.
+
+78
+00:06:23,880 --> 00:06:31,180
+So the Kit-Kat is for Android for point four point four and a lollipop is for Android 5 and you can
+
+79
+00:06:31,180 --> 00:06:39,240
+also see that we have the option that I didn't explain it's to run back to our factory on the access
+
+80
+00:06:39,240 --> 00:06:39,660
+point.
+
+81
+00:06:39,660 --> 00:06:40,530
+We will run.
+
+82
+00:06:40,650 --> 00:06:44,860
+Now I'm not going to use that right now and I'm going to explain this in future videos.
+
+83
+00:06:44,880 --> 00:06:48,080
+So for now we're just going to ignore it.
+
+84
+00:06:48,180 --> 00:06:53,670
+Now I'm only going to run the simple nuts which will create a network that has internet connection people
+
+85
+00:06:53,670 --> 00:06:58,800
+can connect to it access the Internet and then I can do all the attacks manually like we did before
+
+86
+00:06:58,800 --> 00:07:01,020
+so we can do DNS spoofing SSL of all that.
+
+87
+00:07:01,110 --> 00:07:07,090
+As I said before the same way that we did them with the bad U.S. attack.
+
+88
+00:07:07,190 --> 00:07:17,890
+So I'm going on the bash start mana or sorry start not simple
+
+89
+00:07:20,850 --> 00:07:26,370
+Kit-Kat because I have androids point four point four.
+
+90
+00:07:26,450 --> 00:07:33,170
+SH I'm going to return and I'm going to give it some time to start the access point.
+
+91
+00:07:35,900 --> 00:07:37,350
+Now the access point is running.
+
+92
+00:07:37,400 --> 00:07:42,760
+And as you can see it says hit enter to kill me or to stop the access point.
+
+93
+00:07:42,760 --> 00:07:44,330
+OK so everything is done now.
+
+94
+00:07:44,340 --> 00:07:47,760
+The attack is running and the network should be broadcasting.
+
+95
+00:07:47,760 --> 00:07:53,830
+So now you have an Internet network and it's sharing the wireless connection is sharing the internet
+
+96
+00:07:53,830 --> 00:07:59,260
+connection on one of my wireless cards which is called Gannes you know and it's broadcast in it through
+
+97
+00:07:59,260 --> 00:08:05,930
+another wireless card connected using the RTG cable which is called Leinwand and when people connect
+
+98
+00:08:05,930 --> 00:08:10,730
+to this network they will have internet connection and we will naturally be the one in the middle because
+
+99
+00:08:10,730 --> 00:08:15,260
+we are the servers so they have to send the packets to us and we will be sending the responses.
+
+100
+00:08:15,260 --> 00:08:20,090
+Therefore we carry these packets modify them and do all the attacks that we learned and we will learn
+
+101
+00:08:20,390 --> 00:08:21,930
+when you are the man in the middle.
+
+102
+00:08:23,660 --> 00:08:27,970
+So lets just check and see if the network if we can see the network.
+
+103
+00:08:28,580 --> 00:08:31,580
+And as you can see here we have a network called the internet.
+
+104
+00:08:31,670 --> 00:08:36,770
+I'm not going to connect to it now because that will disconnect while you're mirroring here for the
+
+105
+00:08:36,770 --> 00:08:37,610
+Android device.
+
+106
+00:08:37,700 --> 00:08:42,850
+So I'm going to connect to it from a Windows device in the next video and we'll see what we can do.
+
+107
+00:08:42,860 --> 00:08:45,320
+And we'll check if it has internet connection or not.
+

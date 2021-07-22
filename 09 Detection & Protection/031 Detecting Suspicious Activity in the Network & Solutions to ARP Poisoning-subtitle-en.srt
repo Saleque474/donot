@@ -1,0 +1,200 @@
+﻿1
+00:00:01,360 --> 00:00:07,050
+An other way to discover people and they get tax and other suspicious behavior and the network is to
+
+2
+00:00:07,050 --> 00:00:09,050
+use wireshark.
+
+3
+00:00:09,080 --> 00:00:13,910
+So let's first of all find Wireshark.
+
+4
+00:00:13,940 --> 00:00:17,920
+I'm going to enable one feature here if I go on settings
+
+5
+00:00:21,020 --> 00:00:30,380
+protocols HRP and detect RPE requests so I'm going to think that that's basically going to detect whenever
+
+6
+00:00:30,380 --> 00:00:34,250
+a device tries to discover all connected devices.
+
+7
+00:00:34,280 --> 00:00:40,340
+So whether the attacker is using wireshark or net discover or auto scan whenever a device tries to detect
+
+8
+00:00:40,370 --> 00:00:44,520
+all connected devices wash outskirt be able to detect that.
+
+9
+00:00:44,570 --> 00:00:49,880
+That's because this device is going is going to try to go through each eyepiece so it's going to go
+
+10
+00:00:49,880 --> 00:00:57,950
+on 1 9 2 1 6 8 1 1 1 2 1 3 1 4 and it's going to send packets asking if that if there is a device exists
+
+11
+00:00:58,220 --> 00:00:59,370
+on these IPs.
+
+12
+00:00:59,600 --> 00:01:05,320
+So we're going to go on our Wi-Fi card and I'm not going to do what they are proposing.
+
+13
+00:01:05,320 --> 00:01:07,630
+Now I'm just going around net discover.
+
+14
+00:01:08,000 --> 00:01:14,650
+So just like right before we're going to use our wireless card and then I'm going to put my rage
+
+15
+00:01:18,380 --> 00:01:22,070
+over 24 and that's it it's finished.
+
+16
+00:01:22,060 --> 00:01:23,610
+I discovered everything.
+
+17
+00:01:23,610 --> 00:01:29,250
+Now if we go back we actually don't even need something to tell us or give us a warning as we can see
+
+18
+00:01:29,250 --> 00:01:35,460
+here that it's asking for who has we can see that the MAC address of the target the source is the MAC
+
+19
+00:01:35,460 --> 00:01:42,150
+address of our attacker machine and it's asking about each single IP so I was asking about 33 to 33
+
+20
+00:01:42,150 --> 00:01:49,740
+34 something from one like ants going all the way up and asking if there is a device on this IP.
+
+21
+00:01:49,740 --> 00:01:57,340
+Now if you go and analyze and we go on the ex-parte tempo if we go on the notes you'll see that we have
+
+22
+00:01:58,540 --> 00:02:04,750
+our peers packet's term have been detected which is basically some devices trying to detect all connected
+
+23
+00:02:04,750 --> 00:02:06,620
+devices.
+
+24
+00:02:06,630 --> 00:02:13,140
+Let's go back here and we're going to do and they are people isn't normal they are poisoned like we
+
+25
+00:02:13,140 --> 00:02:20,830
+always do it going to enter and the devices were entirely correctly so I'm just going to do it again.
+
+26
+00:02:22,910 --> 00:02:26,770
+And the groups are OK now so we'll go back to here.
+
+27
+00:02:30,860 --> 00:02:39,040
+So if we go on analyze the expert info you'll see that we have another warning here and that's a double
+
+28
+00:02:39,050 --> 00:02:47,540
+digit IP address for 1 9 2 1 6 8 1 1 which means that the router appears to have two Mica addresses
+
+29
+00:02:47,900 --> 00:02:51,690
+and this can never happen because each device should have 1 1 MAC address.
+
+30
+00:02:51,830 --> 00:02:59,840
+So we know that someone is trying to poison us here again.
+
+31
+00:03:00,170 --> 00:03:07,040
+So that's the three methods that would help us detect they are poisoning attacks.
+
+32
+00:03:07,050 --> 00:03:10,350
+Now if we go let me just go here and I'm going to go and run
+
+33
+00:03:13,100 --> 00:03:22,410
+and RPA This is my RPE table so as you can see that these entries are dynamic.
+
+34
+00:03:22,760 --> 00:03:27,360
+That means that they can change and they're allowed to be changed.
+
+35
+00:03:27,590 --> 00:03:35,240
+So one way of completely protecting your network against our people is allowing attacks is to use static
+
+36
+00:03:35,270 --> 00:03:38,140
+IP tables and static IP tables.
+
+37
+00:03:38,140 --> 00:03:43,910
+And trees are not allowed to be changed so once you actually put on and configure the market was for
+
+38
+00:03:43,900 --> 00:03:45,290
+the router for example.
+
+39
+00:03:45,380 --> 00:03:47,420
+That can never be changed.
+
+40
+00:03:47,480 --> 00:03:55,020
+Therefore when someone tries to poison your device and spoof the MAC address of the router.
+
+41
+00:03:55,370 --> 00:04:01,240
+This is not going to work because you have a static table that its value can never be changed.
+
+42
+00:04:01,250 --> 00:04:07,130
+The only problem with using static IP tables is that you're going to have to configure the AARP tables
+
+43
+00:04:07,130 --> 00:04:13,620
+in each device every time there's a new device connects to the network because because they're static
+
+44
+00:04:13,620 --> 00:04:15,930
+they're not going to be accept any changes to them.
+
+45
+00:04:15,930 --> 00:04:20,220
+Therefore you're going to have to manually configure each one of them whenever there's a new device
+
+46
+00:04:20,220 --> 00:04:21,780
+to connect network.
+
+47
+00:04:22,270 --> 00:04:27,580
+But it's a solution to completely protect yourself or your network against it.
+
+48
+00:04:27,600 --> 00:04:31,070
+It's hard to implement and large that works well on smaller networks.
+
+49
+00:04:31,080 --> 00:04:37,580
+It's as can be implemented it can be done and it completely completely protect you against people visiting
+
+50
+00:04:37,590 --> 00:04:38,070
+attacks.
+

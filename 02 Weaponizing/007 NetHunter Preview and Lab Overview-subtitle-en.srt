@@ -1,0 +1,304 @@
+﻿1
+00:00:04,320 --> 00:00:08,930
+Now I'd like to show you the love that I'm going to be using during this course.
+
+2
+00:00:10,900 --> 00:00:13,860
+So basically I have my calendar.
+
+3
+00:00:13,900 --> 00:00:20,290
+As I said it's installed or not hunter is installed on a Nexus 7 device.
+
+4
+00:00:20,290 --> 00:00:23,340
+I have the device here mirrored on my laptop.
+
+5
+00:00:24,480 --> 00:00:30,170
+I'm doing this because it's easier to show you what I'm doing on a device like this and sort of using
+
+6
+00:00:30,170 --> 00:00:32,150
+a camera because I'd lose quality.
+
+7
+00:00:32,280 --> 00:00:34,620
+So this is actually this is not a virtual machine.
+
+8
+00:00:34,620 --> 00:00:42,060
+This is a physical Android device that I'm using and this is just programs that I'm using to measure
+
+9
+00:00:42,540 --> 00:00:44,750
+the screen of the device.
+
+10
+00:00:46,420 --> 00:00:53,950
+And here I have my windows device who will going to try to how kids may be hacked passwords or usernames
+
+11
+00:00:53,950 --> 00:00:55,420
+or stuff from this account.
+
+12
+00:00:55,420 --> 00:00:58,750
+So this is a virtual machine thumb it makes an actual real machine.
+
+13
+00:00:58,990 --> 00:01:04,280
+This is an actual physical Nexus 7 device that has nets Hunter installed on it.
+
+14
+00:01:04,930 --> 00:01:09,280
+And this is my main operating system.
+
+15
+00:01:12,280 --> 00:01:15,690
+So let's just have a quick look on that Hunter home.
+
+16
+00:01:15,700 --> 00:01:23,450
+So this is it's icon right here so I'm going to click it now and as you can see you just get the basic
+
+17
+00:01:23,870 --> 00:01:29,750
+welcome screen where you see your wireless cards and you can request your external life.
+
+18
+00:01:29,750 --> 00:01:30,760
+You can click on that.
+
+19
+00:01:30,770 --> 00:01:38,180
+I'll get my external IP if we go here on the top left.
+
+20
+00:01:38,310 --> 00:01:41,190
+You'll see all the menus that you can go.
+
+21
+00:01:41,190 --> 00:01:46,500
+Basically this whole menu allow you to access all features for that hunter.
+
+22
+00:01:46,500 --> 00:01:51,780
+So within this menu you can navigate and run multiple attacks.
+
+23
+00:01:51,780 --> 00:01:58,830
+So if we just go to the first one the Culdee luncher you'll see a number of options that you have here.
+
+24
+00:01:59,070 --> 00:02:04,950
+So the first one launch can the shell and terminal basically will give you a terminal window where you
+
+25
+00:02:04,950 --> 00:02:12,280
+can use all the programs that come installed with that Hunter so tough that
+
+26
+00:02:17,140 --> 00:02:23,290
+it's going to it's going to ask me to granted access the root access and I'm going to say there's no
+
+27
+00:02:23,290 --> 00:02:24,250
+problem.
+
+28
+00:02:25,540 --> 00:02:32,640
+And as you can see now I have my access and I can run any programs that I want to run from within this
+
+29
+00:02:32,640 --> 00:02:33,120
+menu.
+
+30
+00:02:33,120 --> 00:02:37,050
+Now we will be using this and you're right now I'm not going to run anything because that's not our
+
+31
+00:02:37,050 --> 00:02:37,580
+lesson.
+
+32
+00:02:37,620 --> 00:02:40,130
+We're just going to have a quick look on everything that we can do.
+
+33
+00:02:40,170 --> 00:02:42,900
+We will be using this later.
+
+34
+00:02:42,950 --> 00:02:49,660
+So I'm just going to close it to go back decal them in here.
+
+35
+00:02:49,660 --> 00:02:57,030
+The second option gives you a terminal menu that allow you to run a number of programs.
+
+36
+00:02:57,190 --> 00:03:02,710
+So as you can see right here we have a number beside each program that we want to run and you can just
+
+37
+00:03:02,710 --> 00:03:06,730
+put the number that you want and it's going to take you to different menus and it's going to allow you
+
+38
+00:03:06,730 --> 00:03:09,260
+to run different accounts.
+
+39
+00:03:09,270 --> 00:03:13,900
+Again I'm not going to be using this right now because this allows you to run a number of programs and
+
+40
+00:03:13,900 --> 00:03:15,770
+we will be using it in the future.
+
+41
+00:03:15,820 --> 00:03:17,560
+I'm just showing you how this works.
+
+42
+00:03:17,590 --> 00:03:19,080
+So I'm going to close it again.
+
+43
+00:03:22,930 --> 00:03:23,880
+The third one.
+
+44
+00:03:23,970 --> 00:03:26,460
+Launch boy fights Why fight is a wife.
+
+45
+00:03:26,460 --> 00:03:28,380
+Penetration testing.
+
+46
+00:03:28,750 --> 00:03:35,210
+And the second option is going to update Carly second US is going to turn off if we have an external
+
+47
+00:03:35,210 --> 00:03:35,590
+wiper.
+
+48
+00:03:35,630 --> 00:03:36,760
+It's going to turn it off.
+
+49
+00:03:36,950 --> 00:03:39,000
+And the last one will unwiped.
+
+50
+00:03:39,030 --> 00:03:42,470
+So the first one actually lunch Kelly and terminal.
+
+51
+00:03:42,470 --> 00:03:43,760
+The last one will unmount.
+
+52
+00:03:43,770 --> 00:03:44,120
+Kelly
+
+53
+00:03:47,460 --> 00:03:53,320
+the service control this allows you to turn services on and off.
+
+54
+00:03:53,330 --> 00:04:00,710
+So these are servers that come in preinstalled on net hunter and you can turn them on and off using
+
+55
+00:04:00,710 --> 00:04:01,680
+these options.
+
+56
+00:04:03,360 --> 00:04:12,120
+So you have the framework S-sh DNS dnsmasq and all these kind of servers topit to turn it on.
+
+57
+00:04:12,120 --> 00:04:14,390
+So S-sh is not what's up.
+
+58
+00:04:14,600 --> 00:04:18,380
+And if you turn it on top it again it goes off again.
+
+59
+00:04:18,570 --> 00:04:21,480
+I will be talking about what each one of these mean.
+
+60
+00:04:21,630 --> 00:04:28,070
+And when we will need to use them right now we're just having a quick look.
+
+61
+00:04:28,170 --> 00:04:32,490
+After that we have the A-H I.D. keyboard talk and I'm not gonna talk about it right now.
+
+62
+00:04:32,490 --> 00:04:36,900
+We'll going to have a full class about or maybe actually more than one class about this.
+
+63
+00:04:36,900 --> 00:04:43,620
+Same with th id Durkee attacks and WSP man in the middle attacks man.
+
+64
+00:04:43,650 --> 00:04:44,660
+Evil likes point.
+
+65
+00:04:44,670 --> 00:04:48,380
+All of these were actually going to spend more than one lunch lecture talking about them.
+
+66
+00:04:48,450 --> 00:04:56,090
+So I'm going to ask Kip all of these here and the last to allow you to configure IP tables and yet DNS
+
+67
+00:04:56,100 --> 00:04:56,730
+mosque.
+
+68
+00:04:56,850 --> 00:05:02,730
+Again I will be talking about each one of these later so don't be scared of other names or the number
+
+69
+00:05:02,730 --> 00:05:04,430
+of features that you can see here.
+
+70
+00:05:04,440 --> 00:05:09,260
+Right now we're just having a quick look on the launcher menu.
+
+71
+00:05:09,330 --> 00:05:16,500
+So the main the main parts of this class is you can Roncalli you can run features from all features
+
+72
+00:05:16,500 --> 00:05:18,480
+from within this window.
+
+73
+00:05:18,480 --> 00:05:24,660
+You can Roncalli in terminal you can run the menu in terminal as well which allow you to run a number
+
+74
+00:05:24,660 --> 00:05:25,470
+of programs.
+
+75
+00:05:25,530 --> 00:05:29,700
+We're going to be using all of this for multiple times within the course so it's going to become very
+
+76
+00:05:29,700 --> 00:05:34,560
+easy and it's going to expand itself even more as we progress through the course.
+

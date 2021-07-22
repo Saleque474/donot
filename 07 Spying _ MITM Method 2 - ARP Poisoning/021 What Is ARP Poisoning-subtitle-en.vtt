@@ -1,0 +1,253 @@
+WEBVTT
+
+00:02.390 --> 00:09.430
+This class and the next few classes we're going to learn about AARP poisoning our people is and it is
+
+00:09.440 --> 00:12.380
+just another method of becoming the man in the middle.
+
+00:12.380 --> 00:19.910
+And a network in previous videos we so how we can use the bad USP attack where we physically connect
+
+00:19.940 --> 00:23.360
+our Android device to a laptop or to a computer.
+
+00:23.630 --> 00:29.760
+And by doing that we force all the traffic through our device which makes us the man in the middle.
+
+00:29.800 --> 00:31.000
+Once we the man in the middle.
+
+00:31.000 --> 00:38.020
+We were able to intercept packets read them modify them drop them do all that kind of fun stuff.
+
+00:38.120 --> 00:44.760
+Now another method of becoming the man in the middle is using ARPU poisoning.
+
+00:45.130 --> 00:50.350
+This is one of the most dangerous dangerous and effective attacks.
+
+00:50.560 --> 00:57.160
+It's very dangerous because you don't need to interact with the target device or at least the user will
+
+00:57.160 --> 00:59.210
+not see that interaction.
+
+00:59.230 --> 01:04.600
+So you're not going to need to physically plug your device you're not going to need to send anything
+
+01:04.600 --> 01:05.680
+to the user.
+
+01:05.710 --> 01:11.200
+You will be interacting with with the target device was all that interaction is going to happen in the
+
+01:11.200 --> 01:17.250
+background so that the target person will not feel it will not even know that anything has happened.
+
+01:18.700 --> 01:26.860
+This attack is possible because when AARP protocol was programmed or made them people did not pay attention
+
+01:26.860 --> 01:28.940
+to the security side of the protocols.
+
+01:29.020 --> 01:34.340
+So it's very simple it's very effective but it's not secure.
+
+01:34.620 --> 01:40.210
+Therefore the attack is possible on all network enabled devices.
+
+01:40.290 --> 01:47.400
+So whether the as long as the device uses DARPA protocol then you can attack that device using this
+
+01:47.400 --> 01:47.870
+method.
+
+01:47.970 --> 01:56.160
+So whether it's a phone a tablet or computer running Windows Linux iOS Marcos it doesn't matter as long
+
+01:56.160 --> 01:58.640
+as it uses ARPU which all of them does.
+
+01:58.800 --> 02:04.440
+Then you can use HRP poisoning to become the man in the middle without sending anything to the target
+
+02:04.440 --> 02:10.460
+device without interacting with the user and without physically interacting with the device.
+
+02:13.560 --> 02:20.050
+So let's understand and see how this attack works.
+
+02:20.070 --> 02:22.100
+This is just a normal network.
+
+02:22.110 --> 02:24.890
+And let's assume this is your home network.
+
+02:25.090 --> 02:27.720
+So you have a device here.
+
+02:27.750 --> 02:34.020
+That's the target device that we are trying to attack whenever it needs requests for example whenever
+
+02:34.020 --> 02:39.050
+it needs to access Google or Yahoo or anything it sends the request to a server.
+
+02:39.180 --> 02:42.060
+So the server this is your local router.
+
+02:42.180 --> 02:47.340
+So it doesn't matter whether you're connected on Wi-Fi or use an Ethernet you're always connected to
+
+02:47.340 --> 02:48.180
+a router.
+
+02:48.480 --> 02:51.520
+So you're going to or a server in the network.
+
+02:51.540 --> 02:56.520
+So you're going to send your request to the server the server is what is connected to the Internet so
+
+02:56.520 --> 02:57.390
+it's going to go.
+
+02:57.510 --> 02:58.750
+It's going to go to the Internet.
+
+02:58.760 --> 03:04.480
+It's going to get you Google dot com then it's going to give you the reply back and then you'll have
+
+03:04.480 --> 03:08.080
+Google does come on your computer.
+
+03:08.080 --> 03:12.880
+Now the problem with they R.P. is that each request or response is trusted.
+
+03:12.880 --> 03:19.600
+So whenever you send requests and whenever you send a reply you receive a response you always like computers
+
+03:19.690 --> 03:27.940
+always trust Data response or request so they don't identify or they don't verify the source where they
+
+03:27.940 --> 03:29.610
+got the request from.
+
+03:29.860 --> 03:32.200
+And this is going to come clear now and the next step.
+
+03:32.200 --> 03:39.730
+So say for example when this device sent something to the router install it tell him that I am computer
+
+03:39.730 --> 03:45.460
+number one for example the router is going to trust that this is computer number one without verifying
+
+03:45.490 --> 03:49.910
+that this is actually computer number one.
+
+03:50.160 --> 03:59.730
+The second problem is that the devices can actually accept responses without sending or request so this
+
+03:59.730 --> 04:05.010
+device can actually accept responses even without sending requests.
+
+04:05.010 --> 04:10.980
+So for example it can actually just get a response tell on him tell on this device something some information
+
+04:11.340 --> 04:15.740
+and this device not only is just going to accept it it's also going to trust it.
+
+04:15.750 --> 04:18.080
+It's not going to verify the information in there.
+
+04:18.090 --> 04:21.040
+It's not going to verify the source of information.
+
+04:21.060 --> 04:28.240
+So these are the main problems with HRP protocol.
+
+04:28.280 --> 04:35.560
+So since we can send responses and the device is going to trust whatever information sent in that response
+
+04:36.960 --> 04:43.350
+we're going to send our response to the target device tell them that that I tell them that device that
+
+04:43.380 --> 04:50.000
+I the router now because the device except responses is going to accept that response and because it's
+
+04:50.000 --> 04:58.110
+not going to verify my identity it's going to trust me and it's going to treat me as thereafter now
+
+04:58.110 --> 05:03.030
+the way I tell him that I am there router by just telling him that the MAC address of the router has
+
+05:03.030 --> 05:03.690
+changed.
+
+05:03.840 --> 05:05.670
+And this is the new MAC address.
+
+05:05.760 --> 05:08.250
+Now the MAC address as we said it's physical.
+
+05:08.250 --> 05:12.860
+It never changes show so it should always be the same but it's going to trust it here.
+
+05:12.870 --> 05:18.450
+It's not going to even think about anything as long as I send a response because ARPU trusts everything
+
+05:18.480 --> 05:24.550
+it's going to trust the response that I sent.
+
+05:24.560 --> 05:26.210
+Now the next step we're going to do.
+
+05:26.210 --> 05:31.310
+We're going to send another response to the router this time telling the router that I am the target
+
+05:31.310 --> 05:32.240
+device.
+
+05:32.240 --> 05:37.340
+So the router whenever it needs to send something to this device it's actually going to send it to me
+
+05:37.600 --> 05:43.310
+instead of sending it to that device again because it accepts responses and because it doesn't verify
+
+05:43.580 --> 05:49.880
+what information is there it's going to accept that and it's going to treat me as this device.
+
+05:50.850 --> 05:55.390
+Now once we do this twice we've actually redirected the flow of packets.
+
+05:55.410 --> 06:00.240
+So every time this device wants to do something it's going to think that I am the router.
+
+06:00.330 --> 06:02.470
+So it's going to send the request to me.
+
+06:02.610 --> 06:06.380
+Well I'm going to do I'm actually going to send the request to the router.
+
+06:06.540 --> 06:12.110
+The router is going to go get me the request send it back to me because it thinks that I am this device
+
+06:12.420 --> 06:18.180
+and then I'm going to forward that request to the target device.
+
+06:19.750 --> 06:21.940
+So as you can see it's actually very simple.
+
+06:22.000 --> 06:29.230
+Two main issues with the protocol allow us to exploit our protocol and redirect the flow packets which
+
+06:29.440 --> 06:34.140
+causes us becoming the man in the middle and ones who are are the man in the middle.
+
+06:34.140 --> 06:40.000
+We can actually do all the attacks that we saw before and we'll see how we can do them in a different
+
+06:40.000 --> 06:40.180
+way.
+
+06:40.180 --> 06:41.860
+Now in the next lectures.

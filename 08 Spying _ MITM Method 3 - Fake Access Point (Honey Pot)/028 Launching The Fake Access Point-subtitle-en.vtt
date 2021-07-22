@@ -1,0 +1,322 @@
+WEBVTT
+
+00:01.500 --> 00:02.050
+OK.
+
+00:02.250 --> 00:08.280
+So before I actually start using mine i kids I'd like to show you the wireless interfaces that I have
+
+00:08.280 --> 00:10.170
+installed on my device.
+
+00:10.170 --> 00:14.680
+So right now I only have my internal device or my internal wireless card.
+
+00:14.730 --> 00:21.460
+And as you can see it's connected to a network called to you to I'm going to launch the terminal and
+
+00:21.460 --> 00:25.510
+just confirm that for you.
+
+00:25.560 --> 00:30.020
+So the command that you use to see your wireless cards is either config
+
+00:33.700 --> 00:41.180
+and as you can see that I have land zero wireless card here that's my internal one and it's associated
+
+00:41.180 --> 00:47.410
+with a network called TV2 So yes ID is the name of the network and it's too wide too.
+
+00:47.450 --> 00:55.380
+So this will be used as the card that will provide the internet connection and I'll use my external
+
+00:55.380 --> 00:59.380
+wireless card to broadcast the signal of the network.
+
+00:59.610 --> 01:06.120
+So the external wireless card is a U.S. card and I'm going to connect and use an RTG cable that I showed
+
+01:06.120 --> 01:10.980
+you on it looks like in the previous video.
+
+01:11.160 --> 01:21.230
+So I'm going to connect my external cowd physically and then I'm going to give it two seconds and I'm
+
+01:21.230 --> 01:25.000
+going to run I w config to see if the card has been recognized.
+
+01:26.510 --> 01:36.780
+I'm going to and as you can see now we have a card called 9 1 and it's not connected to any network
+
+01:36.780 --> 01:37.560
+right now.
+
+01:39.580 --> 01:40.840
+So this is perfect.
+
+01:40.840 --> 01:47.290
+Now I'm going to go back to my launcher menu and show you the settings that you can do for the mana
+
+01:47.590 --> 01:50.670
+to.
+
+01:50.730 --> 01:57.610
+So the first option is the interface and I could hear LAN because this is the external the name of the
+
+01:57.610 --> 01:59.110
+external wireless card.
+
+01:59.170 --> 02:03.120
+And this is what we are going to use to broadcast the signal.
+
+02:03.820 --> 02:07.830
+The VSS idea here this is the MAC address of the network.
+
+02:07.840 --> 02:10.590
+You can put any mac address that you want.
+
+02:11.020 --> 02:14.920
+The SS ID is the name of the network that will be broadcasted.
+
+02:14.950 --> 02:18.790
+So I'm calling for the Internet to attract people to connect to that network.
+
+02:18.880 --> 02:23.460
+And then when they connect I'll naturally be the man in the middle and I can do any man in the middle
+
+02:23.490 --> 02:25.540
+that I like to use in T-shirt.
+
+02:25.630 --> 02:33.880
+As a sales rep do any of the scenarios that we did DNS pooping whatever that I want the channel is the
+
+02:33.880 --> 02:37.320
+channel that is going to be used to broadcast the signal.
+
+02:37.480 --> 02:40.200
+And these last two options are for karma.
+
+02:40.480 --> 02:47.830
+Karma is an option that allows you to make a network or an access point that is identical to an existing
+
+02:47.920 --> 02:49.150
+access point.
+
+02:49.150 --> 02:54.860
+The reason why you do this is you can create an access point identical to an access point that uses
+
+02:55.190 --> 03:01.750
+an encryption or a key and then trigger the users to connect to your fake access point and then ask
+
+03:01.750 --> 03:07.780
+them to enter the user name who's in a web page so the users have to be socially engineered and you
+
+03:07.780 --> 03:14.010
+have to kind of convince them to enter their username and password in a web site for their Wi-Fi network.
+
+03:14.110 --> 03:16.710
+And then you'll have the username and password for the wife and that's all.
+
+03:16.810 --> 03:21.970
+Now we're not going to be doing this in this video because we're all we want to do is just create an
+
+03:21.970 --> 03:25.580
+access point with internet connection get people to connect to it.
+
+03:25.690 --> 03:30.190
+And then we will get them on in the middle so we can do any of them on in the middle attacks that we
+
+03:30.190 --> 03:35.350
+know so I'm going to leave these to us zero.
+
+03:35.860 --> 03:38.820
+And the other thing that I want to show you here in the settings.
+
+03:38.820 --> 03:44.270
+I'm going to go to the not mine simple which is the one that we're going to use.
+
+03:44.490 --> 03:49.590
+So it's access point with internet connection only and it's not going to do any of the man in the middle
+
+03:49.630 --> 03:53.800
+attacks we're going to have to do them manually.
+
+03:53.810 --> 03:58.820
+The most important thing is just make sure that you have your upstream as the wireless card that is
+
+03:58.820 --> 03:59.930
+connected to the Internet.
+
+03:59.930 --> 04:05.230
+So I showed you before how landgrab was associated with the network called y2.
+
+04:05.240 --> 04:13.190
+So this is my interface that is connected to the Internet in the upstream and then in the future I have
+
+04:13.760 --> 04:20.080
+a line one which is my interface that will be used to broadcast the signal.
+
+04:20.090 --> 04:22.260
+I've also removed all the comments here.
+
+04:22.450 --> 04:28.220
+You usually see hash tags before all of these commands because when you remove them then you'll be able
+
+04:28.220 --> 04:32.110
+to turn off the wireless network by type in return.
+
+04:33.270 --> 04:34.400
+So that's it.
+
+04:34.400 --> 04:40.660
+Now I just want to show you the things that I had.
+
+04:40.800 --> 04:48.330
+The first thing that I'm going to do before I start my access point is make sure that my IP tables is
+
+04:48.330 --> 04:53.760
+clear and it does not contain any rules that might draw packets and prevent the access point from working
+
+04:53.760 --> 04:54.770
+properly.
+
+04:54.780 --> 05:00.570
+So we did this when we did divide us we attack as well to allow the packets to flow freely through our
+
+05:00.570 --> 05:07.530
+device and we use the scripts that I had in my resources which is called flush IP tables.
+
+05:07.530 --> 05:10.210
+So I'm just going to use the exact same script right now.
+
+05:10.440 --> 05:13.430
+So it's Bysshe I have it started.
+
+05:13.450 --> 05:21.170
+And as the card piles flush IP tables.
+
+05:21.410 --> 05:28.880
+SH And because you don't see any error messages that means the command was run successfully.
+
+05:29.080 --> 05:33.730
+So the next thing we're going to do is run our evil access point.
+
+05:33.730 --> 05:41.870
+So first I'm going to navigate to we're not Mahna is installed which is in us or share
+
+05:44.500 --> 05:45.430
+Mannat toolkit
+
+05:48.620 --> 05:52.450
+and we're on mana.
+
+05:53.100 --> 05:59.700
+So I'm basically just using CD to navigate or to change the working directory to that working directory
+
+05:59.700 --> 06:03.100
+where the run scripts for Mom Mannah are stored.
+
+06:03.210 --> 06:07.110
+And I'm just going to do an ls to show you all the transcripts that you can use.
+
+06:07.140 --> 06:10.940
+So Elyse will just list the files that are in that directory.
+
+06:11.460 --> 06:16.530
+And as you can see that we have a file for each option that I explained in the previous video.
+
+06:16.710 --> 06:22.620
+So file for the fall for the simple and for the no upstream and each one of them has a kit kat and a
+
+06:22.620 --> 06:23.820
+lollipop version.
+
+06:23.880 --> 06:31.180
+So the Kit-Kat is for Android for point four point four and a lollipop is for Android 5 and you can
+
+06:31.180 --> 06:39.240
+also see that we have the option that I didn't explain it's to run back to our factory on the access
+
+06:39.240 --> 06:39.660
+point.
+
+06:39.660 --> 06:40.530
+We will run.
+
+06:40.650 --> 06:44.860
+Now I'm not going to use that right now and I'm going to explain this in future videos.
+
+06:44.880 --> 06:48.080
+So for now we're just going to ignore it.
+
+06:48.180 --> 06:53.670
+Now I'm only going to run the simple nuts which will create a network that has internet connection people
+
+06:53.670 --> 06:58.800
+can connect to it access the Internet and then I can do all the attacks manually like we did before
+
+06:58.800 --> 07:01.020
+so we can do DNS spoofing SSL of all that.
+
+07:01.110 --> 07:07.090
+As I said before the same way that we did them with the bad U.S. attack.
+
+07:07.190 --> 07:17.890
+So I'm going on the bash start mana or sorry start not simple
+
+07:20.850 --> 07:26.370
+Kit-Kat because I have androids point four point four.
+
+07:26.450 --> 07:33.170
+SH I'm going to return and I'm going to give it some time to start the access point.
+
+07:35.900 --> 07:37.350
+Now the access point is running.
+
+07:37.400 --> 07:42.760
+And as you can see it says hit enter to kill me or to stop the access point.
+
+07:42.760 --> 07:44.330
+OK so everything is done now.
+
+07:44.340 --> 07:47.760
+The attack is running and the network should be broadcasting.
+
+07:47.760 --> 07:53.830
+So now you have an Internet network and it's sharing the wireless connection is sharing the internet
+
+07:53.830 --> 07:59.260
+connection on one of my wireless cards which is called Gannes you know and it's broadcast in it through
+
+07:59.260 --> 08:05.930
+another wireless card connected using the RTG cable which is called Leinwand and when people connect
+
+08:05.930 --> 08:10.730
+to this network they will have internet connection and we will naturally be the one in the middle because
+
+08:10.730 --> 08:15.260
+we are the servers so they have to send the packets to us and we will be sending the responses.
+
+08:15.260 --> 08:20.090
+Therefore we carry these packets modify them and do all the attacks that we learned and we will learn
+
+08:20.390 --> 08:21.930
+when you are the man in the middle.
+
+08:23.660 --> 08:27.970
+So lets just check and see if the network if we can see the network.
+
+08:28.580 --> 08:31.580
+And as you can see here we have a network called the internet.
+
+08:31.670 --> 08:36.770
+I'm not going to connect to it now because that will disconnect while you're mirroring here for the
+
+08:36.770 --> 08:37.610
+Android device.
+
+08:37.700 --> 08:42.850
+So I'm going to connect to it from a Windows device in the next video and we'll see what we can do.
+
+08:42.860 --> 08:45.320
+And we'll check if it has internet connection or not.

@@ -1,0 +1,344 @@
+﻿1
+00:00:01,700 --> 00:00:08,690
+So far we've seen how we can read data and read sensitive data like usernames passwords you or else
+
+2
+00:00:08,720 --> 00:00:13,920
+all that kind of stuff when we are the man in the middle.
+
+3
+00:00:13,930 --> 00:00:16,870
+Now I spoke about modifying the packets.
+
+4
+00:00:17,020 --> 00:00:25,370
+So what we're going to see today is something called DNS spoofing DNS spoofing will allow us to redirect
+
+5
+00:00:25,450 --> 00:00:28,600
+any requests to to our domain to another domain.
+
+6
+00:00:28,610 --> 00:00:34,160
+For example if someone requests Facebook dot com we carried direct them to Google we carried them to
+
+7
+00:00:34,160 --> 00:00:34,980
+Yahoo.
+
+8
+00:00:35,000 --> 00:00:37,420
+We carried them to our fake Facebook page.
+
+9
+00:00:37,580 --> 00:00:43,270
+We carried them to our Facebook page that contains a Trojan and their entire computer.
+
+10
+00:00:43,370 --> 00:00:46,480
+We can redirect them to our own server.
+
+11
+00:00:46,580 --> 00:00:54,860
+We can redirect them to any place that we want the attack is very simple and it works just because we
+
+12
+00:00:54,860 --> 00:00:55,820
+are the man in the middle.
+
+13
+00:00:55,820 --> 00:01:03,050
+So once we run a program called DNS spoof we will configure it in a way that once it sees a certain
+
+14
+00:01:03,050 --> 00:01:08,870
+domain it will redirect or it will send a different response to the target person.
+
+15
+00:01:10,940 --> 00:01:14,850
+So I'll run the attack and you'll actually it will become clearer how it works.
+
+16
+00:01:14,960 --> 00:01:16,230
+When I run the attack.
+
+17
+00:01:16,430 --> 00:01:20,840
+So first of all we're going to create a configuration file.
+
+18
+00:01:20,840 --> 00:01:23,870
+So I've already made one here by the way.
+
+19
+00:01:23,920 --> 00:01:27,800
+I'm using a free file manager called as file manager.
+
+20
+00:01:27,800 --> 00:01:34,610
+It's really handy as you can see it here can download it from the App Store or from the Play Store and
+
+21
+00:01:35,920 --> 00:01:39,740
+what I have here I have my DNS spoof configuration file.
+
+22
+00:01:39,800 --> 00:01:43,170
+So I just have it's called DNS spoof right here.
+
+23
+00:01:43,640 --> 00:01:48,450
+So I'm going to open it as text using the text editor.
+
+24
+00:01:48,970 --> 00:01:52,380
+And as you can see it's very simple.
+
+25
+00:01:52,480 --> 00:01:59,830
+The first part of the file as you can see here I specify the IP address that I want to redirect to.
+
+26
+00:02:00,070 --> 00:02:01,150
+And the second part.
+
+27
+00:02:01,150 --> 00:02:06,340
+We put the domain that we want to hijack or that we want to spoof.
+
+28
+00:02:06,340 --> 00:02:14,050
+So any time a person or the target person tries to access Facebook dot com they will be redirected to
+
+29
+00:02:14,290 --> 00:02:17,440
+this you are out or to this IP address.
+
+30
+00:02:17,440 --> 00:02:23,050
+Now how this works I'm going to run a program called DNS spoof and I'm going to tell the program to
+
+31
+00:02:23,050 --> 00:02:25,630
+work according to this configuration.
+
+32
+00:02:25,690 --> 00:02:30,790
+So the program whenever it sees that there is a pocket lock in for Facebook the come.
+
+33
+00:02:30,910 --> 00:02:36,850
+It's going to go to this IP address get the Web site that is running on this IP address and send it
+
+34
+00:02:36,880 --> 00:02:39,210
+instead of sending Facebook to come.
+
+35
+00:02:39,340 --> 00:02:49,540
+Simple as that if your eyes are the 1 9 2 1 6 8 1 1 0 you can change that to any IP you want.
+
+36
+00:02:49,540 --> 00:02:55,040
+This is the Web site where Facebook is going to be spoofed.
+
+37
+00:02:55,100 --> 00:03:02,240
+Now we have this particular address because I have a web server running here so I wanted to do this
+
+38
+00:03:02,240 --> 00:03:06,370
+using my own web server to show you that you can actually put anything there.
+
+39
+00:03:06,460 --> 00:03:07,310
+That web server.
+
+40
+00:03:07,310 --> 00:03:09,730
+And we will be doing stuff like that in the future.
+
+41
+00:03:09,740 --> 00:03:15,860
+We will be using fake Web sites or fake pages so you can actually just put a fake page on this web server.
+
+42
+00:03:16,010 --> 00:03:19,790
+And then they're going to see it instead of seeing the actual page.
+
+43
+00:03:19,790 --> 00:03:24,880
+For now I just have a basic just a hasty M-L page for a demonstration in this class.
+
+44
+00:03:24,880 --> 00:03:27,920
+But in the future as I said we will be doing more advanced of.
+
+45
+00:03:28,080 --> 00:03:35,680
+So the web server is running here on another virtual machine this virtual machine as I call it in this
+
+46
+00:03:35,680 --> 00:03:36,010
+machine.
+
+47
+00:03:36,010 --> 00:03:39,650
+Again you don't have to do this you can redirect to anywhere you want.
+
+48
+00:03:39,670 --> 00:03:41,430
+I'm just doing it here to show you.
+
+49
+00:03:41,650 --> 00:03:44,290
+So this is actually al-Khalil the next machine.
+
+50
+00:03:44,290 --> 00:03:51,700
+So Candy we're using our version of card on our Android device but there's also a Kalli distribution
+
+51
+00:03:51,730 --> 00:03:57,130
+that you can install as a virtual machine or as a main machine and it has all the tools that you need
+
+52
+00:03:57,130 --> 00:03:59,980
+for penetration testing.
+
+53
+00:04:00,280 --> 00:04:04,080
+So I'll just show you here what I have or what's going to redirect to.
+
+54
+00:04:04,090 --> 00:04:08,790
+So bar W.W. that's where the server is.
+
+55
+00:04:08,910 --> 00:04:15,440
+And I basically just have an index attached Well just a normal Hastey page that just says yolo.
+
+56
+00:04:15,450 --> 00:04:16,980
+Now you can change this to anything you want.
+
+57
+00:04:16,980 --> 00:04:23,010
+As I said we're just doing a demonstration here so you should actually start the server.
+
+58
+00:04:23,040 --> 00:04:25,350
+The web server on your machine.
+
+59
+00:04:25,350 --> 00:04:32,380
+Again you don't have to do this if you're using another IP address and I'll show you that this is the
+
+60
+00:04:32,380 --> 00:04:36,810
+machine that we're going to redirect to.
+
+61
+00:04:36,820 --> 00:04:42,270
+So as you can see this is the IP of the machine and that's what we are redirecting to here.
+
+62
+00:04:42,310 --> 00:04:44,570
+And our Android device.
+
+63
+00:04:44,750 --> 00:04:48,590
+So the configuration is done as you can see.
+
+64
+00:04:48,590 --> 00:04:54,560
+Now all we have to do and we are already in the middle because we're using about us we attack.
+
+65
+00:04:54,560 --> 00:04:59,680
+So all I'm going to do is just go back to my terminal and I'm going to run DNS spoof.
+
+66
+00:04:59,700 --> 00:05:01,070
+So DNS
+
+67
+00:05:03,670 --> 00:05:05,610
+you put the interface.
+
+68
+00:05:05,710 --> 00:05:14,880
+So our interface is or and is zero and you put the configuration file that we just created.
+
+69
+00:05:16,160 --> 00:05:19,280
+The file is stored and as the card
+
+70
+00:05:22,170 --> 00:05:22,800
+files
+
+71
+00:05:27,930 --> 00:05:28,920
+DNS
+
+72
+00:05:33,920 --> 00:05:35,740
+now DNS spoof is running.
+
+73
+00:05:36,080 --> 00:05:39,380
+Let's go try to access Facebook and see what happens.
+
+74
+00:05:52,410 --> 00:05:56,670
+And as you can see I got redirected to a page just saying yolo.
+
+75
+00:05:56,690 --> 00:05:59,920
+As I said you can change this to whatever you want.
+
+76
+00:06:00,390 --> 00:06:06,170
+And you can see here that this doesn't change so it's still saying it's going to Devante them to the
+
+77
+00:06:06,220 --> 00:06:06,550
+windows.
+
+78
+00:06:06,550 --> 00:06:10,990
+Facebook does come but we are not in Facebook we went somewhere else.
+
+79
+00:06:11,020 --> 00:06:16,140
+So this can be used to serve a fake Facebook page and wife has haziest.
+
+80
+00:06:16,150 --> 00:06:16,840
+Yes.
+
+81
+00:06:17,840 --> 00:06:25,190
+So if the target person was using hate Yes you can just create yourself a fake Facebook page and get
+
+82
+00:06:25,190 --> 00:06:32,050
+him to log in to that from here and this way you'll be able you want to decrypt and haters to hate.
+
+83
+00:06:32,200 --> 00:06:38,830
+Yes but you'll be able to redirect him to a fake page and gain access to their username and password.
+
+84
+00:06:38,840 --> 00:06:44,660
+You can also get them to download something and that will be a backdoor you can do a lot of things with
+
+85
+00:06:44,660 --> 00:06:45,570
+DNS spoofing.
+
+86
+00:06:45,590 --> 00:06:50,680
+And we will see how useful it is and how we can use it in different attacks.
+

@@ -1,0 +1,88 @@
+WEBVTT
+
+00:02.960 --> 00:09.710
+And this video and I were going to have on some of the other features of Zanti which is their place
+
+00:09.710 --> 00:12.890
+and images so we saw how we can replace files.
+
+00:13.010 --> 00:14.600
+You can also replace images
+
+00:22.850 --> 00:25.500
+you can select the image that you want to replace stuff with.
+
+00:25.700 --> 00:31.730
+So I'm just going to choose the color the next image right here and it's already enabled.
+
+00:31.880 --> 00:39.540
+So if I go back to my yahoo search for images and search for something all the images there will be
+
+00:39.540 --> 00:41.550
+replaced by what I selected.
+
+00:41.550 --> 00:49.880
+So the search for cars for example.
+
+00:49.920 --> 00:56.410
+So as you can see all the images that are loading here are the same image that we picked for in next
+
+00:56.790 --> 01:00.950
+which means that all the images are being replaced with what we want.
+
+01:00.960 --> 01:04.720
+Again you can think of multiple ways to exploit this to yourself.
+
+01:04.730 --> 01:10.170
+We're not actually doing exploitation as you noticed before even on replacing the downloaded files.
+
+01:10.170 --> 01:16.350
+We didn't do the full exploitation thing because I'm leaving that to the exploitation part of the course.
+
+01:16.440 --> 01:21.760
+So we're only learning how we can do this how we can do it in the middle how we can do all that stuff.
+
+01:21.810 --> 01:27.590
+And then in the future we'll see how we can combine these attacks to fully exploit our target machine.
+
+01:28.880 --> 01:35.390
+So I'm going to disable this now and I'm going to show you the last feature of Zanti which is certain
+
+01:35.400 --> 01:37.070
+HDMI code.
+
+01:37.190 --> 01:45.110
+Now this can be really useful to replace parts of pages that we want or to do access attacks which basically
+
+01:45.110 --> 01:47.580
+allow you to steal cookies.
+
+01:47.600 --> 01:48.860
+It's really simple.
+
+01:48.860 --> 01:56.900
+You just tap on the on and then you put DHHS all access code or restaged them H.M.S. code that you want
+
+01:56.900 --> 01:58.520
+to execute in here.
+
+01:58.700 --> 02:03.950
+And then here on the target machine if you just go anywhere this code will be executed.
+
+02:03.950 --> 02:11.870
+So I'm just going to go to you who does come and then you'll see an alert coming up which is the code
+
+02:11.870 --> 02:17.330
+that we added it should show on and Artane Zanti test as you can see Yahoo website Donne's doesn't say
+
+02:17.330 --> 02:17.910
+that.
+
+02:17.930 --> 02:25.460
+So the code was executed again you can do this to do multiple accesses attacks but I'm not actually
+
+02:25.460 --> 02:31.430
+going to go deep into that because it's really not very it is useful in other situations.
+
+02:31.430 --> 02:36.040
+But if you are the man in the middle you can do much more powerful attacks than this.

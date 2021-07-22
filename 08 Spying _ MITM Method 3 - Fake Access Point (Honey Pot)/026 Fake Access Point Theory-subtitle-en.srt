@@ -1,0 +1,316 @@
+﻿1
+00:00:02,030 --> 00:00:07,310
+And this lecture we're going to learn another method in becoming the man in the middle.
+
+2
+00:00:07,310 --> 00:00:13,280
+Now in the previous lectures we saw how we can use the bad US attack to force the traffic through our
+
+3
+00:00:13,280 --> 00:00:14,030
+device.
+
+4
+00:00:14,060 --> 00:00:20,970
+One we physically connected to any device that allows us to read all packets modify them and do whatever
+
+5
+00:00:21,140 --> 00:00:27,980
+we want with them because essentially all the traffic that is sent or received to the target device
+
+6
+00:00:27,980 --> 00:00:31,050
+will be going through our device.
+
+7
+00:00:31,260 --> 00:00:36,020
+And we also learned how to do IRP poisoning which allowed us to become the man in the middle as well
+
+8
+00:00:36,320 --> 00:00:42,260
+and we were able to do the same attacks so we can run with the bad USV attack because again the packets
+
+9
+00:00:42,260 --> 00:00:44,030
+will be flowing through our device.
+
+10
+00:00:45,580 --> 00:00:49,830
+Today we're going to learn another way of becoming the man in the middle.
+
+11
+00:00:49,840 --> 00:00:54,600
+This is actually really simple we're going to create an access point.
+
+12
+00:00:54,680 --> 00:01:00,200
+So it's the same way that sometimes you use your phone to to share your 3G connection.
+
+13
+00:01:00,200 --> 00:01:05,150
+A lot of the phones now they come in actually built with a feature that allows you to create an access
+
+14
+00:01:05,150 --> 00:01:10,730
+point and share the connection that you have on your 3G through Wi-Fi so you can connect your phone
+
+15
+00:01:10,730 --> 00:01:13,700
+from another phone or from a laptop.
+
+16
+00:01:13,710 --> 00:01:19,950
+Now when you actually do this your phone is the server and your phone is the router for example which
+
+17
+00:01:19,950 --> 00:01:25,950
+means that all the packets that's sent from any device connected to your IP will be sent to your phone
+
+18
+00:01:25,950 --> 00:01:30,530
+cause your phone will actually go and get that request and give it back to the client.
+
+19
+00:01:31,610 --> 00:01:34,770
+So you actually don't need to do anything to become the man in the middle.
+
+20
+00:01:34,880 --> 00:01:39,080
+You're already the man in the middle when you create an access point on your phone.
+
+21
+00:01:39,110 --> 00:01:43,650
+So the simplest way to do this is literally just use the feature that comes with your phone.
+
+22
+00:01:43,760 --> 00:01:51,200
+Create a hotspot and then you can use any of the methods that we did with WSP attacks so you can start
+
+23
+00:01:51,200 --> 00:01:52,950
+the shark and start sniffing.
+
+24
+00:01:53,060 --> 00:01:55,580
+Or you can start doing DNS spoofing.
+
+25
+00:01:55,580 --> 00:01:58,460
+You can do this also if you can do all the attacks.
+
+26
+00:01:58,470 --> 00:02:03,470
+You can even do the scenarios that we talked about and we will talk about that apply to you when you
+
+27
+00:02:03,470 --> 00:02:06,450
+are the man in the middle.
+
+28
+00:02:06,500 --> 00:02:11,960
+The only thing is that just make sure you actually use your wireless card when you start sniffing or
+
+29
+00:02:11,960 --> 00:02:13,520
+when you want to do DNS spoof.
+
+30
+00:02:13,670 --> 00:02:17,630
+So make sure you actually choose lines you're also is your wireless card.
+
+31
+00:02:17,660 --> 00:02:19,680
+I'll show you how you can see that.
+
+32
+00:02:19,820 --> 00:02:22,290
+You can see that from your menu.
+
+33
+00:02:22,370 --> 00:02:28,440
+So here if I go on my column and you you can see that my wireless card here.
+
+34
+00:02:28,530 --> 00:02:30,660
+It's called 9:0.
+
+35
+00:02:30,700 --> 00:02:35,050
+So that's the one that you'd want to use when you're sniffing.
+
+36
+00:02:35,210 --> 00:02:45,820
+I'll show you another way of checking your wireless card so if you go on terminal you Quraan Erewhon
+
+37
+00:02:45,840 --> 00:02:47,570
+Enghien and it's a list your cards
+
+38
+00:02:52,010 --> 00:02:55,250
+and as you can see here my 9:0 is my wireless card.
+
+39
+00:02:55,290 --> 00:03:04,150
+So that's the one you'd be using when you're sniffing So using your hotspot so create an hotspots form
+
+40
+00:03:04,150 --> 00:03:05,660
+settings and sniffing it.
+
+41
+00:03:05,820 --> 00:03:09,100
+Use an DNS spoof and they are peaceful.
+
+42
+00:03:09,130 --> 00:03:13,580
+Sorry using DNS spoof and SSL strip and T-Sharon like we did with WSP.
+
+43
+00:03:13,680 --> 00:03:22,190
+You can't do that or you can use Zanti right here and from Zanti if you click on the Zanti menu and
+
+44
+00:03:22,190 --> 00:03:26,350
+you go on these other.
+
+45
+00:03:26,370 --> 00:03:33,480
+Now this will show you a menu that is actually very similar to the man in the middle menu that we saw.
+
+46
+00:03:34,710 --> 00:03:36,450
+So this man is actually very simple.
+
+47
+00:03:36,450 --> 00:03:43,670
+The only difference is that when you click on the on it's going to create an access point and you can
+
+48
+00:03:43,670 --> 00:03:45,080
+enable SSL strip.
+
+49
+00:03:45,290 --> 00:03:47,620
+You can do DNS spoofing.
+
+50
+00:03:47,630 --> 00:03:52,270
+You can replace images capture downloads replace downloads.
+
+51
+00:03:52,340 --> 00:03:58,700
+We explained all these with the people reasoning future of Zanti so I'm not going to explain them again
+
+52
+00:03:59,000 --> 00:04:00,490
+because it is very similar.
+
+53
+00:04:00,500 --> 00:04:01,490
+It's literally the same.
+
+54
+00:04:01,490 --> 00:04:07,780
+So you go on the settings and then you can enable it by tapping on the on or off.
+
+55
+00:04:08,010 --> 00:04:13,120
+You can also see the log requests by clicking on The View and we see how we can use that as well.
+
+56
+00:04:13,120 --> 00:04:14,330
+The logged images and all that.
+
+57
+00:04:14,330 --> 00:04:17,330
+We had a look on it with the man in the middle.
+
+58
+00:04:17,330 --> 00:04:23,470
+The only problem with Zanti is that an NDA allows you to share your 3G connection.
+
+59
+00:04:23,690 --> 00:04:29,510
+So I fear if you're using a tablet that doesn't have 3G like mine or if you just don't have 3G connection
+
+60
+00:04:30,080 --> 00:04:36,380
+you will not be able to use Zanti because you basically tethers your 3G connection to your wife.
+
+61
+00:04:36,380 --> 00:04:41,280
+Exactly like what happens when you go through settings and you create a hotspot.
+
+62
+00:04:41,810 --> 00:04:48,620
+Now what I'm going to be showing you in future videos is if you use a tool called Man or tool kit my
+
+63
+00:04:48,770 --> 00:04:52,940
+whole kit is very cool because it allows you to use two wireless cards if you want.
+
+64
+00:04:52,940 --> 00:04:53,960
+So you can use 3G.
+
+65
+00:04:53,990 --> 00:04:59,360
+But I'm actually going to be using it with two wireless cards for the reason that if you have a 3G you
+
+66
+00:04:59,360 --> 00:05:01,950
+can use Zanti and it's much easier and much simpler.
+
+67
+00:05:03,610 --> 00:05:07,750
+But if you have two wireless cards and you want to use Mahna then we'll see how well you can use that
+
+68
+00:05:08,080 --> 00:05:13,600
+and you can basically create fake access point or a hotspot which people can connect to.
+
+69
+00:05:13,600 --> 00:05:19,710
+They'll have internet access and whenever they log in to any web so you'll be able to get their log
+
+70
+00:05:19,710 --> 00:05:24,820
+is the usernames and passwords should be able to do DNS spoofing and all that cool stuff because you're
+
+71
+00:05:24,820 --> 00:05:26,050
+the man in the middle.
+
+72
+00:05:26,050 --> 00:05:31,840
+So again I've said that in previous videos when I say you're the man in the middle you can replace the
+
+73
+00:05:31,840 --> 00:05:35,310
+attacks you can mix the attacks if you have an idea of a different attack.
+
+74
+00:05:35,320 --> 00:05:39,360
+You can do it as long as the packets are flowing through your device.
+
+75
+00:05:39,370 --> 00:05:41,130
+The method is not important.
+
+76
+00:05:41,290 --> 00:05:46,150
+So as long as you are the man in the middle all these attacks that I'm going to explain and this section
+
+77
+00:05:46,150 --> 00:05:51,460
+you can apply them to ARPU poisoning for example or you can apply them to the body USP attack.
+
+78
+00:05:51,640 --> 00:05:57,130
+So the method of becoming the man in the middle is not important as long as you are the man in the middle.
+
+79
+00:05:57,130 --> 00:05:58,750
+You can run these attacks.
+

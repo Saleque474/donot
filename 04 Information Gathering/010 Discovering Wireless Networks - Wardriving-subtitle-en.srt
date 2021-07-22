@@ -1,0 +1,400 @@
+﻿1
+00:00:02,200 --> 00:00:08,140
+So now we're going to talk about information gathering information gathering is one of the most important
+
+2
+00:00:08,140 --> 00:00:10,860
+steps in penetration testing.
+
+3
+00:00:10,910 --> 00:00:18,890
+For example say if you're trying to gain access to a computer that exists on a certain network first
+
+4
+00:00:18,890 --> 00:00:25,190
+of all you want to be able to gather as much information as possible about that network so that you
+
+5
+00:00:25,190 --> 00:00:27,790
+can connect to it whether it uses encryption.
+
+6
+00:00:27,830 --> 00:00:32,330
+How far the network is what kind of security is being used on that network.
+
+7
+00:00:32,360 --> 00:00:37,580
+The IP address the MAC address all that kind of stuff about the network once you can actually connect
+
+8
+00:00:37,580 --> 00:00:43,590
+to the network you want to be able to gather information about the devices that exist on this network.
+
+9
+00:00:43,670 --> 00:00:49,280
+Once you gather information about these devices you want to see which one of them is your target once
+
+10
+00:00:49,280 --> 00:00:53,310
+you locate your target you want to be able to know what IP address it is.
+
+11
+00:00:53,360 --> 00:00:56,640
+What operating system neurons doesn't run Windows does or on Linux.
+
+12
+00:00:56,660 --> 00:00:58,190
+Is it a phone.
+
+13
+00:00:58,190 --> 00:01:00,500
+If it's a Windows version of Windows.
+
+14
+00:01:00,500 --> 00:01:05,000
+If you get the version you want to see once you know the version you might be able to look for buffer
+
+15
+00:01:05,000 --> 00:01:08,570
+overflow exploits and think in full access to that laptop.
+
+16
+00:01:08,900 --> 00:01:09,890
+That's just an example.
+
+17
+00:01:09,890 --> 00:01:15,350
+So information gathering is very important the more information that you gather the more likely that
+
+18
+00:01:15,350 --> 00:01:19,450
+you will be able to gain access to your target and achieve your goal.
+
+19
+00:01:21,520 --> 00:01:28,810
+So today or in this lecture we're going to talk about network discovery or what's known as wardriving
+
+20
+00:01:29,330 --> 00:01:35,920
+now basically wardriving is where you have your device and you'd be walking or driving around the area
+
+21
+00:01:36,220 --> 00:01:43,240
+that you think that your target is and or the network is in and gather information about these networks.
+
+22
+00:01:43,270 --> 00:01:50,530
+So we're going to use an app called Wi-Fi analyzer which gives us information about old Wi-Fi networks
+
+23
+00:01:50,530 --> 00:01:51,830
+or are around us.
+
+24
+00:01:51,940 --> 00:01:58,060
+So it gives us information about the network name gives us information about the MAC address the channel
+
+25
+00:01:58,060 --> 00:02:05,440
+the encryption the speed the signal strength and it even shows us the devices that each network or the
+
+26
+00:02:05,440 --> 00:02:08,020
+devices that are connected to our current network.
+
+27
+00:02:08,020 --> 00:02:11,550
+We'll talk about that in the next class.
+
+28
+00:02:11,780 --> 00:02:17,840
+So I'm just going to go to my calculator next device right here and you can download this app from the
+
+29
+00:02:17,840 --> 00:02:18,760
+App Store.
+
+30
+00:02:18,860 --> 00:02:21,320
+So as you can see here I have it right here.
+
+31
+00:02:21,680 --> 00:02:22,720
+Wi-Fi analyzer.
+
+32
+00:02:22,730 --> 00:02:23,810
+So I'm just going to tap it
+
+33
+00:02:27,860 --> 00:02:33,240
+and as you can see straight away it's showing me the networks that are around me and we can see that
+
+34
+00:02:33,240 --> 00:02:37,780
+there are four networks and two or two has the strongest signal.
+
+35
+00:02:37,800 --> 00:02:40,880
+That's because this is the one that actually connected to right now.
+
+36
+00:02:40,920 --> 00:02:45,830
+And then you can see the rest is fluctuating because there actually none of them is my network.
+
+37
+00:02:45,840 --> 00:02:46,830
+The other one is blue.
+
+38
+00:02:46,830 --> 00:02:48,090
+It's not very well visible.
+
+39
+00:02:48,090 --> 00:02:49,560
+This is one of my networks as well.
+
+40
+00:02:49,560 --> 00:02:50,250
+That's what it is.
+
+41
+00:02:50,300 --> 00:02:53,410
+It's a bit strong.
+
+42
+00:02:53,640 --> 00:02:59,990
+So this curve basically shows you the signal strength of all the networks around you
+
+43
+00:03:03,620 --> 00:03:07,930
+so I'm going to tap on the view here on top and I'm going to go to the time graph
+
+44
+00:03:11,110 --> 00:03:15,540
+this will basically show you the signal strength across time.
+
+45
+00:03:15,580 --> 00:03:17,370
+And as you can see it's moving.
+
+46
+00:03:17,770 --> 00:03:23,240
+So you can see which networks are consistent and which networks aren't on top.
+
+47
+00:03:23,240 --> 00:03:29,020
+You can filter networks by clicking on the network name on top.
+
+48
+00:03:29,020 --> 00:03:32,470
+So for example if I click on horizon right there
+
+49
+00:03:35,520 --> 00:03:36,930
+it's going to highlight it for me.
+
+50
+00:03:38,230 --> 00:03:45,490
+So if you click on UPC you 4 1 1 1 9 you can see it's highlighted there for me so you can have a better
+
+51
+00:03:45,490 --> 00:03:46,620
+look at it.
+
+52
+00:03:46,690 --> 00:03:52,030
+So I'm going to look for my network which is to you y2 and I'm highlighting it right there and you can
+
+53
+00:03:52,030 --> 00:03:57,710
+see it is the one with the strongest signal and the most consistent of all of them.
+
+54
+00:03:57,710 --> 00:04:05,410
+Now the other view that we have is the channel rating and it'll basically show you which channels are
+
+55
+00:04:05,410 --> 00:04:06,790
+being used most.
+
+56
+00:04:06,790 --> 00:04:13,930
+Now this is actually really handy because if you go back I'm just going to go back to the channel graph
+
+57
+00:04:14,080 --> 00:04:15,580
+right here.
+
+58
+00:04:15,580 --> 00:04:23,140
+You can see that my network is both of my networks actually to Aitu and the UPC 1:54 are both on the
+
+59
+00:04:23,140 --> 00:04:29,520
+same channel but they are not used in any of the channels that are used by other networks.
+
+60
+00:04:29,710 --> 00:04:32,720
+By doing this I can actually avoid overlapping.
+
+61
+00:04:32,770 --> 00:04:35,830
+And I'll have a stronger signal in my house for my networks.
+
+62
+00:04:35,830 --> 00:04:42,040
+Now I have them both run on the same channel because the y2 is just experimental or a temporary network
+
+63
+00:04:42,040 --> 00:04:44,030
+that I only use when I'm making videos.
+
+64
+00:04:44,140 --> 00:04:46,540
+So usually I don't use both.
+
+65
+00:04:46,540 --> 00:04:47,590
+I'd use one or the other.
+
+66
+00:04:47,590 --> 00:04:49,460
+So that's why I have them on the same channel.
+
+67
+00:04:49,670 --> 00:04:55,450
+But a good tip for you if there is a lot of networks running on the same channel around your area then
+
+68
+00:04:55,450 --> 00:04:58,830
+it's a good idea to change the channel of your network to another channel.
+
+69
+00:05:00,630 --> 00:05:07,690
+So I'm going to go now to the AP list and this will basically give you a really comprehensive and good
+
+70
+00:05:07,700 --> 00:05:13,380
+look of all the network so it'll show you the MAC address here on top as you can see.
+
+71
+00:05:13,510 --> 00:05:16,930
+So that's the physical address of each network.
+
+72
+00:05:16,930 --> 00:05:19,170
+This doesn't change and it always stays the same
+
+73
+00:05:25,090 --> 00:05:30,790
+and also shows you the channel it shows you the speed and it shows you the encryption or the security
+
+74
+00:05:30,820 --> 00:05:35,850
+you so you can see this network my network uses WPA if ask yes.
+
+75
+00:05:36,000 --> 00:05:36,580
+OK.
+
+76
+00:05:39,540 --> 00:05:44,280
+If you go down you'll see actually all of them are using WPA at the moment.
+
+77
+00:05:44,280 --> 00:05:49,020
+You can also see your current address because I'm actually connected to this network so you can see
+
+78
+00:05:49,020 --> 00:05:50,800
+my current IP address here.
+
+79
+00:05:59,570 --> 00:06:05,390
+And the last one which is one of the really nice features that I like about this app is the signal meter.
+
+80
+00:06:05,420 --> 00:06:13,560
+Now this is really handy because it shows you how strong is the signal of the network that you pick.
+
+81
+00:06:13,580 --> 00:06:17,720
+So from here if you tap on this you can pick any network strong networks around.
+
+82
+00:06:17,720 --> 00:06:23,390
+So I'm going to pick to you to for example and we can see that the signal is full so it's perfect.
+
+83
+00:06:23,450 --> 00:06:30,120
+Now if you start moving around the signal is going to change so it's really good say if you're in a
+
+84
+00:06:30,120 --> 00:06:36,630
+place and then you're trying to see what is the part that has the best coverage or the strongest signal
+
+85
+00:06:36,680 --> 00:06:37,850
+in that place.
+
+86
+00:06:38,060 --> 00:06:42,990
+Then you can basically just pick the network that you want and start walking around or moving around
+
+87
+00:06:43,350 --> 00:06:46,510
+until you find the area where the strongest signal.
+
+88
+00:06:48,640 --> 00:06:54,780
+Now this comes in really really handy when you're trying to break into kids whether it's WPA or WAPT
+
+89
+00:06:54,800 --> 00:06:58,600
+is you usually want as part with a really good signal
+
+90
+00:07:01,460 --> 00:07:04,270
+even if you're using your laptop in order to do that.
+
+91
+00:07:04,280 --> 00:07:09,890
+It's really handy to use your phone or your tablet and start moving around to find the place with the
+
+92
+00:07:09,890 --> 00:07:15,260
+strongest signal and then put your laptop there or put your wife I card there and start trying to break
+
+93
+00:07:15,380 --> 00:07:16,510
+into that network.
+
+94
+00:07:17,350 --> 00:07:26,170
+We will talk about break in kids whether it's the blue WPA or WPA to and stronger or in the future lectures.
+
+95
+00:07:26,390 --> 00:07:31,570
+But I just would like to point that this will come in really really handy when you're trying to do this
+
+96
+00:07:31,570 --> 00:07:35,230
+and you'll see it in the future when you actually try to do some tests.
+
+97
+00:07:35,260 --> 00:07:36,630
+It's really difficult to get.
+
+98
+00:07:36,650 --> 00:07:39,230
+Or it's really important to get a place with a good signal.
+
+99
+00:07:39,400 --> 00:07:41,510
+And this will help you to do that.
+
+100
+00:07:41,530 --> 00:07:43,450
+And it's going to be really really useful.
+

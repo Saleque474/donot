@@ -1,0 +1,236 @@
+﻿1
+00:00:01,190 --> 00:00:08,500
+Now we're going to talk about how you can protect yourself against poisoning attacks if we go back to
+
+2
+00:00:08,530 --> 00:00:10,440
+how they are proposing a works.
+
+3
+00:00:10,450 --> 00:00:13,280
+And we just have a look on them.
+
+4
+00:00:13,440 --> 00:00:21,310
+If you remember the way they work is by exploiting two major security flaws and they are few protocols.
+
+5
+00:00:21,370 --> 00:00:26,520
+So the first one is that each day our fuel costs our response is trusted.
+
+6
+00:00:26,730 --> 00:00:32,530
+The second one was is that their clients accept responses even if they did not ask for it.
+
+7
+00:00:34,870 --> 00:00:40,360
+So when I go to the router and I tell when I got to the client and I tell him I am the router and he's
+
+8
+00:00:40,360 --> 00:00:45,010
+going to believe me straight away and when I go to the router and tell him I am the client he's going
+
+9
+00:00:45,010 --> 00:00:46,510
+to believe me again.
+
+10
+00:00:46,570 --> 00:00:50,080
+Now the way I tell the router and the client that I'm a different person.
+
+11
+00:00:50,080 --> 00:00:58,270
+So the way I spoof my identity is by I tell that the target device have a different MAC address.
+
+12
+00:00:58,270 --> 00:01:04,420
+So when I want to tell the router that I am the client I tell him the person with the client IP has
+
+13
+00:01:04,420 --> 00:01:05,740
+my MAC address.
+
+14
+00:01:05,800 --> 00:01:15,280
+So as the AARP table that the router has the MAC address of the client is going to change to one.
+
+15
+00:01:15,520 --> 00:01:23,600
+And when I do it to the client so I'm going to tell the client the MAC address of the router is my MAC
+
+16
+00:01:23,600 --> 00:01:24,360
+address.
+
+17
+00:01:24,560 --> 00:01:31,730
+So the MAC address for the router at the client RPE table is going to change.
+
+18
+00:01:31,780 --> 00:01:40,290
+So the first way to detect a are people using a tax is only by looking at your ARPU tables.
+
+19
+00:01:40,300 --> 00:01:46,720
+So if I go here to my target device and I go to a RPA and we saw this in the first month in the middle
+
+20
+00:01:46,720 --> 00:01:52,400
+with young we're talking about ARPU poisoning we can see the MAC address for the router.
+
+21
+00:01:52,460 --> 00:01:54,540
+So answer with one if you want to.
+
+22
+00:01:54,790 --> 00:01:59,130
+Now when I do my AARP attack subs are going to do a simple ARPU poison.
+
+23
+00:01:59,470 --> 00:02:04,620
+Same way that we always do it is going to turn.
+
+24
+00:02:04,860 --> 00:02:14,360
+And if I go back to the time machine and I go RPA as you can see here I have the MAC address for the
+
+25
+00:02:14,360 --> 00:02:20,960
+target device for the target for the router has changed so still the router has this IP but his MAC
+
+26
+00:02:20,960 --> 00:02:23,630
+address is actually now the attackers Michaela.
+
+27
+00:02:23,630 --> 00:02:33,270
+So this is if I go to the Ground Zero you'll see that this is the same address that shown up here as
+
+28
+00:02:33,270 --> 00:02:34,560
+the routers MAC address.
+
+29
+00:02:34,730 --> 00:02:42,650
+The router is actually my address is this so this is an easy way of detecting what they are proposing
+
+30
+00:02:42,990 --> 00:02:45,270
+is happening when you're you're being poisoned.
+
+31
+00:02:46,480 --> 00:02:49,480
+Another way so this is this is very handy and very simple.
+
+32
+00:02:49,560 --> 00:02:54,300
+But you won't be able to be doing this all the time to check if you're being poisoned or not.
+
+33
+00:02:54,300 --> 00:02:59,860
+So an easier way is to use a tool that was actually my 30 or AARP tables.
+
+34
+00:02:59,970 --> 00:03:06,500
+And whenever something happens whenever something such suspicious happens it's going to give me a warning.
+
+35
+00:03:06,610 --> 00:03:08,140
+So I'm just going to make sure everything is back here.
+
+36
+00:03:08,160 --> 00:03:14,420
+So when I stop the attack you can see the MAC address is back to the normal MAC address.
+
+37
+00:03:14,590 --> 00:03:18,880
+So we're going to have an honor to get to have a look on a tool called X HRP.
+
+38
+00:03:19,030 --> 00:03:24,990
+Now this tool works on Linux on Windows and as you can see you just run the tool.
+
+39
+00:03:25,100 --> 00:03:27,380
+And even if I close it here.
+
+40
+00:03:27,490 --> 00:03:32,920
+So this is a basic security to go undetected and get close it's still it's going to run in the background
+
+41
+00:03:32,920 --> 00:03:39,990
+here and I'm going to go back to Cali and I'm going to do another ARPU poison.
+
+42
+00:03:40,020 --> 00:03:45,700
+Now this is we can only see one group here so I'm just going to quit it and do it again.
+
+43
+00:03:45,900 --> 00:03:51,860
+As you can see the two groups and now I have my two groups.
+
+44
+00:03:51,910 --> 00:03:53,190
+I'll go here.
+
+45
+00:03:53,700 --> 00:03:55,030
+As you can see we have another
+
+46
+00:03:58,890 --> 00:04:06,870
+and they alerted us that the MAC address of 1 9 2 1 6 8 1 1 which is the router has changed to something
+
+47
+00:04:06,870 --> 00:04:07,370
+else.
+
+48
+00:04:08,460 --> 00:04:14,700
+Now we can also from here we can see that the device that has this MAC address or the device that the
+
+49
+00:04:14,700 --> 00:04:17,240
+MAC address of there are has been changed to.
+
+50
+00:04:17,340 --> 00:04:21,710
+Is it connected devices and other device with me on the network and it has this IP.
+
+51
+00:04:21,720 --> 00:04:26,410
+So now we actually know this is the attacker because this device is Mac.
+
+52
+00:04:26,600 --> 00:04:28,630
+And the author's apparent MAC address.
+
+53
+00:04:28,680 --> 00:04:31,100
+This is a spoofed MAC address are the same.
+
+54
+00:04:31,230 --> 00:04:39,150
+So now we actually know that 1 9 2 1 6 8 1 11 is the person who is trying to do a R.P. poisoning on
+
+55
+00:04:39,180 --> 00:04:39,970
+our network.
+
+56
+00:04:43,050 --> 00:04:49,050
+Now these methods only work on your own device so if another device is being they are people isn't so
+
+57
+00:04:49,050 --> 00:04:52,130
+if there is another device on my network it's been poison.
+
+58
+00:04:52,200 --> 00:04:58,290
+I want to be able to detect it this way because this only monitors my own HRP table that doesn't it
+
+59
+00:04:58,290 --> 00:05:01,680
+doesn't have any access to anyone else's HRP table.
+
